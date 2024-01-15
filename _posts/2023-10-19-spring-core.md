@@ -1968,9 +1968,6 @@ parser.parseExpression("officers['advisors'][0].placeOfBirth.country").setValue(
 ```java
 // evaluates to a Java list containing the four numbers
 List numbers = (List) parser.parseExpression("{1,2,3,4}").getValue(context);
-
-//这里不需要注释，注释是因为jekyll打包报错
-//List listOfLists = (List) parser.parseExpression("{{'a','b'},{'x','y'}}").getValue(context);
 ```
 
 
