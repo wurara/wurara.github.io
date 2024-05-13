@@ -35,6 +35,7 @@ navbar-links:
 #    - restful: "https://restfulapi.cn/"
   Life Resources:
     - 健身: "https://musclewiki.cn/"
+    - 诗词: "https://haitang.app/"
   entertainment:
     - 神奇海螺: "https://lab.magiconch.com/"
   project: "https://github.com/wurara/wurara.github.io"
