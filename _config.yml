@@ -25,6 +25,7 @@ navbar-links:
     - buzzing: "https://buzzing.com"
     - 程序员客栈: "https://www.proginn.com"
     - 码市: "https://www.codemart.com"
+    - 优秀项目: "https://www.producthunt.com"
   Developer Resources:
     - 算法动画: "https://www.cs.usfca.edu/~galles/visualization/Algorithms.html"
     - leetcode刷题: "https://leetcode.com/explore/"
