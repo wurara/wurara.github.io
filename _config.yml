@@ -35,10 +35,12 @@ navbar-links:
     - 设计模式: "https://refactoringguru.cn/"
     - pdf tool: "old.ilovepdf.com"
     - 美团tec: "https://tech.meituan.com"
+    - 数据科学: "https://towardsdatascience.com/latest/"
 #    - restful: "https://restfulapi.cn/"
   Life Resources:
     - 健身: "https://musclewiki.cn/"
     - 诗词: "https://haitang.app/"
+    - 网络: "https://zhpengfei.com/"
   entertainment:
     - 神奇海螺: "https://lab.magiconch.com/"
   project: "https://github.com/wurara/wurara.github.io"
