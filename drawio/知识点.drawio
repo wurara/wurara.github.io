@@ -1459,6 +1459,9 @@
         <mxCell id="woEXByO1yIPWKVT65qTF-661" value="普通消息" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-2110" y="310" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="woEXByO1yIPWKVT65qTF-672" value="事务消息不是分布式事务。&lt;div&gt;分布式事务锁住所有相关系统性能低。&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2130" y="590" width="160" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
