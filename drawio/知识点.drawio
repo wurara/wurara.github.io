@@ -1213,7 +1213,7 @@
         <mxCell id="woEXByO1yIPWKVT65qTF-665" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="woEXByO1yIPWKVT65qTF-659" source="woEXByO1yIPWKVT65qTF-663" target="woEXByO1yIPWKVT65qTF-664">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="250" y="396" />
+              <mxPoint x="250" y="482" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -1231,7 +1231,7 @@
         <mxCell id="woEXByO1yIPWKVT65qTF-671" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="woEXByO1yIPWKVT65qTF-659" source="woEXByO1yIPWKVT65qTF-664" target="woEXByO1yIPWKVT65qTF-670">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="480" y="488" />
+              <mxPoint x="450" y="574" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -1240,12 +1240,11 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="woEXByO1yIPWKVT65qTF-676" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="woEXByO1yIPWKVT65qTF-659" source="woEXByO1yIPWKVT65qTF-664">
+        <mxCell id="woEXByO1yIPWKVT65qTF-676" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="woEXByO1yIPWKVT65qTF-659" source="woEXByO1yIPWKVT65qTF-664" target="woEXByO1yIPWKVT65qTF-677">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="580" y="306" as="targetPoint" />
+            <mxPoint x="550" y="392" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="480" y="286" />
-              <mxPoint x="580" y="286" />
+              <mxPoint x="450" y="402" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -1255,25 +1254,31 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="woEXByO1yIPWKVT65qTF-664" value="producer开启事务后先投递半消息，此时无法被消费。" style="whiteSpace=wrap;html=1;" vertex="1" parent="woEXByO1yIPWKVT65qTF-659">
-          <mxGeometry x="420" y="366" width="120" height="60" as="geometry" />
+          <mxGeometry x="390" y="452" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="woEXByO1yIPWKVT65qTF-666" value="将消息设置为COMMIT，同时消息变为可见" style="whiteSpace=wrap;html=1;" vertex="1" parent="woEXByO1yIPWKVT65qTF-659">
-          <mxGeometry x="660" y="366" width="120" height="60" as="geometry" />
+          <mxGeometry x="630" y="452" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="woEXByO1yIPWKVT65qTF-670" value="将消息标记为ROLLBACK。该消息不会被消费。" style="whiteSpace=wrap;html=1;" vertex="1" parent="woEXByO1yIPWKVT65qTF-659">
-          <mxGeometry x="627" y="458" width="120" height="60" as="geometry" />
+          <mxGeometry x="630" y="522" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="woEXByO1yIPWKVT65qTF-677" value="向producer轮询" style="whiteSpace=wrap;html=1;" vertex="1" parent="woEXByO1yIPWKVT65qTF-659">
-          <mxGeometry x="520" y="256" width="120" height="60" as="geometry" />
+          <mxGeometry x="630" y="372" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="woEXByO1yIPWKVT65qTF-672" value="事务消息不是分布式事务。&lt;div&gt;分布式事务锁住所有相关系统性能低。&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="woEXByO1yIPWKVT65qTF-659">
-          <mxGeometry x="480" y="542" width="160" height="60" as="geometry" />
+          <mxGeometry x="450" y="628" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="woEXByO1yIPWKVT65qTF-691" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="woEXByO1yIPWKVT65qTF-659" source="woEXByO1yIPWKVT65qTF-684" target="woEXByO1yIPWKVT65qTF-690">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="woEXByO1yIPWKVT65qTF-684" value="全局顺序：整个topic只对应一个queue" style="whiteSpace=wrap;html=1;" vertex="1" parent="woEXByO1yIPWKVT65qTF-659">
-          <mxGeometry x="390" y="122" width="240" height="60" as="geometry" />
+          <mxGeometry x="390" y="172" width="240" height="60" as="geometry" />
         </mxCell>
         <mxCell id="woEXByO1yIPWKVT65qTF-687" value="分区顺序：同一业务 Key 的消息进入同一个队列即可保证顺序（常用）。" style="whiteSpace=wrap;html=1;" vertex="1" parent="woEXByO1yIPWKVT65qTF-659">
-          <mxGeometry x="390" y="182" width="240" height="60" as="geometry" />
+          <mxGeometry x="390" y="232" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="woEXByO1yIPWKVT65qTF-690" value="Broker 队列的单线程写入" style="whiteSpace=wrap;html=1;" vertex="1" parent="woEXByO1yIPWKVT65qTF-659">
+          <mxGeometry x="690" y="172" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="woEXByO1yIPWKVT65qTF-482" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="woEXByO1yIPWKVT65qTF-458" target="woEXByO1yIPWKVT65qTF-456">
           <mxGeometry relative="1" as="geometry" />
