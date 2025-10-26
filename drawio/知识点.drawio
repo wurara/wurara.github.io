@@ -1216,11 +1216,21 @@
         <mxCell id="woEXByO1yIPWKVT65qTF-667" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="woEXByO1yIPWKVT65qTF-659" source="woEXByO1yIPWKVT65qTF-664" target="woEXByO1yIPWKVT65qTF-666">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="woEXByO1yIPWKVT65qTF-671" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="woEXByO1yIPWKVT65qTF-659" source="woEXByO1yIPWKVT65qTF-664" target="woEXByO1yIPWKVT65qTF-670">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="450" y="354" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="woEXByO1yIPWKVT65qTF-664" value="producer开启事务后先投递半消息，此时无法被消费。" style="whiteSpace=wrap;html=1;" vertex="1" parent="woEXByO1yIPWKVT65qTF-659">
           <mxGeometry x="390" y="232" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="woEXByO1yIPWKVT65qTF-666" value="执行成功后，则使消费者消费消息，进行事务提交。" style="whiteSpace=wrap;html=1;" vertex="1" parent="woEXByO1yIPWKVT65qTF-659">
           <mxGeometry x="590" y="232" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="woEXByO1yIPWKVT65qTF-670" value="执行失败时，将消息标记为ROLLBACK。" style="whiteSpace=wrap;html=1;" vertex="1" parent="woEXByO1yIPWKVT65qTF-659">
+          <mxGeometry x="597" y="324" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="woEXByO1yIPWKVT65qTF-482" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="woEXByO1yIPWKVT65qTF-458" target="woEXByO1yIPWKVT65qTF-456">
           <mxGeometry relative="1" as="geometry" />
