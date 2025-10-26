@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="28.2.8">
   <diagram name="第 1 页" id="Of1sGSvZfQuRrEPr6PyE">
-    <mxGraphModel dx="2677" dy="1102" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4212" dy="2755" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -343,13 +343,13 @@
           <mxGeometry x="160" y="40" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="OsPm6kBoeOOD-leoVnmT-1" value="多线程" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="2240" y="130" width="2720" height="3480" as="geometry" />
+          <mxGeometry x="2240" y="130" width="4040" height="3480" as="geometry" />
         </mxCell>
         <mxCell id="OsPm6kBoeOOD-leoVnmT-2" value="JAVA" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" parent="OsPm6kBoeOOD-leoVnmT-1" vertex="1">
-          <mxGeometry x="20" y="2710" width="2650" height="760" as="geometry" />
+          <mxGeometry x="20" y="2710" width="3880" height="770" as="geometry" />
         </mxCell>
         <mxCell id="OsPm6kBoeOOD-leoVnmT-4" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;多线程&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;" parent="OsPm6kBoeOOD-leoVnmT-2" vertex="1">
-          <mxGeometry x="30" y="30" width="2510" height="720" as="geometry" />
+          <mxGeometry x="30" y="30" width="3730" height="740" as="geometry" />
         </mxCell>
         <mxCell id="OsPm6kBoeOOD-leoVnmT-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="OsPm6kBoeOOD-leoVnmT-4" source="OsPm6kBoeOOD-leoVnmT-5" target="OsPm6kBoeOOD-leoVnmT-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -614,8 +614,33 @@
         <mxCell id="woEXByO1yIPWKVT65qTF-83" value="FutureTask" style="whiteSpace=wrap;html=1;" vertex="1" parent="OsPm6kBoeOOD-leoVnmT-4">
           <mxGeometry x="2100" y="230" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="woEXByO1yIPWKVT65qTF-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="OsPm6kBoeOOD-leoVnmT-4" source="woEXByO1yIPWKVT65qTF-84" target="woEXByO1yIPWKVT65qTF-85">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="woEXByO1yIPWKVT65qTF-84" value="CompletableFuture" style="whiteSpace=wrap;html=1;" vertex="1" parent="OsPm6kBoeOOD-leoVnmT-4">
           <mxGeometry x="2100" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="woEXByO1yIPWKVT65qTF-90" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="OsPm6kBoeOOD-leoVnmT-4" source="woEXByO1yIPWKVT65qTF-85" target="woEXByO1yIPWKVT65qTF-89">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="woEXByO1yIPWKVT65qTF-85" value="任务编排" style="whiteSpace=wrap;html=1;" vertex="1" parent="OsPm6kBoeOOD-leoVnmT-4">
+          <mxGeometry x="2250" y="290.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="woEXByO1yIPWKVT65qTF-94" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="OsPm6kBoeOOD-leoVnmT-4" source="woEXByO1yIPWKVT65qTF-87" target="woEXByO1yIPWKVT65qTF-93">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2310" y="590" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="woEXByO1yIPWKVT65qTF-87" value="结果处理" style="whiteSpace=wrap;html=1;" vertex="1" parent="OsPm6kBoeOOD-leoVnmT-4">
+          <mxGeometry x="2250" y="350.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="woEXByO1yIPWKVT65qTF-89" value="&lt;div&gt;1. `supplyAsync()`：有返回运行&lt;/div&gt;&lt;div&gt;2. `runAsync()`:无返回运行&lt;/div&gt;&lt;div&gt;3. `thenRunAsync`: 在当前完成后异步执行&lt;/div&gt;&lt;div&gt;4. `thenApply()`：返回结果的流式执行&lt;/div&gt;&lt;div&gt;5. `thenAccept()`：不返回结果的流式执行&lt;/div&gt;&lt;div&gt;6. `thenRun()`: 不返回结果的流式执行&lt;/div&gt;&lt;div&gt;7. `thenCompose()`: 调用对象执行完成后执行传入对象&lt;/div&gt;&lt;div&gt;8. `thenCombine()`: 调用对象和传入对象并行执行&lt;/div&gt;&lt;div&gt;9. `allOf()`: 合并等待多个任务的执行结果&lt;/div&gt;&lt;div&gt;10. `anyOf()`: 任意结果完成后的执行结果&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="OsPm6kBoeOOD-leoVnmT-4">
+          <mxGeometry x="2410" y="176.94" width="170" height="287.12" as="geometry" />
+        </mxCell>
+        <mxCell id="woEXByO1yIPWKVT65qTF-93" value="&lt;div&gt;&lt;font face=&quot;monospace&quot;&gt;1. complete(): 设置任务状态位已完成&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;monospace&quot;&gt;2. isDone(): 查看任务是否完成&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;monospace&quot;&gt;3. `exceptionally`:处理异常并重新抛出&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;monospace&quot;&gt;4. handle:处理正常的返回结果和异常，并返回一个新的结果&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;monospace&quot;&gt;5. whenComplete(): 完成后执行函数并返回一个新对象&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;monospace&quot;&gt;6. completeExceptionally(): 直接响应指定异常&lt;/font&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="OsPm6kBoeOOD-leoVnmT-4">
+          <mxGeometry x="2410" y="464.06" width="170" height="190" as="geometry" />
         </mxCell>
         <mxCell id="woEXByO1yIPWKVT65qTF-79" value="tips&lt;div&gt;1. 是非公平锁&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2610" y="3450" width="120" height="60" as="geometry" />
