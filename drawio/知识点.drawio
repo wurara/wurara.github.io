@@ -703,10 +703,29 @@
         <mxCell id="woEXByO1yIPWKVT65qTF-110" value="AQS的state-1&lt;div&gt;LockSupport.unpark(next)执行队列中下一个任务&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="OsPm6kBoeOOD-leoVnmT-4">
           <mxGeometry x="3480" y="430" width="140" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="woEXByO1yIPWKVT65qTF-114" value="ReentrantLock" style="whiteSpace=wrap;html=1;" vertex="1" parent="OsPm6kBoeOOD-leoVnmT-4">
+          <mxGeometry x="3100" y="283" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="woEXByO1yIPWKVT65qTF-116" value="CountDownLatch" style="whiteSpace=wrap;html=1;" vertex="1" parent="OsPm6kBoeOOD-leoVnmT-4">
+          <mxGeometry x="3100" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="woEXByO1yIPWKVT65qTF-117" value="Semaphore" style="whiteSpace=wrap;html=1;" vertex="1" parent="OsPm6kBoeOOD-leoVnmT-4">
+          <mxGeometry x="3100" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="woEXByO1yIPWKVT65qTF-118" value="CyclicBarrier&amp;nbsp;" style="whiteSpace=wrap;html=1;" vertex="1" parent="OsPm6kBoeOOD-leoVnmT-4">
+          <mxGeometry x="3100" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
         <mxCell id="woEXByO1yIPWKVT65qTF-99" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="woEXByO1yIPWKVT65qTF-97" target="woEXByO1yIPWKVT65qTF-98">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="5360" y="3040" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="woEXByO1yIPWKVT65qTF-115" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="woEXByO1yIPWKVT65qTF-97" target="woEXByO1yIPWKVT65qTF-114">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="5360" y="3183" />
             </Array>
           </mxGeometry>
         </mxCell>
