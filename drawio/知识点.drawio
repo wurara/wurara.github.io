@@ -652,7 +652,51 @@
         <mxCell id="woEXByO1yIPWKVT65qTF-95" value="悲观锁&lt;div&gt;可重入锁&lt;/div&gt;&lt;div&gt;排他锁&lt;/div&gt;&lt;div&gt;非公平锁&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="OsPm6kBoeOOD-leoVnmT-4">
           <mxGeometry x="2770" y="283" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="woEXByO1yIPWKVT65qTF-97" value="AQS锁" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="woEXByO1yIPWKVT65qTF-101" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="OsPm6kBoeOOD-leoVnmT-4" source="woEXByO1yIPWKVT65qTF-98" target="woEXByO1yIPWKVT65qTF-100">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="woEXByO1yIPWKVT65qTF-98" value="基于 volitale 和 CAS 实现" style="whiteSpace=wrap;html=1;" vertex="1" parent="OsPm6kBoeOOD-leoVnmT-4">
+          <mxGeometry x="3090" y="140" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="woEXByO1yIPWKVT65qTF-103" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="OsPm6kBoeOOD-leoVnmT-4" source="woEXByO1yIPWKVT65qTF-100" target="woEXByO1yIPWKVT65qTF-102">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="woEXByO1yIPWKVT65qTF-100" value="锁竞争流程" style="whiteSpace=wrap;html=1;" vertex="1" parent="OsPm6kBoeOOD-leoVnmT-4">
+          <mxGeometry x="3320" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="woEXByO1yIPWKVT65qTF-105" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="OsPm6kBoeOOD-leoVnmT-4" source="woEXByO1yIPWKVT65qTF-102" target="woEXByO1yIPWKVT65qTF-104">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="woEXByO1yIPWKVT65qTF-106" value="成功" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="woEXByO1yIPWKVT65qTF-105">
+          <mxGeometry x="-0.0125" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="woEXByO1yIPWKVT65qTF-108" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="OsPm6kBoeOOD-leoVnmT-4" source="woEXByO1yIPWKVT65qTF-102" target="woEXByO1yIPWKVT65qTF-107">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="woEXByO1yIPWKVT65qTF-109" value="&lt;span style=&quot;font-size: 12px; text-wrap-mode: wrap; background-color: rgb(236, 236, 236);&quot;&gt;失败&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="woEXByO1yIPWKVT65qTF-108">
+          <mxGeometry x="-0.2417" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="woEXByO1yIPWKVT65qTF-102" value="线程尝试获取锁tryAcquire" style="whiteSpace=wrap;html=1;" vertex="1" parent="OsPm6kBoeOOD-leoVnmT-4">
+          <mxGeometry x="3320" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="woEXByO1yIPWKVT65qTF-104" value="AQS的state+1&lt;div&gt;独占模式则设置exclusiveOwnerThread&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="OsPm6kBoeOOD-leoVnmT-4">
+          <mxGeometry x="3480" y="280" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="woEXByO1yIPWKVT65qTF-107" value="自旋尝试几次。自旋失败后使用LockSupport.park()后，进入CLH队列等待，FIFO" style="whiteSpace=wrap;html=1;" vertex="1" parent="OsPm6kBoeOOD-leoVnmT-4">
+          <mxGeometry x="3315" y="420" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="woEXByO1yIPWKVT65qTF-99" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="woEXByO1yIPWKVT65qTF-97" target="woEXByO1yIPWKVT65qTF-98">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="5360" y="3040" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="woEXByO1yIPWKVT65qTF-97" value="AQS" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="5300" y="2910" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
