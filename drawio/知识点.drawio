@@ -1012,7 +1012,7 @@
         <mxCell id="woEXByO1yIPWKVT65qTF-409" value="S0" style="whiteSpace=wrap;html=1;" vertex="1" parent="woEXByO1yIPWKVT65qTF-379">
           <mxGeometry x="230" y="30" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="woEXByO1yIPWKVT65qTF-411" value="Eden" style="whiteSpace=wrap;html=1;" vertex="1" parent="woEXByO1yIPWKVT65qTF-379">
+        <mxCell id="woEXByO1yIPWKVT65qTF-411" value="Eden&lt;div&gt;线程有TLAB&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="woEXByO1yIPWKVT65qTF-379">
           <mxGeometry x="110" y="30" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="woEXByO1yIPWKVT65qTF-410" value="S1" style="whiteSpace=wrap;html=1;" vertex="1" parent="woEXByO1yIPWKVT65qTF-379">
