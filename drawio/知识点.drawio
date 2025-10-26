@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="28.2.8">
   <diagram name="第 1 页" id="Of1sGSvZfQuRrEPr6PyE">
-    <mxGraphModel dx="2677" dy="1102" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5746" dy="4408" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -881,7 +881,7 @@
           <mxGeometry x="4940" y="320" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="woEXByO1yIPWKVT65qTF-350" value="NIO" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="woEXByO1yIPWKVT65qTF-201">
-          <mxGeometry x="40" y="1330" width="2820" height="860" as="geometry">
+          <mxGeometry x="40" y="1330" width="1890" height="690" as="geometry">
             <mxRectangle x="60" y="1320" width="40" height="50" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -974,7 +974,7 @@
           </mxCell>
         </UserObject>
         <mxCell id="woEXByO1yIPWKVT65qTF-374" value="JVM内存" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="woEXByO1yIPWKVT65qTF-201">
-          <mxGeometry x="80" y="2340" width="1695" height="970" as="geometry" />
+          <mxGeometry x="40" y="2080" width="1695" height="970" as="geometry" />
         </mxCell>
         <mxCell id="woEXByO1yIPWKVT65qTF-377" value="JVM" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="woEXByO1yIPWKVT65qTF-374">
           <mxGeometry x="80" y="53" width="610" height="857" as="geometry" />
