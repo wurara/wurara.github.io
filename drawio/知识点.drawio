@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="28.2.8">
   <diagram name="第 1 页" id="Of1sGSvZfQuRrEPr6PyE">
-    <mxGraphModel dx="6711" dy="1296" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="6993" dy="1296" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1269,8 +1269,11 @@
         <mxCell id="woEXByO1yIPWKVT65qTF-672" value="事务消息不是分布式事务。&lt;div&gt;分布式事务锁住所有相关系统性能低。&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="woEXByO1yIPWKVT65qTF-659">
           <mxGeometry x="480" y="542" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="woEXByO1yIPWKVT65qTF-684" value="全局顺序：整个topic只对应一个" style="whiteSpace=wrap;html=1;" vertex="1" parent="woEXByO1yIPWKVT65qTF-659">
-          <mxGeometry x="390" y="172" width="210" height="60" as="geometry" />
+        <mxCell id="woEXByO1yIPWKVT65qTF-684" value="全局顺序：整个topic只对应一个queue" style="whiteSpace=wrap;html=1;" vertex="1" parent="woEXByO1yIPWKVT65qTF-659">
+          <mxGeometry x="390" y="122" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="woEXByO1yIPWKVT65qTF-687" value="分区顺序：同一业务 Key 的消息进入同一个队列即可保证顺序（常用）。" style="whiteSpace=wrap;html=1;" vertex="1" parent="woEXByO1yIPWKVT65qTF-659">
+          <mxGeometry x="390" y="182" width="240" height="60" as="geometry" />
         </mxCell>
         <mxCell id="woEXByO1yIPWKVT65qTF-482" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="woEXByO1yIPWKVT65qTF-458" target="woEXByO1yIPWKVT65qTF-456">
           <mxGeometry relative="1" as="geometry" />
