@@ -895,34 +895,69 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="woEXByO1yIPWKVT65qTF-186" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="woEXByO1yIPWKVT65qTF-174" source="woEXByO1yIPWKVT65qTF-176" target="woEXByO1yIPWKVT65qTF-185">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="430" y="341" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="woEXByO1yIPWKVT65qTF-176" value="Channel" style="whiteSpace=wrap;html=1;" vertex="1" parent="woEXByO1yIPWKVT65qTF-174">
           <mxGeometry x="370" y="120" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="woEXByO1yIPWKVT65qTF-180" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="woEXByO1yIPWKVT65qTF-174" source="woEXByO1yIPWKVT65qTF-175" target="woEXByO1yIPWKVT65qTF-179">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="720" y="255" />
+              <mxPoint x="850" y="255" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="woEXByO1yIPWKVT65qTF-182" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="woEXByO1yIPWKVT65qTF-174" source="woEXByO1yIPWKVT65qTF-175" target="woEXByO1yIPWKVT65qTF-181">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="720" y="340" />
+              <mxPoint x="850" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="woEXByO1yIPWKVT65qTF-193" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="woEXByO1yIPWKVT65qTF-174" source="woEXByO1yIPWKVT65qTF-175" target="woEXByO1yIPWKVT65qTF-192">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="850" y="450" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="woEXByO1yIPWKVT65qTF-175" value="Buffer" style="whiteSpace=wrap;html=1;" vertex="1" parent="woEXByO1yIPWKVT65qTF-174">
-          <mxGeometry x="660" y="120" width="120" height="60" as="geometry" />
+          <mxGeometry x="790" y="120" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="woEXByO1yIPWKVT65qTF-179" value="容量（capacity）&lt;div&gt;界限（limit）&lt;/div&gt;&lt;div&gt;位置（position）&lt;/div&gt;&lt;div&gt;标记（mark）&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="woEXByO1yIPWKVT65qTF-174">
-          <mxGeometry x="780" y="220" width="120" height="70" as="geometry" />
+          <mxGeometry x="910" y="220" width="120" height="70" as="geometry" />
         </mxCell>
         <mxCell id="woEXByO1yIPWKVT65qTF-181" value="get&lt;div&gt;put&lt;/div&gt;&lt;div&gt;flip&lt;/div&gt;&lt;div&gt;clear&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="woEXByO1yIPWKVT65qTF-174">
-          <mxGeometry x="780" y="311" width="120" height="69" as="geometry" />
+          <mxGeometry x="910" y="311" width="120" height="69" as="geometry" />
         </mxCell>
         <mxCell id="woEXByO1yIPWKVT65qTF-183" value="read&lt;div&gt;write&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="woEXByO1yIPWKVT65qTF-174">
           <mxGeometry x="470" y="225" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="woEXByO1yIPWKVT65qTF-185" value="FileChannel" style="whiteSpace=wrap;html=1;" vertex="1" parent="woEXByO1yIPWKVT65qTF-174">
+          <mxGeometry x="470" y="311" width="120" height="69" as="geometry" />
+        </mxCell>
+        <mxCell id="woEXByO1yIPWKVT65qTF-187" value="&lt;div&gt;SocketChannel&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="woEXByO1yIPWKVT65qTF-174">
+          <mxGeometry x="470" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="woEXByO1yIPWKVT65qTF-190" value="&lt;div&gt;ServerSocketChannel&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="woEXByO1yIPWKVT65qTF-174">
+          <mxGeometry x="470" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="woEXByO1yIPWKVT65qTF-189" value="&lt;div&gt;DatagramChannel&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="woEXByO1yIPWKVT65qTF-174">
+          <mxGeometry x="470" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="woEXByO1yIPWKVT65qTF-191" value="transferTo()/transferFrom()&lt;div&gt;基于发送文件（sendfile）这种零拷贝方式&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="woEXByO1yIPWKVT65qTF-174">
+          <mxGeometry x="590" y="311" width="180" height="69" as="geometry" />
+        </mxCell>
+        <mxCell id="woEXByO1yIPWKVT65qTF-192" value="MappedByteBuffer" style="whiteSpace=wrap;html=1;" vertex="1" parent="woEXByO1yIPWKVT65qTF-174">
+          <mxGeometry x="910" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="woEXByO1yIPWKVT65qTF-194" value="基于内存映射（mmap）这种零拷⻉" style="whiteSpace=wrap;html=1;" vertex="1" parent="woEXByO1yIPWKVT65qTF-174">
+          <mxGeometry x="1030" y="420" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
