@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="28.2.8">
   <diagram name="第 1 页" id="Of1sGSvZfQuRrEPr6PyE">
-    <mxGraphModel dx="2858" dy="1296" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2507" dy="918" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -954,7 +954,7 @@
           <mxGeometry x="470" y="500" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="woEXByO1yIPWKVT65qTF-191" value="&lt;div&gt;获取一个只读通道&lt;/div&gt;1. new FileOutputStream(new File(&quot;a.txt&quot;)).getChannel();&amp;nbsp;&lt;div&gt;2. FileChannel.open(Paths.get(&quot;a.txt&quot;), StandardOpenOption.READ);&amp;nbsp;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="woEXByO1yIPWKVT65qTF-174">
-          <mxGeometry x="650" y="290.5" width="180" height="110" as="geometry" />
+          <mxGeometry x="650" y="290" width="230" height="110.5" as="geometry" />
         </mxCell>
         <mxCell id="woEXByO1yIPWKVT65qTF-192" value="MappedByteBuffer" style="whiteSpace=wrap;html=1;" vertex="1" parent="woEXByO1yIPWKVT65qTF-174">
           <mxGeometry x="1340" y="420" width="120" height="60" as="geometry" />
@@ -963,7 +963,7 @@
           <mxGeometry x="1460" y="420" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="woEXByO1yIPWKVT65qTF-196" value="transferTo()/transferFrom()&lt;div&gt;基于发送文件（sendfile）这种零拷贝方式&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="woEXByO1yIPWKVT65qTF-174">
-          <mxGeometry x="830" y="311" width="180" height="69" as="geometry" />
+          <mxGeometry x="880" y="310.75" width="180" height="69" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
