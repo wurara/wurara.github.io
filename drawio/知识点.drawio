@@ -788,7 +788,10 @@
           <mxGeometry x="3660" y="520" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="woEXByO1yIPWKVT65qTF-143" value="使用 Node 数组 + 链表/红黑树 + 局部 synchronized/ CAS 实现写操作，读操作无锁。" style="whiteSpace=wrap;html=1;" vertex="1" parent="OsPm6kBoeOOD-leoVnmT-4">
-          <mxGeometry x="4070" y="160" width="160" height="64" as="geometry" />
+          <mxGeometry x="4070" y="158" width="160" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="woEXByO1yIPWKVT65qTF-145" value="扩容时旧数组的头部写为ForwardingNode，写操作时遇到ForwardingNode则进行迁移。" style="whiteSpace=wrap;html=1;" vertex="1" parent="OsPm6kBoeOOD-leoVnmT-4">
+          <mxGeometry x="4230" y="158" width="200" height="62" as="geometry" />
         </mxCell>
         <mxCell id="woEXByO1yIPWKVT65qTF-99" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="woEXByO1yIPWKVT65qTF-97" target="woEXByO1yIPWKVT65qTF-98">
           <mxGeometry relative="1" as="geometry">
