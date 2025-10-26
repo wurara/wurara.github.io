@@ -799,6 +799,9 @@
         <mxCell id="woEXByO1yIPWKVT65qTF-147" value="读操作无锁。&lt;div&gt;写时复制一个数据，并使用ReentrantLock将数据写入。&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="OsPm6kBoeOOD-leoVnmT-4">
           <mxGeometry x="4110" y="558" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="woEXByO1yIPWKVT65qTF-149" value="单值读写是强制一致性，遍历是快照弱一致性" style="whiteSpace=wrap;html=1;" vertex="1" parent="OsPm6kBoeOOD-leoVnmT-4">
+          <mxGeometry x="4430" y="158" width="200" height="62" as="geometry" />
+        </mxCell>
         <mxCell id="woEXByO1yIPWKVT65qTF-99" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="woEXByO1yIPWKVT65qTF-97" target="woEXByO1yIPWKVT65qTF-98">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
