@@ -953,7 +953,7 @@
         <mxCell id="woEXByO1yIPWKVT65qTF-189" value="&lt;div&gt;DatagramChannel&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="woEXByO1yIPWKVT65qTF-174">
           <mxGeometry x="470" y="500" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="woEXByO1yIPWKVT65qTF-191" value="&lt;div&gt;获取一个只读通道&lt;/div&gt;1. new FileOutputStream(new File(&quot;a.txt&quot;)).getChannel();&amp;nbsp;&lt;div&gt;2. FileChannel.open(Paths.get(&quot;a.txt&quot;), StandardOpenOption.READ);&amp;nbsp;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="woEXByO1yIPWKVT65qTF-174">
+        <mxCell id="woEXByO1yIPWKVT65qTF-191" value="&lt;div&gt;获取一个文件通道&lt;/div&gt;1. new FileOutputStream(new File(&quot;a.txt&quot;)).getChannel();&amp;nbsp;&lt;div&gt;2. FileChannel.open(Paths.get(&quot;a.txt&quot;), StandardOpenOption.READ);&amp;nbsp;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="woEXByO1yIPWKVT65qTF-174">
           <mxGeometry x="650" y="290" width="230" height="110.5" as="geometry" />
         </mxCell>
         <mxCell id="woEXByO1yIPWKVT65qTF-192" value="MappedByteBuffer" style="whiteSpace=wrap;html=1;" vertex="1" parent="woEXByO1yIPWKVT65qTF-174">
@@ -962,7 +962,7 @@
         <mxCell id="woEXByO1yIPWKVT65qTF-194" value="基于内存映射（mmap）这种零拷⻉" style="whiteSpace=wrap;html=1;" vertex="1" parent="woEXByO1yIPWKVT65qTF-174">
           <mxGeometry x="1460" y="420" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="woEXByO1yIPWKVT65qTF-196" value="transferTo()/transferFrom()&lt;div&gt;基于发送文件（sendfile）这种零拷贝方式&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="woEXByO1yIPWKVT65qTF-174">
+        <mxCell id="woEXByO1yIPWKVT65qTF-196" value="transferTo()/transferFrom()&lt;div&gt;基于发送文件（sendfile）这种零拷贝方式。可能无法一次性传输完成。&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="woEXByO1yIPWKVT65qTF-174">
           <mxGeometry x="880" y="310.75" width="180" height="69" as="geometry" />
         </mxCell>
       </root>
