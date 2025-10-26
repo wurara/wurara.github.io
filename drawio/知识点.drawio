@@ -550,6 +550,13 @@
         <mxCell id="woEXByO1yIPWKVT65qTF-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="OsPm6kBoeOOD-leoVnmT-4" source="woEXByO1yIPWKVT65qTF-54" target="woEXByO1yIPWKVT65qTF-62">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="woEXByO1yIPWKVT65qTF-96" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="OsPm6kBoeOOD-leoVnmT-4" source="woEXByO1yIPWKVT65qTF-54" target="woEXByO1yIPWKVT65qTF-95">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="330" y="313" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="woEXByO1yIPWKVT65qTF-54" value="synchronized" style="whiteSpace=wrap;html=1;" vertex="1" parent="OsPm6kBoeOOD-leoVnmT-4">
           <mxGeometry x="270" y="50" width="120" height="60" as="geometry" />
         </mxCell>
@@ -641,6 +648,9 @@
         </mxCell>
         <mxCell id="woEXByO1yIPWKVT65qTF-93" value="&lt;div&gt;&lt;font face=&quot;monospace&quot;&gt;1. complete(): 设置任务状态位已完成&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;monospace&quot;&gt;2. isDone(): 查看任务是否完成&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;monospace&quot;&gt;3. `exceptionally`:处理异常并重新抛出&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;monospace&quot;&gt;4. handle:处理正常的返回结果和异常，并返回一个新的结果&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;monospace&quot;&gt;5. whenComplete(): 完成后执行函数并返回一个新对象&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;monospace&quot;&gt;6. completeExceptionally(): 直接响应指定异常&lt;/font&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="OsPm6kBoeOOD-leoVnmT-4">
           <mxGeometry x="2410" y="464.06" width="170" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="woEXByO1yIPWKVT65qTF-95" value="悲观锁&lt;div&gt;可重入锁&lt;/div&gt;&lt;div&gt;排他锁&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="OsPm6kBoeOOD-leoVnmT-4">
+          <mxGeometry x="370" y="283" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="woEXByO1yIPWKVT65qTF-79" value="tips&lt;div&gt;1. 是非公平锁&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2610" y="3450" width="120" height="60" as="geometry" />
