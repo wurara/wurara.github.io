@@ -959,8 +959,8 @@
         <mxCell id="woEXByO1yIPWKVT65qTF-192" value="MappedByteBuffer" style="whiteSpace=wrap;html=1;" vertex="1" parent="woEXByO1yIPWKVT65qTF-174">
           <mxGeometry x="1340" y="420" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="woEXByO1yIPWKVT65qTF-194" value="基于内存映射（mmap）这种零拷⻉" style="whiteSpace=wrap;html=1;" vertex="1" parent="woEXByO1yIPWKVT65qTF-174">
-          <mxGeometry x="1460" y="420" width="120" height="60" as="geometry" />
+        <mxCell id="woEXByO1yIPWKVT65qTF-194" value="基于内存映射（mmap）这种零拷⻉。本身是重量级操作，只对大文件优化。" style="whiteSpace=wrap;html=1;" vertex="1" parent="woEXByO1yIPWKVT65qTF-174">
+          <mxGeometry x="1460" y="420" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="woEXByO1yIPWKVT65qTF-196" value="transferTo()/transferFrom()&lt;div&gt;基于发送文件（sendfile）这种零拷贝方式。可能无法一次性传输完成。&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="woEXByO1yIPWKVT65qTF-174">
           <mxGeometry x="880" y="310.75" width="180" height="69" as="geometry" />
