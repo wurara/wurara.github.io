@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="28.2.8">
   <diagram name="第 1 页" id="Of1sGSvZfQuRrEPr6PyE">
-    <mxGraphModel dx="2472" dy="882" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2360" dy="760" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -348,13 +348,13 @@
         <mxCell id="OsPm6kBoeOOD-leoVnmT-2" value="JAVA" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" parent="OsPm6kBoeOOD-leoVnmT-1" vertex="1">
           <mxGeometry x="20" y="2710" width="1750" height="760" as="geometry" />
         </mxCell>
-        <mxCell id="OsPm6kBoeOOD-leoVnmT-4" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;Thread&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;" parent="OsPm6kBoeOOD-leoVnmT-2" vertex="1">
+        <mxCell id="OsPm6kBoeOOD-leoVnmT-4" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;多线程&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;" parent="OsPm6kBoeOOD-leoVnmT-2" vertex="1">
           <mxGeometry x="30" y="30" width="1510" height="720" as="geometry" />
         </mxCell>
         <mxCell id="OsPm6kBoeOOD-leoVnmT-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="OsPm6kBoeOOD-leoVnmT-4" source="OsPm6kBoeOOD-leoVnmT-5" target="OsPm6kBoeOOD-leoVnmT-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="OsPm6kBoeOOD-leoVnmT-5" value="ThreadLocal" style="whiteSpace=wrap;html=1;" parent="OsPm6kBoeOOD-leoVnmT-4" vertex="1">
+        <mxCell id="OsPm6kBoeOOD-leoVnmT-5" value="线程本地变量ThreadLocal" style="whiteSpace=wrap;html=1;" parent="OsPm6kBoeOOD-leoVnmT-4" vertex="1">
           <mxGeometry x="55" y="50" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="OsPm6kBoeOOD-leoVnmT-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="OsPm6kBoeOOD-leoVnmT-4" source="OsPm6kBoeOOD-leoVnmT-6" target="OsPm6kBoeOOD-leoVnmT-8" edge="1">
@@ -369,7 +369,7 @@
         <mxCell id="OsPm6kBoeOOD-leoVnmT-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="OsPm6kBoeOOD-leoVnmT-4" source="OsPm6kBoeOOD-leoVnmT-10" target="OsPm6kBoeOOD-leoVnmT-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="OsPm6kBoeOOD-leoVnmT-10" value="状态" style="whiteSpace=wrap;html=1;" parent="OsPm6kBoeOOD-leoVnmT-4" vertex="1">
+        <mxCell id="OsPm6kBoeOOD-leoVnmT-10" value="线程状态" style="whiteSpace=wrap;html=1;" parent="OsPm6kBoeOOD-leoVnmT-4" vertex="1">
           <mxGeometry x="500" y="50" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="OsPm6kBoeOOD-leoVnmT-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="OsPm6kBoeOOD-leoVnmT-4" source="OsPm6kBoeOOD-leoVnmT-11" target="OsPm6kBoeOOD-leoVnmT-13" edge="1">
@@ -394,7 +394,7 @@
         <mxCell id="OsPm6kBoeOOD-leoVnmT-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="OsPm6kBoeOOD-leoVnmT-4" source="OsPm6kBoeOOD-leoVnmT-13" target="OsPm6kBoeOOD-leoVnmT-25" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="OsPm6kBoeOOD-leoVnmT-29" value="调用wait()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="OsPm6kBoeOOD-leoVnmT-26" vertex="1" connectable="0">
+        <mxCell id="OsPm6kBoeOOD-leoVnmT-29" value="&lt;div&gt;wait()&lt;div&gt;sleep()&lt;/div&gt;&lt;/div&gt;&lt;div&gt;join()&lt;/div&gt;&lt;div&gt;parkNanos()&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="OsPm6kBoeOOD-leoVnmT-26" vertex="1" connectable="0">
           <mxGeometry x="-0.2718" y="1" relative="1" as="geometry">
             <mxPoint x="7" y="1" as="offset" />
           </mxGeometry>
@@ -402,7 +402,7 @@
         <mxCell id="OsPm6kBoeOOD-leoVnmT-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="OsPm6kBoeOOD-leoVnmT-4" source="OsPm6kBoeOOD-leoVnmT-13" target="OsPm6kBoeOOD-leoVnmT-32" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="OsPm6kBoeOOD-leoVnmT-36" value="调用wait(ms)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="OsPm6kBoeOOD-leoVnmT-33" vertex="1" connectable="0">
+        <mxCell id="OsPm6kBoeOOD-leoVnmT-36" value="&lt;div&gt;wait(ms)&lt;div&gt;sleep(ms)&lt;/div&gt;&lt;/div&gt;&lt;div&gt;join(ms)&lt;/div&gt;&lt;div&gt;parkNanos(ns)&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="OsPm6kBoeOOD-leoVnmT-33" vertex="1" connectable="0">
           <mxGeometry x="0.224" y="1" relative="1" as="geometry">
             <mxPoint x="12" y="-1" as="offset" />
           </mxGeometry>
