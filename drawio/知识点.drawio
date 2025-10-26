@@ -432,7 +432,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="OsPm6kBoeOOD-leoVnmT-31" value="notify()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="OsPm6kBoeOOD-leoVnmT-27" vertex="1" connectable="0">
+        <mxCell id="OsPm6kBoeOOD-leoVnmT-31" value="notify()&lt;div&gt;unpark()&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="OsPm6kBoeOOD-leoVnmT-27" vertex="1" connectable="0">
           <mxGeometry x="0.1431" y="-1" relative="1" as="geometry">
             <mxPoint x="5" as="offset" />
           </mxGeometry>
@@ -506,6 +506,9 @@
         </mxCell>
         <mxCell id="woEXByO1yIPWKVT65qTF-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.443;entryY=0.033;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="OsPm6kBoeOOD-leoVnmT-4" source="woEXByO1yIPWKVT65qTF-3" target="woEXByO1yIPWKVT65qTF-14">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="woEXByO1yIPWKVT65qTF-51" value="&lt;div&gt;CPU 密集型任务：(N)&lt;/div&gt;&lt;div&gt;I/O 密集型任务：(2N)&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="OsPm6kBoeOOD-leoVnmT-4">
+          <mxGeometry x="967" y="250" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="woEXByO1yIPWKVT65qTF-49" value="&lt;div&gt;tips&lt;/div&gt;1. notify是唤醒，&lt;span style=&quot;font-size: 11px; text-wrap-mode: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;interrupt是抛出异常&lt;/span&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2630" y="3370" width="210" height="60" as="geometry" />
