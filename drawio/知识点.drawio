@@ -697,8 +697,8 @@
         <mxCell id="woEXByO1yIPWKVT65qTF-107" value="失败后使用LockSupport.park()后，进入CLH队列等待，FIFO" style="whiteSpace=wrap;html=1;" vertex="1" parent="OsPm6kBoeOOD-leoVnmT-4">
           <mxGeometry x="3315" y="420" width="130" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="woEXByO1yIPWKVT65qTF-110" value="AQS的state-1" style="whiteSpace=wrap;html=1;" vertex="1" parent="OsPm6kBoeOOD-leoVnmT-4">
-          <mxGeometry x="3490" y="410" width="120" height="60" as="geometry" />
+        <mxCell id="woEXByO1yIPWKVT65qTF-110" value="AQS的state-1&lt;div&gt;LockSupport.unpark(next)执行队列中下一个任务&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="OsPm6kBoeOOD-leoVnmT-4">
+          <mxGeometry x="3481" y="410" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="woEXByO1yIPWKVT65qTF-99" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="woEXByO1yIPWKVT65qTF-97" target="woEXByO1yIPWKVT65qTF-98">
           <mxGeometry relative="1" as="geometry">
