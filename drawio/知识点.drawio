@@ -585,19 +585,19 @@
           <mxGeometry x="170" y="382.5" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="woEXByO1yIPWKVT65qTF-67" value="轻量锁" style="whiteSpace=wrap;html=1;" vertex="1" parent="OsPm6kBoeOOD-leoVnmT-4">
-          <mxGeometry x="170" y="442.5" width="120" height="77.5" as="geometry" />
+          <mxGeometry x="170" y="442.5" width="120" height="107.5" as="geometry" />
         </mxCell>
         <mxCell id="woEXByO1yIPWKVT65qTF-68" value="重量锁" style="whiteSpace=wrap;html=1;" vertex="1" parent="OsPm6kBoeOOD-leoVnmT-4">
-          <mxGeometry x="170" y="520" width="120" height="107.5" as="geometry" />
+          <mxGeometry x="170" y="546.56" width="120" height="107.5" as="geometry" />
         </mxCell>
         <mxCell id="woEXByO1yIPWKVT65qTF-69" value="第一次获取对象则创建" style="whiteSpace=wrap;html=1;" vertex="1" parent="OsPm6kBoeOOD-leoVnmT-4">
           <mxGeometry x="50" y="382.5" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="woEXByO1yIPWKVT65qTF-70" value="第二个线程未获取到则创建并撤销偏向锁。栈帧创建对象使用CAS自旋尝试获取锁" style="whiteSpace=wrap;html=1;" vertex="1" parent="OsPm6kBoeOOD-leoVnmT-4">
-          <mxGeometry x="50" y="442.38" width="120" height="77.62" as="geometry" />
+        <mxCell id="woEXByO1yIPWKVT65qTF-70" value="第二个线程未获取到则创建并撤销偏向锁。栈帧创建对象使用CAS自旋尝试获取锁（使markwork 指向自己）" style="whiteSpace=wrap;html=1;" vertex="1" parent="OsPm6kBoeOOD-leoVnmT-4">
+          <mxGeometry x="50" y="442.38" width="120" height="107.62" as="geometry" />
         </mxCell>
         <mxCell id="woEXByO1yIPWKVT65qTF-71" value="轻量锁自旋失败时创建。JVM创建ObjectMonitor实例，将所有竞争的线程park后加入等待队列。会有实际线程切换的开销。" style="whiteSpace=wrap;html=1;" vertex="1" parent="OsPm6kBoeOOD-leoVnmT-4">
-          <mxGeometry x="50" y="520" width="120" height="107.5" as="geometry" />
+          <mxGeometry x="50" y="546.56" width="120" height="107.5" as="geometry" />
         </mxCell>
         <mxCell id="woEXByO1yIPWKVT65qTF-74" value="execute()&lt;div&gt;无返回值。抛出异常会导致线程终止。&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="OsPm6kBoeOOD-leoVnmT-4">
           <mxGeometry x="1530" y="628" width="120" height="60" as="geometry" />
@@ -649,11 +649,8 @@
         <mxCell id="woEXByO1yIPWKVT65qTF-93" value="&lt;div&gt;&lt;font face=&quot;monospace&quot;&gt;1. complete(): 设置任务状态位已完成&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;monospace&quot;&gt;2. isDone(): 查看任务是否完成&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;monospace&quot;&gt;3. `exceptionally`:处理异常并重新抛出&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;monospace&quot;&gt;4. handle:处理正常的返回结果和异常，并返回一个新的结果&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;monospace&quot;&gt;5. whenComplete(): 完成后执行函数并返回一个新对象&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;monospace&quot;&gt;6. completeExceptionally(): 直接响应指定异常&lt;/font&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="OsPm6kBoeOOD-leoVnmT-4">
           <mxGeometry x="2410" y="464.06" width="170" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="woEXByO1yIPWKVT65qTF-95" value="悲观锁&lt;div&gt;可重入锁&lt;/div&gt;&lt;div&gt;排他锁&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="OsPm6kBoeOOD-leoVnmT-4">
+        <mxCell id="woEXByO1yIPWKVT65qTF-95" value="悲观锁&lt;div&gt;可重入锁&lt;/div&gt;&lt;div&gt;排他锁&lt;/div&gt;&lt;div&gt;非公平锁&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="OsPm6kBoeOOD-leoVnmT-4">
           <mxGeometry x="370" y="283" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="woEXByO1yIPWKVT65qTF-79" value="tips&lt;div&gt;1. 是非公平锁&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2610" y="3450" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
