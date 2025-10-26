@@ -510,8 +510,8 @@
         <mxCell id="woEXByO1yIPWKVT65qTF-51" value="&lt;div&gt;CPU 密集型任务：(N)&lt;/div&gt;&lt;div&gt;I/O 密集型任务：(2N)&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="OsPm6kBoeOOD-leoVnmT-4">
           <mxGeometry x="967" y="250" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="woEXByO1yIPWKVT65qTF-53" value="&lt;div&gt;tips&lt;/div&gt;1. key是弱引用，当key被回收后在线程池场景可能出现内存泄漏" style="whiteSpace=wrap;html=1;" vertex="1" parent="OsPm6kBoeOOD-leoVnmT-4">
-          <mxGeometry x="30" y="440" width="210" height="60" as="geometry" />
+        <mxCell id="woEXByO1yIPWKVT65qTF-53" value="&lt;div&gt;tips&lt;/div&gt;1. key是弱引用。当没有线程持有ThreadLocal对象时，GC会回收对应的key。回收后key后，如果Thread在在线程池中存活则value对象会出现内存泄漏。解决方法：在执行 &lt;code data-end=&quot;1548&quot; data-start=&quot;1541&quot;&gt;set()&lt;/code&gt;、&lt;code data-end=&quot;1556&quot; data-start=&quot;1549&quot;&gt;get()&lt;/code&gt; 或 &lt;code data-end=&quot;1569&quot; data-start=&quot;1559&quot;&gt;remove()&lt;/code&gt; 时，会扫描key==null的对象&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;并清理&lt;/span&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="OsPm6kBoeOOD-leoVnmT-4">
+          <mxGeometry x="30" y="440" width="210" height="150" as="geometry" />
         </mxCell>
         <mxCell id="woEXByO1yIPWKVT65qTF-49" value="&lt;div&gt;tips&lt;/div&gt;1. notify是唤醒，&lt;span style=&quot;font-size: 11px; text-wrap-mode: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;interrupt是抛出异常&lt;/span&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2630" y="3370" width="210" height="60" as="geometry" />
