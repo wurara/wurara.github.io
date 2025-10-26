@@ -598,6 +598,28 @@
         <mxCell id="woEXByO1yIPWKVT65qTF-76" value="submit()&lt;div&gt;有返回值。抛出异常会被包装，线程可以复用。&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="OsPm6kBoeOOD-leoVnmT-4">
           <mxGeometry x="1650" y="628" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="woEXByO1yIPWKVT65qTF-82" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="OsPm6kBoeOOD-leoVnmT-4" source="woEXByO1yIPWKVT65qTF-80" target="woEXByO1yIPWKVT65qTF-81">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2070" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="woEXByO1yIPWKVT65qTF-80" value="异步编程类" style="whiteSpace=wrap;html=1;" vertex="1" parent="OsPm6kBoeOOD-leoVnmT-4">
+          <mxGeometry x="2010" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="woEXByO1yIPWKVT65qTF-81" value="Future" style="whiteSpace=wrap;html=1;" vertex="1" parent="OsPm6kBoeOOD-leoVnmT-4">
+          <mxGeometry x="2100" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="woEXByO1yIPWKVT65qTF-83" value="FutureTask" style="whiteSpace=wrap;html=1;" vertex="1" parent="OsPm6kBoeOOD-leoVnmT-4">
+          <mxGeometry x="2100" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="woEXByO1yIPWKVT65qTF-84" value="CompletableFuture" style="whiteSpace=wrap;html=1;" vertex="1" parent="OsPm6kBoeOOD-leoVnmT-4">
+          <mxGeometry x="2100" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="woEXByO1yIPWKVT65qTF-79" value="tips&lt;div&gt;1. 是非公平锁&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2610" y="3450" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
