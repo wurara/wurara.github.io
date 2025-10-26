@@ -980,7 +980,7 @@
           <mxGeometry x="80" y="53" width="610" height="857" as="geometry" />
         </mxCell>
         <mxCell id="woEXByO1yIPWKVT65qTF-378" value="方法区" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="woEXByO1yIPWKVT65qTF-377">
-          <mxGeometry x="240" y="607" width="290" height="233" as="geometry" />
+          <mxGeometry x="240" y="607" width="370" height="233" as="geometry" />
         </mxCell>
         <mxCell id="woEXByO1yIPWKVT65qTF-418" value="类信息" style="whiteSpace=wrap;html=1;" vertex="1" parent="woEXByO1yIPWKVT65qTF-378">
           <mxGeometry x="25" y="40" width="120" height="60" as="geometry" />
@@ -992,13 +992,16 @@
           <mxGeometry x="25" y="160" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="woEXByO1yIPWKVT65qTF-421" value="常量" style="whiteSpace=wrap;html=1;" vertex="1" parent="woEXByO1yIPWKVT65qTF-378">
-          <mxGeometry x="145" y="40" width="120" height="60" as="geometry" />
+          <mxGeometry x="145" y="40" width="105" height="60" as="geometry" />
         </mxCell>
         <mxCell id="woEXByO1yIPWKVT65qTF-422" value="静态变量" style="whiteSpace=wrap;html=1;" vertex="1" parent="woEXByO1yIPWKVT65qTF-378">
-          <mxGeometry x="145" y="100" width="120" height="60" as="geometry" />
+          <mxGeometry x="145" y="100" width="105" height="60" as="geometry" />
         </mxCell>
         <mxCell id="woEXByO1yIPWKVT65qTF-423" value="即时编译器编译后的代码缓存" style="whiteSpace=wrap;html=1;" vertex="1" parent="woEXByO1yIPWKVT65qTF-378">
-          <mxGeometry x="145" y="160" width="120" height="60" as="geometry" />
+          <mxGeometry x="145" y="160" width="105" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="woEXByO1yIPWKVT65qTF-392" value="运行时常量池" style="whiteSpace=wrap;html=1;" vertex="1" parent="woEXByO1yIPWKVT65qTF-378">
+          <mxGeometry x="250" y="40" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="woEXByO1yIPWKVT65qTF-379" value="堆" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="woEXByO1yIPWKVT65qTF-377">
           <mxGeometry x="30" y="57" width="500" height="200" as="geometry" />
@@ -1056,9 +1059,6 @@
         </mxCell>
         <mxCell id="woEXByO1yIPWKVT65qTF-390" value="元空间" style="whiteSpace=wrap;html=1;" vertex="1" parent="woEXByO1yIPWKVT65qTF-384">
           <mxGeometry x="40" y="30" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="woEXByO1yIPWKVT65qTF-392" value="运行时常量池" style="whiteSpace=wrap;html=1;" vertex="1" parent="woEXByO1yIPWKVT65qTF-384">
-          <mxGeometry x="40" y="90" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="woEXByO1yIPWKVT65qTF-395" value="直接内存" style="whiteSpace=wrap;html=1;" vertex="1" parent="woEXByO1yIPWKVT65qTF-384">
           <mxGeometry x="40" y="150" width="120" height="60" as="geometry" />
