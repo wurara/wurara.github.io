@@ -971,9 +971,9 @@
         <mxCell id="woEXByO1yIPWKVT65qTF-199" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="woEXByO1yIPWKVT65qTF-174" source="woEXByO1yIPWKVT65qTF-197" target="woEXByO1yIPWKVT65qTF-192">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <UserObject label="fileChannel.map：将整个文件映射到内存&lt;div&gt;READ_ONLY ：只读&lt;/div&gt;&lt;div&gt;READ_WRITE ：回写文件，不保证里面写入。&lt;/div&gt;&lt;div&gt;PRIVATE ：线程私有副本，不回写文件&lt;/div&gt;" id="woEXByO1yIPWKVT65qTF-197">
+        <UserObject label="fileChannel.map：将整个文件映射到内存&lt;div&gt;READ_ONLY ：只读&lt;/div&gt;&lt;div&gt;READ_WRITE ：回写文件，不保证立马写入磁盘。&lt;/div&gt;&lt;div&gt;PRIVATE ：线程私有副本，不回写文件&lt;/div&gt;" id="woEXByO1yIPWKVT65qTF-197">
           <mxCell style="whiteSpace=wrap;html=1;" vertex="1" parent="woEXByO1yIPWKVT65qTF-174">
-            <mxGeometry x="650" y="400" width="260" height="80" as="geometry" />
+            <mxGeometry x="650" y="400" width="280" height="80" as="geometry" />
           </mxCell>
         </UserObject>
       </root>
