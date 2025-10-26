@@ -1320,11 +1320,11 @@
         <mxCell id="woEXByO1yIPWKVT65qTF-691" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="woEXByO1yIPWKVT65qTF-659" source="woEXByO1yIPWKVT65qTF-684" target="woEXByO1yIPWKVT65qTF-690">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="woEXByO1yIPWKVT65qTF-684" value="全局顺序：整个topic只对应一个queue" style="whiteSpace=wrap;html=1;" vertex="1" parent="woEXByO1yIPWKVT65qTF-659">
-          <mxGeometry x="390" y="172" width="240" height="60" as="geometry" />
+        <mxCell id="woEXByO1yIPWKVT65qTF-684" value="全局顺序：整个topic只对应一个ConsumeQueue" style="whiteSpace=wrap;html=1;" vertex="1" parent="woEXByO1yIPWKVT65qTF-659">
+          <mxGeometry x="390" y="172" width="260" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="woEXByO1yIPWKVT65qTF-687" value="分区顺序：同一业务 Key 的消息进入同一个队列即可保证顺序（常用）。" style="whiteSpace=wrap;html=1;" vertex="1" parent="woEXByO1yIPWKVT65qTF-659">
-          <mxGeometry x="390" y="232" width="240" height="60" as="geometry" />
+        <mxCell id="woEXByO1yIPWKVT65qTF-687" value="分区顺序：同一业务 Key 的消息进入同一个ConsumeQueue即可保证顺序（常用）。" style="whiteSpace=wrap;html=1;" vertex="1" parent="woEXByO1yIPWKVT65qTF-659">
+          <mxGeometry x="390" y="232" width="260" height="60" as="geometry" />
         </mxCell>
         <mxCell id="woEXByO1yIPWKVT65qTF-690" value="Broker 队列的单线程写入" style="whiteSpace=wrap;html=1;" vertex="1" parent="woEXByO1yIPWKVT65qTF-659">
           <mxGeometry x="690" y="172" width="160" height="60" as="geometry" />
