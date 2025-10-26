@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="28.2.8">
   <diagram name="第 1 页" id="Of1sGSvZfQuRrEPr6PyE">
-    <mxGraphModel dx="11884" dy="11020" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2222" dy="612" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -237,6 +237,14 @@
         <mxCell id="lPIi9ZnA5GsBTCQyYRj0-193" value="&lt;strong data-end=&quot;292&quot; data-start=&quot;283&quot;&gt;命令解析器&lt;/strong&gt;（Command Parser）" style="whiteSpace=wrap;html=1;" parent="lPIi9ZnA5GsBTCQyYRj0-164" vertex="1">
           <mxGeometry x="325" y="60" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="woEXByO1yIPWKVT65qTF-436" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="lPIi9ZnA5GsBTCQyYRj0-164" source="lPIi9ZnA5GsBTCQyYRj0-195" target="woEXByO1yIPWKVT65qTF-435">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="woEXByO1yIPWKVT65qTF-437" value="上线时RDB全量同步" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="woEXByO1yIPWKVT65qTF-436">
+          <mxGeometry x="0.2571" relative="1" as="geometry">
+            <mxPoint x="16" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="lPIi9ZnA5GsBTCQyYRj0-195" value="RDB（快照）" style="whiteSpace=wrap;html=1;" parent="lPIi9ZnA5GsBTCQyYRj0-164" vertex="1">
           <mxGeometry x="310" y="210" width="120" height="60" as="geometry" />
         </mxCell>
@@ -247,7 +255,7 @@
           <mxGeometry x="165" y="60" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lPIi9ZnA5GsBTCQyYRj0-209" value="&lt;div&gt;always：每次写操作都刷盘（慢）&lt;/div&gt;&lt;div&gt;everysec：每秒刷盘（推荐）&lt;/div&gt;&lt;div&gt;no：操作不刷盘，依赖 RDB&lt;/div&gt;" style="whiteSpace=wrap;html=1;" parent="lPIi9ZnA5GsBTCQyYRj0-164" vertex="1">
-          <mxGeometry x="500" y="240" width="170" height="60" as="geometry" />
+          <mxGeometry x="500" y="210" width="170" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lPIi9ZnA5GsBTCQyYRj0-214" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="lPIi9ZnA5GsBTCQyYRj0-164" source="lPIi9ZnA5GsBTCQyYRj0-211" target="lPIi9ZnA5GsBTCQyYRj0-213" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -278,6 +286,20 @@
         </mxCell>
         <mxCell id="lPIi9ZnA5GsBTCQyYRj0-213" value="响应客户端" style="whiteSpace=wrap;html=1;" parent="lPIi9ZnA5GsBTCQyYRj0-164" vertex="1">
           <mxGeometry x="725" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="woEXByO1yIPWKVT65qTF-435" value="从节点" style="whiteSpace=wrap;html=1;" vertex="1" parent="lPIi9ZnA5GsBTCQyYRj0-164">
+          <mxGeometry x="45" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="woEXByO1yIPWKVT65qTF-441" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="lPIi9ZnA5GsBTCQyYRj0-164" source="woEXByO1yIPWKVT65qTF-440" target="woEXByO1yIPWKVT65qTF-435">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="woEXByO1yIPWKVT65qTF-442" value="FIFO同步执行命令，超出缓冲区触发RDB全量同步" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="woEXByO1yIPWKVT65qTF-441">
+          <mxGeometry x="0.0397" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="woEXByO1yIPWKVT65qTF-440" value="主节点命令缓冲区" style="whiteSpace=wrap;html=1;" vertex="1" parent="lPIi9ZnA5GsBTCQyYRj0-164">
+          <mxGeometry x="500" y="290" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lPIi9ZnA5GsBTCQyYRj0-241" value="执行流程" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="820" y="130" width="1360" height="3480" as="geometry" />
