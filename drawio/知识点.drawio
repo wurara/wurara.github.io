@@ -510,6 +510,9 @@
         <mxCell id="woEXByO1yIPWKVT65qTF-51" value="&lt;div&gt;CPU 密集型任务：(N)&lt;/div&gt;&lt;div&gt;I/O 密集型任务：(2N)&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="OsPm6kBoeOOD-leoVnmT-4">
           <mxGeometry x="967" y="250" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="woEXByO1yIPWKVT65qTF-53" value="&lt;div&gt;tips&lt;/div&gt;1. key是弱引用，当key被回收后在线程池场景可能出现内存泄漏" style="whiteSpace=wrap;html=1;" vertex="1" parent="OsPm6kBoeOOD-leoVnmT-4">
+          <mxGeometry x="30" y="440" width="210" height="60" as="geometry" />
+        </mxCell>
         <mxCell id="woEXByO1yIPWKVT65qTF-49" value="&lt;div&gt;tips&lt;/div&gt;1. notify是唤醒，&lt;span style=&quot;font-size: 11px; text-wrap-mode: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;interrupt是抛出异常&lt;/span&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2630" y="3370" width="210" height="60" as="geometry" />
         </mxCell>
