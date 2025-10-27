@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="28.2.8">
   <diagram name="第 1 页" id="Of1sGSvZfQuRrEPr6PyE">
-    <mxGraphModel dx="11016" dy="7347" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="6573" dy="1102" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1413,23 +1413,26 @@
         <mxCell id="YHgq6Inqc1hdYxIkoSAz-106" value="ELASTICSEARCH" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="woEXByO1yIPWKVT65qTF-498">
           <mxGeometry x="50" y="1440" width="840" height="570" as="geometry" />
         </mxCell>
-        <mxCell id="YHgq6Inqc1hdYxIkoSAz-154" value="倒排索引" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="YHgq6Inqc1hdYxIkoSAz-106">
-          <mxGeometry x="325" y="183" width="295" height="240" as="geometry" />
+        <mxCell id="YHgq6Inqc1hdYxIkoSAz-154" value="标记删除：只有合并segemnt的时候才会正式删除记录" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="YHgq6Inqc1hdYxIkoSAz-106">
+          <mxGeometry x="272.5" y="52" width="295" height="68" as="geometry" />
         </mxCell>
-        <mxCell id="YHgq6Inqc1hdYxIkoSAz-163" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="YHgq6Inqc1hdYxIkoSAz-106" source="YHgq6Inqc1hdYxIkoSAz-160" target="YHgq6Inqc1hdYxIkoSAz-162">
+        <mxCell id="YHgq6Inqc1hdYxIkoSAz-166" value="数据入库" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="YHgq6Inqc1hdYxIkoSAz-106">
+          <mxGeometry x="40" y="52" width="210" height="278" as="geometry" />
+        </mxCell>
+        <mxCell id="YHgq6Inqc1hdYxIkoSAz-163" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="YHgq6Inqc1hdYxIkoSAz-166" source="YHgq6Inqc1hdYxIkoSAz-160" target="YHgq6Inqc1hdYxIkoSAz-162">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="YHgq6Inqc1hdYxIkoSAz-160" value="字符过滤（char filter）：预处理（如去除 HTML 标签）" style="whiteSpace=wrap;html=1;" vertex="1" parent="YHgq6Inqc1hdYxIkoSAz-106">
-          <mxGeometry x="60" y="90" width="120" height="60" as="geometry" />
+        <mxCell id="YHgq6Inqc1hdYxIkoSAz-160" value="字符过滤（char filter）：预处理（如去除 HTML 标签）" style="whiteSpace=wrap;html=1;" vertex="1" parent="YHgq6Inqc1hdYxIkoSAz-166">
+          <mxGeometry x="40" y="30.5" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="YHgq6Inqc1hdYxIkoSAz-165" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="YHgq6Inqc1hdYxIkoSAz-106" source="YHgq6Inqc1hdYxIkoSAz-162" target="YHgq6Inqc1hdYxIkoSAz-164">
+        <mxCell id="YHgq6Inqc1hdYxIkoSAz-165" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="YHgq6Inqc1hdYxIkoSAz-166" source="YHgq6Inqc1hdYxIkoSAz-162" target="YHgq6Inqc1hdYxIkoSAz-164">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="YHgq6Inqc1hdYxIkoSAz-162" value="分词器（tokenizer）：把文本分割为词（tokens）" style="whiteSpace=wrap;html=1;" vertex="1" parent="YHgq6Inqc1hdYxIkoSAz-106">
-          <mxGeometry x="60" y="167" width="120" height="60" as="geometry" />
+        <mxCell id="YHgq6Inqc1hdYxIkoSAz-162" value="分词器（tokenizer）：把文本分割为词（tokens）" style="whiteSpace=wrap;html=1;" vertex="1" parent="YHgq6Inqc1hdYxIkoSAz-166">
+          <mxGeometry x="40" y="107.5" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="YHgq6Inqc1hdYxIkoSAz-164" value="词元过滤器（token filter）：统一大小写、去除停用词、词干还原等" style="whiteSpace=wrap;html=1;" vertex="1" parent="YHgq6Inqc1hdYxIkoSAz-106">
-          <mxGeometry x="60" y="247" width="120" height="60" as="geometry" />
+        <mxCell id="YHgq6Inqc1hdYxIkoSAz-164" value="词元过滤器（token filter）：统一大小写、去除停用词、词干还原等" style="whiteSpace=wrap;html=1;" vertex="1" parent="YHgq6Inqc1hdYxIkoSAz-166">
+          <mxGeometry x="40" y="187.5" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="woEXByO1yIPWKVT65qTF-515" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="woEXByO1yIPWKVT65qTF-456" target="woEXByO1yIPWKVT65qTF-499" edge="1">
           <mxGeometry relative="1" as="geometry" />
