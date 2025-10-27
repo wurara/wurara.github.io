@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="28.2.8">
   <diagram name="第 1 页" id="Of1sGSvZfQuRrEPr6PyE">
-    <mxGraphModel dx="8029" dy="3149" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="6909" dy="1574" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1892,6 +1892,15 @@
         </mxCell>
         <mxCell id="YHgq6Inqc1hdYxIkoSAz-176" value="DOCKER" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="11750" y="340" width="900" height="1040" as="geometry" />
+        </mxCell>
+        <mxCell id="YHgq6Inqc1hdYxIkoSAz-177" value="隔离" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="YHgq6Inqc1hdYxIkoSAz-176">
+          <mxGeometry x="20" y="50" width="740" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="YHgq6Inqc1hdYxIkoSAz-178" value="Namespace&lt;div&gt;隔离进程、网络、PID、用户等&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="YHgq6Inqc1hdYxIkoSAz-177">
+          <mxGeometry x="60" y="20" width="310" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="YHgq6Inqc1hdYxIkoSAz-179" value="cgroup&lt;div&gt;限制容器的 CPU、内存、I/O 等&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="YHgq6Inqc1hdYxIkoSAz-177">
+          <mxGeometry x="410" y="20" width="260" height="136" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
