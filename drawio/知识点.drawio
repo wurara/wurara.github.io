@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="28.2.8">
   <diagram name="第 1 页" id="Of1sGSvZfQuRrEPr6PyE">
-    <mxGraphModel dx="6909" dy="1574" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="6573" dy="1102" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1901,6 +1901,57 @@
         </mxCell>
         <mxCell id="YHgq6Inqc1hdYxIkoSAz-179" value="cgroup&lt;div&gt;限制容器的 CPU、内存、I/O 等&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="YHgq6Inqc1hdYxIkoSAz-177">
           <mxGeometry x="410" y="20" width="260" height="136" as="geometry" />
+        </mxCell>
+        <mxCell id="YHgq6Inqc1hdYxIkoSAz-180" value="DOCKERFILE" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="YHgq6Inqc1hdYxIkoSAz-176">
+          <mxGeometry x="30" y="293" width="730" height="517" as="geometry" />
+        </mxCell>
+        <mxCell id="YHgq6Inqc1hdYxIkoSAz-181" value="FROM" style="whiteSpace=wrap;html=1;" vertex="1" parent="YHgq6Inqc1hdYxIkoSAz-180">
+          <mxGeometry x="40" y="17" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YHgq6Inqc1hdYxIkoSAz-182" value="RUN" style="whiteSpace=wrap;html=1;" vertex="1" parent="YHgq6Inqc1hdYxIkoSAz-180">
+          <mxGeometry x="40" y="77" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YHgq6Inqc1hdYxIkoSAz-183" value="COPY / ADD" style="whiteSpace=wrap;html=1;" vertex="1" parent="YHgq6Inqc1hdYxIkoSAz-180">
+          <mxGeometry x="40" y="137" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YHgq6Inqc1hdYxIkoSAz-184" value="WORKDIR" style="whiteSpace=wrap;html=1;" vertex="1" parent="YHgq6Inqc1hdYxIkoSAz-180">
+          <mxGeometry x="40" y="197" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YHgq6Inqc1hdYxIkoSAz-185" value="EXPOSE" style="whiteSpace=wrap;html=1;" vertex="1" parent="YHgq6Inqc1hdYxIkoSAz-180">
+          <mxGeometry x="40" y="257" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YHgq6Inqc1hdYxIkoSAz-186" value="ENV" style="whiteSpace=wrap;html=1;" vertex="1" parent="YHgq6Inqc1hdYxIkoSAz-180">
+          <mxGeometry x="40" y="317" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YHgq6Inqc1hdYxIkoSAz-187" value="CMD" style="whiteSpace=wrap;html=1;" vertex="1" parent="YHgq6Inqc1hdYxIkoSAz-180">
+          <mxGeometry x="40" y="377" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YHgq6Inqc1hdYxIkoSAz-188" value="ENTRYPOINT" style="whiteSpace=wrap;html=1;" vertex="1" parent="YHgq6Inqc1hdYxIkoSAz-180">
+          <mxGeometry x="40" y="437" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YHgq6Inqc1hdYxIkoSAz-189" value="指定基础镜像" style="whiteSpace=wrap;html=1;" vertex="1" parent="YHgq6Inqc1hdYxIkoSAz-180">
+          <mxGeometry x="160" y="17" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YHgq6Inqc1hdYxIkoSAz-190" value="在镜像构建过程中执行命令" style="whiteSpace=wrap;html=1;" vertex="1" parent="YHgq6Inqc1hdYxIkoSAz-180">
+          <mxGeometry x="160" y="77" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YHgq6Inqc1hdYxIkoSAz-191" value="将文件从宿主机复制到镜像中" style="whiteSpace=wrap;html=1;" vertex="1" parent="YHgq6Inqc1hdYxIkoSAz-180">
+          <mxGeometry x="160" y="137" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YHgq6Inqc1hdYxIkoSAz-192" value="设置工作目录" style="whiteSpace=wrap;html=1;" vertex="1" parent="YHgq6Inqc1hdYxIkoSAz-180">
+          <mxGeometry x="160" y="197" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YHgq6Inqc1hdYxIkoSAz-193" value="声明容器运行时监听的端口" style="whiteSpace=wrap;html=1;" vertex="1" parent="YHgq6Inqc1hdYxIkoSAz-180">
+          <mxGeometry x="160" y="257" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YHgq6Inqc1hdYxIkoSAz-194" value="设置环境变量" style="whiteSpace=wrap;html=1;" vertex="1" parent="YHgq6Inqc1hdYxIkoSAz-180">
+          <mxGeometry x="160" y="317" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YHgq6Inqc1hdYxIkoSAz-195" value="指定容器启动时默认执行的命令。只有最后一条生效。如果有ENTRYPOINT则作为ENTRYPOINT的参数" style="whiteSpace=wrap;html=1;" vertex="1" parent="YHgq6Inqc1hdYxIkoSAz-180">
+          <mxGeometry x="160" y="377" width="340" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YHgq6Inqc1hdYxIkoSAz-196" value="配置容器启动时运行的命令，不可被 `docker run` 提供的参数覆盖" style="whiteSpace=wrap;html=1;" vertex="1" parent="YHgq6Inqc1hdYxIkoSAz-180">
+          <mxGeometry x="160" y="437" width="340" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
