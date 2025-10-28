@@ -380,7 +380,7 @@
         <mxCell id="AMm9hKQXMgik81A_Uai_-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="AMm9hKQXMgik81A_Uai_-3" source="AMm9hKQXMgik81A_Uai_-10" target="AMm9hKQXMgik81A_Uai_-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="AMm9hKQXMgik81A_Uai_-10" value="消息写入 Partition 的 Leader 副本" style="whiteSpace=wrap;html=1;" vertex="1" parent="AMm9hKQXMgik81A_Uai_-3">
+        <mxCell id="AMm9hKQXMgik81A_Uai_-10" value="消息并行写入 Partition 的 Leader 副本" style="whiteSpace=wrap;html=1;" vertex="1" parent="AMm9hKQXMgik81A_Uai_-3">
           <mxGeometry x="570" y="130" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="AMm9hKQXMgik81A_Uai_-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="AMm9hKQXMgik81A_Uai_-3" source="AMm9hKQXMgik81A_Uai_-12" target="AMm9hKQXMgik81A_Uai_-16">
@@ -414,6 +414,27 @@
         </mxCell>
         <mxCell id="AMm9hKQXMgik81A_Uai_-34" value="ACK为-1则等所有副本写入成功才返回" style="whiteSpace=wrap;html=1;" vertex="1" parent="AMm9hKQXMgik81A_Uai_-3">
           <mxGeometry x="1110" y="250" width="143" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AMm9hKQXMgik81A_Uai_-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="AMm9hKQXMgik81A_Uai_-3" source="AMm9hKQXMgik81A_Uai_-35" target="AMm9hKQXMgik81A_Uai_-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AMm9hKQXMgik81A_Uai_-35" value="客户端发起消费请求" style="whiteSpace=wrap;html=1;" vertex="1" parent="AMm9hKQXMgik81A_Uai_-3">
+          <mxGeometry x="100" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AMm9hKQXMgik81A_Uai_-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="AMm9hKQXMgik81A_Uai_-3" source="AMm9hKQXMgik81A_Uai_-36" target="AMm9hKQXMgik81A_Uai_-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AMm9hKQXMgik81A_Uai_-36" value="broker根据客户端发送的请求去对应的partition中查找" style="whiteSpace=wrap;html=1;" vertex="1" parent="AMm9hKQXMgik81A_Uai_-3">
+          <mxGeometry x="270" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AMm9hKQXMgik81A_Uai_-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="AMm9hKQXMgik81A_Uai_-3" source="AMm9hKQXMgik81A_Uai_-38" target="AMm9hKQXMgik81A_Uai_-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AMm9hKQXMgik81A_Uai_-38" value="响应数据给客户端" style="whiteSpace=wrap;html=1;" vertex="1" parent="AMm9hKQXMgik81A_Uai_-3">
+          <mxGeometry x="470" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AMm9hKQXMgik81A_Uai_-40" value="客户端自动或手动提交offset" style="whiteSpace=wrap;html=1;" vertex="1" parent="AMm9hKQXMgik81A_Uai_-3">
+          <mxGeometry x="670" y="420" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="woEXByO1yIPWKVT65qTF-201" value="JAVA" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" parent="1" vertex="1">
           <mxGeometry x="4090" y="330" width="6540" height="4630" as="geometry" />
