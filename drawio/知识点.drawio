@@ -397,11 +397,23 @@
         <mxCell id="AMm9hKQXMgik81A_Uai_-12" value="Leader 写入XXXX.log" style="whiteSpace=wrap;html=1;" vertex="1" parent="AMm9hKQXMgik81A_Uai_-3">
           <mxGeometry x="570" y="220" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="AMm9hKQXMgik81A_Uai_-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="AMm9hKQXMgik81A_Uai_-3" source="AMm9hKQXMgik81A_Uai_-16" target="AMm9hKQXMgik81A_Uai_-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="AMm9hKQXMgik81A_Uai_-16" value="异步复制给 Follower" style="whiteSpace=wrap;html=1;" vertex="1" parent="AMm9hKQXMgik81A_Uai_-3">
-          <mxGeometry x="570" y="300" width="120" height="60" as="geometry" />
+          <mxGeometry x="570" y="320" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="AMm9hKQXMgik81A_Uai_-18" value="构建稀疏索引的 XXX.index和XXX.timeIndex" style="whiteSpace=wrap;html=1;" vertex="1" parent="AMm9hKQXMgik81A_Uai_-3">
           <mxGeometry x="770" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AMm9hKQXMgik81A_Uai_-30" value="ACK为0则不等待确认直接返回" style="whiteSpace=wrap;html=1;" vertex="1" parent="AMm9hKQXMgik81A_Uai_-3">
+          <mxGeometry x="559.5" y="440" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AMm9hKQXMgik81A_Uai_-32" value="ACK为1则Leader确认成功则返回" style="whiteSpace=wrap;html=1;" vertex="1" parent="AMm9hKQXMgik81A_Uai_-3">
+          <mxGeometry x="559.5" y="500" width="143" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AMm9hKQXMgik81A_Uai_-34" value="ACK为-1则等所有副本写入成功才返回" style="whiteSpace=wrap;html=1;" vertex="1" parent="AMm9hKQXMgik81A_Uai_-3">
+          <mxGeometry x="559.5" y="560" width="143" height="60" as="geometry" />
         </mxCell>
         <mxCell id="woEXByO1yIPWKVT65qTF-201" value="JAVA" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" parent="1" vertex="1">
           <mxGeometry x="4090" y="330" width="6540" height="4630" as="geometry" />
