@@ -1,11 +1,11 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="28.2.8">
   <diagram name="第 1 页" id="Of1sGSvZfQuRrEPr6PyE">
-    <mxGraphModel dx="6466" dy="913" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="6390" dy="811" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="lPIi9ZnA5GsBTCQyYRj0-2" value="数据读写" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-880" y="130" width="1620" height="2270" as="geometry" />
+          <mxGeometry x="-880" y="130" width="1620" height="3170" as="geometry" />
         </mxCell>
         <mxCell id="lPIi9ZnA5GsBTCQyYRj0-53" value="ELASTIC SEARCH" style="swimlane;" parent="lPIi9ZnA5GsBTCQyYRj0-2" vertex="1">
           <mxGeometry x="30" y="1340" width="1380" height="710" as="geometry" />
@@ -349,6 +349,47 @@
         </mxCell>
         <mxCell id="woEXByO1yIPWKVT65qTF-658" value="使用sendFile实现从pagecache到网卡的零拷贝" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="woEXByO1yIPWKVT65qTF-656" vertex="1">
           <mxGeometry y="64" width="260" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="AMm9hKQXMgik81A_Uai_-3" value="kafka" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="lPIi9ZnA5GsBTCQyYRj0-2">
+          <mxGeometry x="30" y="2300" width="1380" height="780" as="geometry" />
+        </mxCell>
+        <mxCell id="AMm9hKQXMgik81A_Uai_-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="AMm9hKQXMgik81A_Uai_-3" source="AMm9hKQXMgik81A_Uai_-5" target="AMm9hKQXMgik81A_Uai_-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AMm9hKQXMgik81A_Uai_-5" value="producer根据分期策略选择partition" style="whiteSpace=wrap;html=1;" vertex="1" parent="AMm9hKQXMgik81A_Uai_-3">
+          <mxGeometry x="410" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AMm9hKQXMgik81A_Uai_-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="AMm9hKQXMgik81A_Uai_-3" source="AMm9hKQXMgik81A_Uai_-7" target="AMm9hKQXMgik81A_Uai_-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AMm9hKQXMgik81A_Uai_-7" value="producer获取broker集群信息" style="whiteSpace=wrap;html=1;" vertex="1" parent="AMm9hKQXMgik81A_Uai_-3">
+          <mxGeometry x="250" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AMm9hKQXMgik81A_Uai_-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="AMm9hKQXMgik81A_Uai_-3" source="AMm9hKQXMgik81A_Uai_-10" target="AMm9hKQXMgik81A_Uai_-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AMm9hKQXMgik81A_Uai_-10" value="消息写入 Partition 的 Leader 副本" style="whiteSpace=wrap;html=1;" vertex="1" parent="AMm9hKQXMgik81A_Uai_-3">
+          <mxGeometry x="570" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AMm9hKQXMgik81A_Uai_-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="AMm9hKQXMgik81A_Uai_-3" source="AMm9hKQXMgik81A_Uai_-12" target="AMm9hKQXMgik81A_Uai_-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AMm9hKQXMgik81A_Uai_-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="AMm9hKQXMgik81A_Uai_-3" source="AMm9hKQXMgik81A_Uai_-12" target="AMm9hKQXMgik81A_Uai_-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AMm9hKQXMgik81A_Uai_-20" value="异步" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="AMm9hKQXMgik81A_Uai_-19">
+          <mxGeometry x="-0.3098" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AMm9hKQXMgik81A_Uai_-12" value="Leader 写入XXXX.log" style="whiteSpace=wrap;html=1;" vertex="1" parent="AMm9hKQXMgik81A_Uai_-3">
+          <mxGeometry x="570" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AMm9hKQXMgik81A_Uai_-16" value="异步复制给 Follower" style="whiteSpace=wrap;html=1;" vertex="1" parent="AMm9hKQXMgik81A_Uai_-3">
+          <mxGeometry x="570" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AMm9hKQXMgik81A_Uai_-18" value="构建稀疏索引的 XXX.index和XXX.timeIndex" style="whiteSpace=wrap;html=1;" vertex="1" parent="AMm9hKQXMgik81A_Uai_-3">
+          <mxGeometry x="770" y="220" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="woEXByO1yIPWKVT65qTF-201" value="JAVA" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" parent="1" vertex="1">
           <mxGeometry x="4090" y="330" width="6540" height="4630" as="geometry" />
@@ -2277,6 +2318,12 @@
           <mxGeometry x="60" width="60" height="40" as="geometry">
             <mxRectangle width="60" height="40" as="alternateBounds" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="AMm9hKQXMgik81A_Uai_-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AMm9hKQXMgik81A_Uai_-4" target="AMm9hKQXMgik81A_Uai_-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AMm9hKQXMgik81A_Uai_-4" value="客户端发送消息" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-760" y="2560" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
