@@ -1855,7 +1855,10 @@
           <mxGeometry x="510" y="191" width="150" height="42" as="geometry" />
         </mxCell>
         <mxCell id="AMm9hKQXMgik81A_Uai_-43" value="Kafka" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="woEXByO1yIPWKVT65qTF-536">
-          <mxGeometry x="150" y="2270" width="960" height="450" as="geometry" />
+          <mxGeometry x="150" y="2270" width="960" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="AMm9hKQXMgik81A_Uai_-119" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="AMm9hKQXMgik81A_Uai_-43" source="AMm9hKQXMgik81A_Uai_-46" target="AMm9hKQXMgik81A_Uai_-47">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="AMm9hKQXMgik81A_Uai_-46" value="一个分区只能被一个消费组中的一个消费者消费，多余消费者闲置" style="whiteSpace=wrap;html=1;" vertex="1" parent="AMm9hKQXMgik81A_Uai_-43">
           <mxGeometry x="50" y="30" width="300" height="70" as="geometry" />
@@ -1907,6 +1910,60 @@
         </mxCell>
         <mxCell id="AMm9hKQXMgik81A_Uai_-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="AMm9hKQXMgik81A_Uai_-43" source="AMm9hKQXMgik81A_Uai_-47" target="AMm9hKQXMgik81A_Uai_-50">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AMm9hKQXMgik81A_Uai_-136" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="AMm9hKQXMgik81A_Uai_-43" source="AMm9hKQXMgik81A_Uai_-121" target="AMm9hKQXMgik81A_Uai_-123">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AMm9hKQXMgik81A_Uai_-121" value="从ISR中选取副本" style="whiteSpace=wrap;html=1;" vertex="1" parent="AMm9hKQXMgik81A_Uai_-43">
+          <mxGeometry x="400" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AMm9hKQXMgik81A_Uai_-123" value="选举策略" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;" vertex="1" parent="AMm9hKQXMgik81A_Uai_-43">
+          <mxGeometry x="365" y="220" width="190" height="128" as="geometry" />
+        </mxCell>
+        <mxCell id="AMm9hKQXMgik81A_Uai_-124" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="AMm9hKQXMgik81A_Uai_-123">
+          <mxGeometry y="30" width="190" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="AMm9hKQXMgik81A_Uai_-125" value="默认策略" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="AMm9hKQXMgik81A_Uai_-124">
+          <mxGeometry width="60" height="33" as="geometry">
+            <mxRectangle width="60" height="33" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AMm9hKQXMgik81A_Uai_-126" value="ISR 中选择一个副本作为新的 Leader" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="AMm9hKQXMgik81A_Uai_-124">
+          <mxGeometry x="60" width="130" height="33" as="geometry">
+            <mxRectangle width="130" height="33" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AMm9hKQXMgik81A_Uai_-127" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="AMm9hKQXMgik81A_Uai_-123">
+          <mxGeometry y="63" width="190" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="AMm9hKQXMgik81A_Uai_-128" value="Preferred" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="AMm9hKQXMgik81A_Uai_-127">
+          <mxGeometry width="60" height="32" as="geometry">
+            <mxRectangle width="60" height="32" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AMm9hKQXMgik81A_Uai_-129" value="从配置的prefered中选" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="AMm9hKQXMgik81A_Uai_-127">
+          <mxGeometry x="60" width="130" height="32" as="geometry">
+            <mxRectangle width="130" height="32" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AMm9hKQXMgik81A_Uai_-130" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="AMm9hKQXMgik81A_Uai_-123">
+          <mxGeometry y="95" width="190" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="AMm9hKQXMgik81A_Uai_-131" value="Unclean" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="AMm9hKQXMgik81A_Uai_-130">
+          <mxGeometry width="60" height="33" as="geometry">
+            <mxRectangle width="60" height="33" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AMm9hKQXMgik81A_Uai_-132" value="ISR全部掉线时，可以从非 ISR 副本选举 Leader" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="AMm9hKQXMgik81A_Uai_-130">
+          <mxGeometry x="60" width="130" height="33" as="geometry">
+            <mxRectangle width="130" height="33" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AMm9hKQXMgik81A_Uai_-122" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="AMm9hKQXMgik81A_Uai_-43" source="AMm9hKQXMgik81A_Uai_-120" target="AMm9hKQXMgik81A_Uai_-121">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AMm9hKQXMgik81A_Uai_-120" value="leader partition选举" style="whiteSpace=wrap;html=1;" vertex="1" parent="AMm9hKQXMgik81A_Uai_-43">
+          <mxGeometry x="400" y="30" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="AMm9hKQXMgik81A_Uai_-84" value="ROCKET MQ" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="woEXByO1yIPWKVT65qTF-536">
           <mxGeometry x="40" y="50" width="1180" height="620" as="geometry" />
