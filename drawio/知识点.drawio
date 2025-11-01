@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="28.2.8">
   <diagram name="第 1 页" id="Of1sGSvZfQuRrEPr6PyE">
-    <mxGraphModel dx="7855" dy="1103" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="9545" dy="2005" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2139,7 +2139,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="woEXByO1yIPWKVT65qTF-726" value="MyBatis（施工中）" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="850" y="130" width="2000" height="1780" as="geometry" />
+          <mxGeometry x="850" y="130" width="1610" height="1780" as="geometry" />
         </mxCell>
         <mxCell id="woEXByO1yIPWKVT65qTF-727" value="执行流程" style="swimlane;whiteSpace=wrap;html=1;" parent="woEXByO1yIPWKVT65qTF-726" vertex="1">
           <mxGeometry x="40" y="50" width="1510" height="1680" as="geometry" />
@@ -2210,9 +2210,6 @@
         </mxCell>
         <mxCell id="woEXByO1yIPWKVT65qTF-759" value="依赖TypeHandler" style="whiteSpace=wrap;html=1;" parent="woEXByO1yIPWKVT65qTF-727" vertex="1">
           <mxGeometry x="751" y="620" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="woEXByO1yIPWKVT65qTF-767" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="woEXByO1yIPWKVT65qTF-727" source="woEXByO1yIPWKVT65qTF-771" target="woEXByO1yIPWKVT65qTF-746" edge="1">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="woEXByO1yIPWKVT65qTF-768" value="初始换创建" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;flipH=1;" parent="woEXByO1yIPWKVT65qTF-727" vertex="1">
           <mxGeometry x="690" y="210" width="569" height="100" as="geometry" />
