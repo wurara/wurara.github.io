@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="28.2.8">
   <diagram name="第 1 页" id="Of1sGSvZfQuRrEPr6PyE">
-    <mxGraphModel dx="7106" dy="630" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="7855" dy="1103" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1992,16 +1992,16 @@
         <mxCell id="AMm9hKQXMgik81A_Uai_-140" value="Consumer消费时配置read_committed" style="whiteSpace=wrap;html=1;" parent="AMm9hKQXMgik81A_Uai_-43" vertex="1">
           <mxGeometry x="600" y="280" width="290" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="rwH_7niJ5ICliPW--RzR-1" value="LEO" style="whiteSpace=wrap;html=1;" vertex="1" parent="AMm9hKQXMgik81A_Uai_-43">
+        <mxCell id="rwH_7niJ5ICliPW--RzR-1" value="LEO" style="whiteSpace=wrap;html=1;" parent="AMm9hKQXMgik81A_Uai_-43" vertex="1">
           <mxGeometry x="970" y="80" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="rwH_7niJ5ICliPW--RzR-2" value="HW" style="whiteSpace=wrap;html=1;" vertex="1" parent="AMm9hKQXMgik81A_Uai_-43">
+        <mxCell id="rwH_7niJ5ICliPW--RzR-2" value="HW" style="whiteSpace=wrap;html=1;" parent="AMm9hKQXMgik81A_Uai_-43" vertex="1">
           <mxGeometry x="970" y="140" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="rwH_7niJ5ICliPW--RzR-3" value="firstUnStableOffset" style="whiteSpace=wrap;html=1;" vertex="1" parent="AMm9hKQXMgik81A_Uai_-43">
+        <mxCell id="rwH_7niJ5ICliPW--RzR-3" value="firstUnStableOffset" style="whiteSpace=wrap;html=1;" parent="AMm9hKQXMgik81A_Uai_-43" vertex="1">
           <mxGeometry x="970" y="200" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="rwH_7niJ5ICliPW--RzR-4" value="lastStableOffset" style="whiteSpace=wrap;html=1;" vertex="1" parent="AMm9hKQXMgik81A_Uai_-43">
+        <mxCell id="rwH_7niJ5ICliPW--RzR-4" value="lastStableOffset" style="whiteSpace=wrap;html=1;" parent="AMm9hKQXMgik81A_Uai_-43" vertex="1">
           <mxGeometry x="970" y="260" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="AMm9hKQXMgik81A_Uai_-84" value="ROCKET MQ" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" parent="woEXByO1yIPWKVT65qTF-536" vertex="1">
@@ -2142,7 +2142,7 @@
           <mxGeometry x="850" y="130" width="2000" height="1410" as="geometry" />
         </mxCell>
         <mxCell id="woEXByO1yIPWKVT65qTF-727" value="执行流程" style="swimlane;whiteSpace=wrap;html=1;" parent="woEXByO1yIPWKVT65qTF-726" vertex="1">
-          <mxGeometry x="40" y="50" width="936" height="1320" as="geometry" />
+          <mxGeometry x="40" y="50" width="1510" height="1320" as="geometry" />
         </mxCell>
         <mxCell id="woEXByO1yIPWKVT65qTF-751" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="woEXByO1yIPWKVT65qTF-727" source="woEXByO1yIPWKVT65qTF-729" target="woEXByO1yIPWKVT65qTF-750" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -2662,6 +2662,9 @@
         </mxCell>
         <mxCell id="AMm9hKQXMgik81A_Uai_-104" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="woEXByO1yIPWKVT65qTF-659" target="AMm9hKQXMgik81A_Uai_-84" edge="1">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E3gvBGfakuGhjQx_dGV2-1" value="&lt;div&gt;&amp;lt;resultMap id=&quot;userResultMap&quot; type=&quot;User&quot;&amp;gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;lt;id property=&quot;id&quot; column=&quot;id&quot;/&amp;gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;lt;result property=&quot;name&quot; column=&quot;name&quot;/&amp;gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;&amp;lt;!-- 使用select属性指定另一个查询来填充到当前结果中 --&amp;gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;&amp;nbsp; &amp;lt;association property=&quot;profile&quot; column=&quot;id&quot;&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;select=&quot;selectProfileByUserId&quot;/&amp;gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;&amp;lt;/resultMap&amp;gt;&lt;/font&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1650" y="550" width="430" height="240" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
