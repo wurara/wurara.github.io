@@ -2233,6 +2233,9 @@
         <mxCell id="woEXByO1yIPWKVT65qTF-771" value="开启事务" style="whiteSpace=wrap;html=1;" parent="woEXByO1yIPWKVT65qTF-727" vertex="1">
           <mxGeometry x="340" y="440" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="E3gvBGfakuGhjQx_dGV2-2" value="关联查询填充结果" style="whiteSpace=wrap;html=1;" vertex="1" parent="woEXByO1yIPWKVT65qTF-727">
+          <mxGeometry x="960" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
         <mxCell id="woEXByO1yIPWKVT65qTF-775" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="lPIi9ZnA5GsBTCQyYRj0-53" target="woEXByO1yIPWKVT65qTF-774" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -2664,7 +2667,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="E3gvBGfakuGhjQx_dGV2-1" value="&lt;div&gt;&amp;lt;resultMap id=&quot;userResultMap&quot; type=&quot;User&quot;&amp;gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;lt;id property=&quot;id&quot; column=&quot;id&quot;/&amp;gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;lt;result property=&quot;name&quot; column=&quot;name&quot;/&amp;gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;&amp;lt;!-- 使用select属性指定另一个查询来填充到当前结果中 --&amp;gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;&amp;nbsp; &amp;lt;association property=&quot;profile&quot; column=&quot;id&quot;&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;select=&quot;selectProfileByUserId&quot;/&amp;gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;&amp;lt;/resultMap&amp;gt;&lt;/font&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1650" y="550" width="430" height="240" as="geometry" />
+          <mxGeometry x="1740" y="650" width="340" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="E3gvBGfakuGhjQx_dGV2-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="E3gvBGfakuGhjQx_dGV2-2" target="E3gvBGfakuGhjQx_dGV2-1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
