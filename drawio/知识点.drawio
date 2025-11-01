@@ -2239,7 +2239,7 @@
           <mxGeometry x="531" y="450" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="E3gvBGfakuGhjQx_dGV2-19" value="插件" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="woEXByO1yIPWKVT65qTF-727">
-          <mxGeometry x="700" y="1240" width="540" height="407" as="geometry" />
+          <mxGeometry x="700" y="1240" width="350" height="407" as="geometry" />
         </mxCell>
         <mxCell id="E3gvBGfakuGhjQx_dGV2-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.407;entryY=0.033;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="E3gvBGfakuGhjQx_dGV2-19" source="E3gvBGfakuGhjQx_dGV2-6" target="E3gvBGfakuGhjQx_dGV2-8">
           <mxGeometry relative="1" as="geometry" />
@@ -2250,10 +2250,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="E3gvBGfakuGhjQx_dGV2-6" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;newParameterHandler&lt;/span&gt;&lt;/div&gt;&lt;div&gt;newResultSetHandler&lt;/div&gt;&lt;div&gt;newStatementHandler&lt;/div&gt;&lt;div&gt;newExecutor&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="E3gvBGfakuGhjQx_dGV2-19">
-          <mxGeometry x="96.25" y="95" width="250" height="60" as="geometry" />
+          <mxGeometry x="30" y="80" width="250" height="60" as="geometry" />
         </mxCell>
         <mxCell id="E3gvBGfakuGhjQx_dGV2-8" value="使用interceptorChain.pluginAll包围返回对象使用jdk代理实现" style="whiteSpace=wrap;html=1;" vertex="1" parent="E3gvBGfakuGhjQx_dGV2-19">
-          <mxGeometry x="96.25" y="235" width="307.5" height="60" as="geometry" />
+          <mxGeometry x="30" y="220" width="307.5" height="60" as="geometry" />
         </mxCell>
         <mxCell id="E3gvBGfakuGhjQx_dGV2-20" value="缓存" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="woEXByO1yIPWKVT65qTF-727">
           <mxGeometry x="60" y="1240" width="609" height="410" as="geometry" />
@@ -2381,6 +2381,21 @@
               <mxPoint x="1100" y="560" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="E3gvBGfakuGhjQx_dGV2-63" value="事务" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="woEXByO1yIPWKVT65qTF-727">
+          <mxGeometry x="1070" y="1242" width="390" height="248" as="geometry" />
+        </mxCell>
+        <mxCell id="E3gvBGfakuGhjQx_dGV2-69" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="E3gvBGfakuGhjQx_dGV2-63" source="E3gvBGfakuGhjQx_dGV2-65" target="E3gvBGfakuGhjQx_dGV2-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E3gvBGfakuGhjQx_dGV2-65" value="ManagedTransaction" style="whiteSpace=wrap;html=1;" vertex="1" parent="E3gvBGfakuGhjQx_dGV2-63">
+          <mxGeometry x="40" y="108" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="E3gvBGfakuGhjQx_dGV2-66" value="sqlsession手动提交" style="whiteSpace=wrap;html=1;" vertex="1" parent="E3gvBGfakuGhjQx_dGV2-63">
+          <mxGeometry x="240" y="48" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="E3gvBGfakuGhjQx_dGV2-68" value="spring等容器进行提交" style="whiteSpace=wrap;html=1;" vertex="1" parent="E3gvBGfakuGhjQx_dGV2-63">
+          <mxGeometry x="240" y="108" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="woEXByO1yIPWKVT65qTF-775" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="lPIi9ZnA5GsBTCQyYRj0-53" target="woEXByO1yIPWKVT65qTF-774" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -2811,6 +2826,12 @@
         </mxCell>
         <mxCell id="AMm9hKQXMgik81A_Uai_-104" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="woEXByO1yIPWKVT65qTF-659" target="AMm9hKQXMgik81A_Uai_-84" edge="1">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E3gvBGfakuGhjQx_dGV2-67" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="E3gvBGfakuGhjQx_dGV2-64" target="E3gvBGfakuGhjQx_dGV2-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E3gvBGfakuGhjQx_dGV2-64" value="JdbcTransaction" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2000" y="1470" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
