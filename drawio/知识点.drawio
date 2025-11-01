@@ -2254,7 +2254,7 @@
           <mxGeometry x="96.25" y="235" width="307.5" height="60" as="geometry" />
         </mxCell>
         <mxCell id="E3gvBGfakuGhjQx_dGV2-20" value="缓存" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="woEXByO1yIPWKVT65qTF-727">
-          <mxGeometry x="71" y="825" width="599" height="415" as="geometry" />
+          <mxGeometry x="71" y="825" width="609" height="435" as="geometry" />
         </mxCell>
         <mxCell id="E3gvBGfakuGhjQx_dGV2-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="E3gvBGfakuGhjQx_dGV2-20" source="E3gvBGfakuGhjQx_dGV2-10" target="E3gvBGfakuGhjQx_dGV2-12">
           <mxGeometry relative="1" as="geometry" />
@@ -2270,6 +2270,12 @@
         </mxCell>
         <mxCell id="E3gvBGfakuGhjQx_dGV2-14" value="在@CacheNamespace(implementation = RedisCache.class)" style="whiteSpace=wrap;html=1;" vertex="1" parent="E3gvBGfakuGhjQx_dGV2-20">
           <mxGeometry x="268" y="234" width="279.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="E3gvBGfakuGhjQx_dGV2-21" value="一级缓存始终使用 PerpetualCache" style="whiteSpace=wrap;html=1;" vertex="1" parent="E3gvBGfakuGhjQx_dGV2-20">
+          <mxGeometry x="38" y="335" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="E3gvBGfakuGhjQx_dGV2-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.575;entryY=0.083;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="E3gvBGfakuGhjQx_dGV2-20" source="E3gvBGfakuGhjQx_dGV2-12" target="E3gvBGfakuGhjQx_dGV2-21">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="woEXByO1yIPWKVT65qTF-775" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="lPIi9ZnA5GsBTCQyYRj0-53" target="woEXByO1yIPWKVT65qTF-774" edge="1">
           <mxGeometry relative="1" as="geometry" />
