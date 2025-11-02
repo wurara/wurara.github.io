@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="28.2.8">
   <diagram name="第 1 页" id="Of1sGSvZfQuRrEPr6PyE">
-    <mxGraphModel dx="7984" dy="1050" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="6763" dy="1043" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -454,8 +454,8 @@
         <mxCell id="woEXByO1yIPWKVT65qTF-206" value="由ThreadLocal.ThreadLocalMap实现" style="whiteSpace=wrap;html=1;" parent="woEXByO1yIPWKVT65qTF-202" vertex="1">
           <mxGeometry x="300" y="370" width="210" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="woEXByO1yIPWKVT65qTF-207" value="key是当前Thread&lt;div&gt;value是输入的值&lt;/div&gt;" style="whiteSpace=wrap;html=1;" parent="woEXByO1yIPWKVT65qTF-202" vertex="1">
-          <mxGeometry x="345" y="510" width="120" height="60" as="geometry" />
+        <mxCell id="woEXByO1yIPWKVT65qTF-207" value="&lt;div&gt;数据存在Thread对象的threadLocals中&lt;/div&gt;key是ThreadLocal对象&lt;div&gt;value是输入的值&lt;/div&gt;" style="whiteSpace=wrap;html=1;" parent="woEXByO1yIPWKVT65qTF-202" vertex="1">
+          <mxGeometry x="285" y="508.75" width="240" height="60" as="geometry" />
         </mxCell>
         <mxCell id="woEXByO1yIPWKVT65qTF-208" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="woEXByO1yIPWKVT65qTF-202" source="woEXByO1yIPWKVT65qTF-209" target="woEXByO1yIPWKVT65qTF-212" edge="1">
           <mxGeometry relative="1" as="geometry" />
