@@ -1056,8 +1056,8 @@
         <mxCell id="woEXByO1yIPWKVT65qTF-368" value="MappedByteBuffer" style="whiteSpace=wrap;html=1;" parent="woEXByO1yIPWKVT65qTF-350" vertex="1">
           <mxGeometry x="1350" y="410" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="woEXByO1yIPWKVT65qTF-369" value="基于内存映射（mmap）这种零拷⻉。本身是重量级操作，只对大文件优化。" style="whiteSpace=wrap;html=1;" parent="woEXByO1yIPWKVT65qTF-350" vertex="1">
-          <mxGeometry x="1470" y="410" width="140" height="60" as="geometry" />
+        <mxCell id="woEXByO1yIPWKVT65qTF-369" value="基于内存映射（mmap）这种零拷⻉。本身是重量级操作，只对大文件优化。是堆外内存。" style="whiteSpace=wrap;html=1;" parent="woEXByO1yIPWKVT65qTF-350" vertex="1">
+          <mxGeometry x="1470" y="410" width="350" height="60" as="geometry" />
         </mxCell>
         <mxCell id="woEXByO1yIPWKVT65qTF-370" value="transferTo()/transferFrom()&lt;div&gt;基于发送文件（sendfile）这种零拷贝方式。可能无法一次性传输完成。&lt;/div&gt;" style="whiteSpace=wrap;html=1;" parent="woEXByO1yIPWKVT65qTF-350" vertex="1">
           <mxGeometry x="1040" y="310.75" width="180" height="69" as="geometry" />
@@ -1176,6 +1176,33 @@
         </mxCell>
         <mxCell id="F-KsC9g5gSflZVi3qTK7-7" value="linux底层由epoll实现" style="whiteSpace=wrap;html=1;" vertex="1" parent="woEXByO1yIPWKVT65qTF-350">
           <mxGeometry x="1920" y="202" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="F-KsC9g5gSflZVi3qTK7-14" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;" vertex="1" parent="woEXByO1yIPWKVT65qTF-350">
+          <mxGeometry x="1820" y="408" width="80" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="F-KsC9g5gSflZVi3qTK7-15" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="F-KsC9g5gSflZVi3qTK7-14">
+          <mxGeometry width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="F-KsC9g5gSflZVi3qTK7-16" value="force()" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="F-KsC9g5gSflZVi3qTK7-15">
+          <mxGeometry width="80" height="40" as="geometry">
+            <mxRectangle width="80" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F-KsC9g5gSflZVi3qTK7-17" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="F-KsC9g5gSflZVi3qTK7-14">
+          <mxGeometry y="40" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="F-KsC9g5gSflZVi3qTK7-18" value="load()" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="F-KsC9g5gSflZVi3qTK7-17">
+          <mxGeometry width="80" height="40" as="geometry">
+            <mxRectangle width="80" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F-KsC9g5gSflZVi3qTK7-19" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="F-KsC9g5gSflZVi3qTK7-14">
+          <mxGeometry y="80" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="F-KsC9g5gSflZVi3qTK7-20" value="isLoaded()" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="F-KsC9g5gSflZVi3qTK7-19">
+          <mxGeometry width="80" height="40" as="geometry">
+            <mxRectangle width="80" height="40" as="alternateBounds" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="woEXByO1yIPWKVT65qTF-374" value="JVM" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;startSize=23;" parent="woEXByO1yIPWKVT65qTF-201" vertex="1">
           <mxGeometry x="40" y="2080" width="1250" height="970" as="geometry" />
