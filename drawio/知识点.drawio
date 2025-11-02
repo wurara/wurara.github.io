@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="28.2.8">
   <diagram name="第 1 页" id="Of1sGSvZfQuRrEPr6PyE">
-    <mxGraphModel dx="6607" dy="876" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="6926" dy="1217" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -972,7 +972,7 @@
           <mxGeometry x="4940" y="320" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="woEXByO1yIPWKVT65qTF-350" value="NIO" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;startSize=23;" parent="woEXByO1yIPWKVT65qTF-201" vertex="1">
-          <mxGeometry x="40" y="1330" width="1890" height="690" as="geometry">
+          <mxGeometry x="40" y="1330" width="2680" height="690" as="geometry">
             <mxRectangle x="60" y="1320" width="40" height="50" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -1024,7 +1024,7 @@
           <mxGeometry x="830" y="105.25" width="370" height="119.75" as="geometry" />
         </mxCell>
         <mxCell id="woEXByO1yIPWKVT65qTF-360" value="get&lt;div&gt;put&lt;/div&gt;&lt;div&gt;flip&lt;/div&gt;&lt;div&gt;clear&lt;/div&gt;" style="whiteSpace=wrap;html=1;" parent="woEXByO1yIPWKVT65qTF-350" vertex="1">
-          <mxGeometry x="1110" y="240.75" width="120" height="69" as="geometry" />
+          <mxGeometry x="1380" y="115.5" width="120" height="69" as="geometry" />
         </mxCell>
         <mxCell id="woEXByO1yIPWKVT65qTF-361" value="read&lt;div&gt;write&lt;/div&gt;" style="whiteSpace=wrap;html=1;" parent="woEXByO1yIPWKVT65qTF-350" vertex="1">
           <mxGeometry x="470" y="225" width="120" height="60" as="geometry" />
@@ -1075,6 +1075,77 @@
         </mxCell>
         <mxCell id="8Fiz-itFIOJZNmPIKLS0-4" value="StringCharBuffer" style="whiteSpace=wrap;html=1;" vertex="1" parent="woEXByO1yIPWKVT65qTF-350">
           <mxGeometry x="1350" y="590" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8Fiz-itFIOJZNmPIKLS0-6" value="Vertical Container" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="woEXByO1yIPWKVT65qTF-350">
+          <mxGeometry x="1930" y="62" width="710" height="598" as="geometry" />
+        </mxCell>
+        <mxCell id="8Fiz-itFIOJZNmPIKLS0-7" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;mmap + write&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="8Fiz-itFIOJZNmPIKLS0-6">
+          <mxGeometry x="30" y="40" width="410" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="8Fiz-itFIOJZNmPIKLS0-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="8Fiz-itFIOJZNmPIKLS0-7" source="8Fiz-itFIOJZNmPIKLS0-8" target="8Fiz-itFIOJZNmPIKLS0-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8Fiz-itFIOJZNmPIKLS0-8" value="磁盘" style="whiteSpace=wrap;html=1;" vertex="1" parent="8Fiz-itFIOJZNmPIKLS0-7">
+          <mxGeometry x="10" y="40" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8Fiz-itFIOJZNmPIKLS0-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="8Fiz-itFIOJZNmPIKLS0-7" source="8Fiz-itFIOJZNmPIKLS0-9" target="8Fiz-itFIOJZNmPIKLS0-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8Fiz-itFIOJZNmPIKLS0-9" value="内核缓冲区" style="whiteSpace=wrap;html=1;" vertex="1" parent="8Fiz-itFIOJZNmPIKLS0-7">
+          <mxGeometry x="113" y="40" width="67" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8Fiz-itFIOJZNmPIKLS0-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="8Fiz-itFIOJZNmPIKLS0-7" source="8Fiz-itFIOJZNmPIKLS0-11" target="8Fiz-itFIOJZNmPIKLS0-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8Fiz-itFIOJZNmPIKLS0-11" value="Socket缓冲区" style="whiteSpace=wrap;html=1;" vertex="1" parent="8Fiz-itFIOJZNmPIKLS0-7">
+          <mxGeometry x="200" y="40" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8Fiz-itFIOJZNmPIKLS0-13" value="网卡" style="whiteSpace=wrap;html=1;" vertex="1" parent="8Fiz-itFIOJZNmPIKLS0-7">
+          <mxGeometry x="310" y="40" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8Fiz-itFIOJZNmPIKLS0-15" value="sendfile" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="8Fiz-itFIOJZNmPIKLS0-6">
+          <mxGeometry x="30" y="199" width="420" height="141" as="geometry" />
+        </mxCell>
+        <mxCell id="8Fiz-itFIOJZNmPIKLS0-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="8Fiz-itFIOJZNmPIKLS0-15" source="8Fiz-itFIOJZNmPIKLS0-17" target="8Fiz-itFIOJZNmPIKLS0-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8Fiz-itFIOJZNmPIKLS0-17" value="磁盘" style="whiteSpace=wrap;html=1;" vertex="1" parent="8Fiz-itFIOJZNmPIKLS0-15">
+          <mxGeometry x="15" y="54.5" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8Fiz-itFIOJZNmPIKLS0-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="8Fiz-itFIOJZNmPIKLS0-15" source="8Fiz-itFIOJZNmPIKLS0-19" target="8Fiz-itFIOJZNmPIKLS0-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8Fiz-itFIOJZNmPIKLS0-19" value="内核缓冲区" style="whiteSpace=wrap;html=1;" vertex="1" parent="8Fiz-itFIOJZNmPIKLS0-15">
+          <mxGeometry x="118" y="54.5" width="67" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8Fiz-itFIOJZNmPIKLS0-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="8Fiz-itFIOJZNmPIKLS0-15" source="8Fiz-itFIOJZNmPIKLS0-21" target="8Fiz-itFIOJZNmPIKLS0-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8Fiz-itFIOJZNmPIKLS0-21" value="Socket缓冲区" style="whiteSpace=wrap;html=1;" vertex="1" parent="8Fiz-itFIOJZNmPIKLS0-15">
+          <mxGeometry x="205" y="54.5" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8Fiz-itFIOJZNmPIKLS0-22" value="网卡" style="whiteSpace=wrap;html=1;" vertex="1" parent="8Fiz-itFIOJZNmPIKLS0-15">
+          <mxGeometry x="315" y="54.5" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8Fiz-itFIOJZNmPIKLS0-23" value="&amp;nbsp;DMA + sendfile" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="8Fiz-itFIOJZNmPIKLS0-6">
+          <mxGeometry x="30" y="368" width="320" height="152" as="geometry" />
+        </mxCell>
+        <mxCell id="8Fiz-itFIOJZNmPIKLS0-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="8Fiz-itFIOJZNmPIKLS0-23" source="8Fiz-itFIOJZNmPIKLS0-25" target="8Fiz-itFIOJZNmPIKLS0-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8Fiz-itFIOJZNmPIKLS0-25" value="磁盘" style="whiteSpace=wrap;html=1;" vertex="1" parent="8Fiz-itFIOJZNmPIKLS0-23">
+          <mxGeometry x="20" y="50" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8Fiz-itFIOJZNmPIKLS0-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="8Fiz-itFIOJZNmPIKLS0-23" source="8Fiz-itFIOJZNmPIKLS0-27" target="8Fiz-itFIOJZNmPIKLS0-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="210" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8Fiz-itFIOJZNmPIKLS0-27" value="内核缓冲区" style="whiteSpace=wrap;html=1;" vertex="1" parent="8Fiz-itFIOJZNmPIKLS0-23">
+          <mxGeometry x="123" y="50" width="67" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8Fiz-itFIOJZNmPIKLS0-30" value="网卡" style="whiteSpace=wrap;html=1;" vertex="1" parent="8Fiz-itFIOJZNmPIKLS0-23">
+          <mxGeometry x="220" y="50" width="80" height="60" as="geometry" />
         </mxCell>
         <mxCell id="woEXByO1yIPWKVT65qTF-374" value="JVM" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;startSize=23;" parent="woEXByO1yIPWKVT65qTF-201" vertex="1">
           <mxGeometry x="40" y="2080" width="1250" height="970" as="geometry" />
