@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="28.2.8">
   <diagram name="第 1 页" id="Of1sGSvZfQuRrEPr6PyE">
-    <mxGraphModel dx="6607" dy="876" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="6609" dy="292" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -884,7 +884,7 @@
         <mxCell id="woEXByO1yIPWKVT65qTF-324" value="使用 Node 数组 + 链表/红黑树 + 局部 synchronized/ CAS 实现写操作，读操作无锁。" style="whiteSpace=wrap;html=1;" parent="woEXByO1yIPWKVT65qTF-202" vertex="1">
           <mxGeometry x="4130" y="358" width="160" height="62" as="geometry" />
         </mxCell>
-        <mxCell id="woEXByO1yIPWKVT65qTF-325" value="扩容时旧数组的头部写为ForwardingNode，写操作时遇到ForwardingNode则进行迁移。" style="whiteSpace=wrap;html=1;" parent="woEXByO1yIPWKVT65qTF-202" vertex="1">
+        <mxCell id="woEXByO1yIPWKVT65qTF-325" value="扩容时旧数组的头部写为ForwardingNode，写操作时遇到hash是MOVED则帮助进行迁移。" style="whiteSpace=wrap;html=1;" parent="woEXByO1yIPWKVT65qTF-202" vertex="1">
           <mxGeometry x="4290" y="358" width="200" height="62" as="geometry" />
         </mxCell>
         <mxCell id="woEXByO1yIPWKVT65qTF-326" value="读操作无锁。&lt;div&gt;写时复制一个数据，并使用ReentrantLock将数据写入。&lt;/div&gt;" style="whiteSpace=wrap;html=1;" parent="woEXByO1yIPWKVT65qTF-202" vertex="1">
