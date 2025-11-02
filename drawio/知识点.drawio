@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="28.2.8">
   <diagram name="第 1 页" id="Of1sGSvZfQuRrEPr6PyE">
-    <mxGraphModel dx="7326" dy="735" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="7984" dy="1050" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -976,8 +976,11 @@
             <mxRectangle x="60" y="1320" width="40" height="50" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="F-KsC9g5gSflZVi3qTK7-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="woEXByO1yIPWKVT65qTF-350" source="woEXByO1yIPWKVT65qTF-351" target="F-KsC9g5gSflZVi3qTK7-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="woEXByO1yIPWKVT65qTF-351" value="Selector" style="whiteSpace=wrap;html=1;" parent="woEXByO1yIPWKVT65qTF-350" vertex="1">
-          <mxGeometry x="1670" y="120" width="120" height="60" as="geometry" />
+          <mxGeometry x="1770" y="50" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="woEXByO1yIPWKVT65qTF-352" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="woEXByO1yIPWKVT65qTF-350" source="woEXByO1yIPWKVT65qTF-354" target="woEXByO1yIPWKVT65qTF-361" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -1045,7 +1048,7 @@
           <mxGeometry x="310" y="500" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="woEXByO1yIPWKVT65qTF-367" value="&lt;div&gt;获取一个文件通道&lt;/div&gt;1. new FileOutputStream(new File(&quot;a.txt&quot;)).getChannel();&amp;nbsp;&lt;div&gt;2. FileChannel.open(Paths.get(&quot;a.txt&quot;), StandardOpenOption.READ);&amp;nbsp;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" parent="woEXByO1yIPWKVT65qTF-350" vertex="1">
-          <mxGeometry x="650" y="290" width="230" height="110.5" as="geometry" />
+          <mxGeometry x="810" y="290" width="230" height="110.5" as="geometry" />
         </mxCell>
         <mxCell id="woEXByO1yIPWKVT65qTF-368" value="MappedByteBuffer" style="whiteSpace=wrap;html=1;" parent="woEXByO1yIPWKVT65qTF-350" vertex="1">
           <mxGeometry x="1350" y="410" width="120" height="60" as="geometry" />
@@ -1054,14 +1057,14 @@
           <mxGeometry x="1470" y="410" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="woEXByO1yIPWKVT65qTF-370" value="transferTo()/transferFrom()&lt;div&gt;基于发送文件（sendfile）这种零拷贝方式。可能无法一次性传输完成。&lt;/div&gt;" style="whiteSpace=wrap;html=1;" parent="woEXByO1yIPWKVT65qTF-350" vertex="1">
-          <mxGeometry x="880" y="310.75" width="180" height="69" as="geometry" />
+          <mxGeometry x="1040" y="310.75" width="180" height="69" as="geometry" />
         </mxCell>
         <mxCell id="woEXByO1yIPWKVT65qTF-371" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="woEXByO1yIPWKVT65qTF-350" source="woEXByO1yIPWKVT65qTF-372" target="woEXByO1yIPWKVT65qTF-368" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <UserObject label="fileChannel.map：将整个文件映射到内存&lt;div&gt;READ_ONLY ：只读&lt;/div&gt;&lt;div&gt;READ_WRITE ：回写文件，不保证立马写入磁盘。&lt;/div&gt;&lt;div&gt;PRIVATE ：线程私有副本，不回写文件&lt;/div&gt;" id="woEXByO1yIPWKVT65qTF-372">
           <mxCell style="whiteSpace=wrap;html=1;" parent="woEXByO1yIPWKVT65qTF-350" vertex="1">
-            <mxGeometry x="650" y="400" width="280" height="80" as="geometry" />
+            <mxGeometry x="810" y="400" width="280" height="80" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="8Fiz-itFIOJZNmPIKLS0-1" value="ByteBuffer" style="whiteSpace=wrap;html=1;" parent="woEXByO1yIPWKVT65qTF-350" vertex="1">
@@ -1077,7 +1080,7 @@
           <mxGeometry x="1350" y="590" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8Fiz-itFIOJZNmPIKLS0-6" value="零拷贝" style="swimlane;whiteSpace=wrap;html=1;" parent="woEXByO1yIPWKVT65qTF-350" vertex="1">
-          <mxGeometry x="1930" y="62" width="710" height="598" as="geometry" />
+          <mxGeometry x="2170" y="50" width="490" height="598" as="geometry" />
         </mxCell>
         <mxCell id="8Fiz-itFIOJZNmPIKLS0-7" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;mmap + write&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;" parent="8Fiz-itFIOJZNmPIKLS0-6" vertex="1">
           <mxGeometry x="30" y="40" width="410" height="130" as="geometry" />
@@ -1152,6 +1155,21 @@
         </mxCell>
         <mxCell id="8Fiz-itFIOJZNmPIKLS0-32" value="用于 TCP 网络连接" style="whiteSpace=wrap;html=1;" parent="woEXByO1yIPWKVT65qTF-350" vertex="1">
           <mxGeometry x="430" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="F-KsC9g5gSflZVi3qTK7-1" value="&lt;div&gt;SelectionKey.OP_ACCEPT: 监听连接接受事件&lt;/div&gt;&lt;div&gt;SelectionKey.OP_READ: 监听读就绪事件&lt;/div&gt;&lt;div&gt;SelectionKey.OP_WRITE: 监听写就绪事件&lt;/div&gt;&lt;div&gt;SelectionKey.OP_CONNECT: 监听连接完成事件&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="woEXByO1yIPWKVT65qTF-350">
+          <mxGeometry x="1700" y="166.75" width="260" height="143" as="geometry" />
+        </mxCell>
+        <mxCell id="F-KsC9g5gSflZVi3qTK7-3" value="OP_ACCEPT" style="whiteSpace=wrap;html=1;" vertex="1" parent="woEXByO1yIPWKVT65qTF-350">
+          <mxGeometry x="550" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="F-KsC9g5gSflZVi3qTK7-4" value="用于服务端接受链接" style="whiteSpace=wrap;html=1;" vertex="1" parent="woEXByO1yIPWKVT65qTF-350">
+          <mxGeometry x="430" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="F-KsC9g5gSflZVi3qTK7-5" value="OP_CONNECT&lt;div&gt;OP_WRITE&lt;/div&gt;&lt;div&gt;OP_READ&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="woEXByO1yIPWKVT65qTF-350">
+          <mxGeometry x="550" y="379.75" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="F-KsC9g5gSflZVi3qTK7-6" value="OP_READ&lt;div&gt;OP_WRITE&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="woEXByO1yIPWKVT65qTF-350">
+          <mxGeometry x="550" y="500" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="woEXByO1yIPWKVT65qTF-374" value="JVM" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;startSize=23;" parent="woEXByO1yIPWKVT65qTF-201" vertex="1">
           <mxGeometry x="40" y="2080" width="1250" height="970" as="geometry" />
