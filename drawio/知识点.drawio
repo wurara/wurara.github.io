@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="28.2.8">
   <diagram name="第 1 页" id="Of1sGSvZfQuRrEPr6PyE">
-    <mxGraphModel dx="6763" dy="1043" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="6607" dy="876" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -999,7 +999,7 @@
         <mxCell id="woEXByO1yIPWKVT65qTF-355" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="woEXByO1yIPWKVT65qTF-350" source="woEXByO1yIPWKVT65qTF-358" target="woEXByO1yIPWKVT65qTF-359" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1280" y="185" />
+              <mxPoint x="1280" y="150" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -1020,8 +1020,8 @@
         <mxCell id="woEXByO1yIPWKVT65qTF-358" value="Buffer" style="whiteSpace=wrap;html=1;" parent="woEXByO1yIPWKVT65qTF-350" vertex="1">
           <mxGeometry x="1220" y="50" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="woEXByO1yIPWKVT65qTF-359" value="容量（capacity）&lt;div&gt;界限（limit）&lt;/div&gt;&lt;div&gt;位置（position）&lt;/div&gt;&lt;div&gt;标记（mark）&lt;/div&gt;" style="whiteSpace=wrap;html=1;" parent="woEXByO1yIPWKVT65qTF-350" vertex="1">
-          <mxGeometry x="1110" y="149.75" width="120" height="70" as="geometry" />
+        <mxCell id="woEXByO1yIPWKVT65qTF-359" value="容量（capacity）：缓冲区容量，表示缓冲区中元素的最大数量，创建后不可改变&lt;div&gt;界限（limit）：限制位置，表示缓冲区中第一个不应该被读取或写入的元素索引&lt;/div&gt;&lt;div&gt;位置（position）：当前读写位置，表示下一个要读取或写入元素的索引&lt;/div&gt;&lt;div&gt;标记（mark）：&amp;nbsp;用于记录标记位置，当调用 reset() 方法时会将位置重置到标记处&lt;/div&gt;" style="whiteSpace=wrap;html=1;" parent="woEXByO1yIPWKVT65qTF-350" vertex="1">
+          <mxGeometry x="830" y="105.25" width="370" height="119.75" as="geometry" />
         </mxCell>
         <mxCell id="woEXByO1yIPWKVT65qTF-360" value="get&lt;div&gt;put&lt;/div&gt;&lt;div&gt;flip&lt;/div&gt;&lt;div&gt;clear&lt;/div&gt;" style="whiteSpace=wrap;html=1;" parent="woEXByO1yIPWKVT65qTF-350" vertex="1">
           <mxGeometry x="1110" y="240.75" width="120" height="69" as="geometry" />
