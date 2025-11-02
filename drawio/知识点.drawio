@@ -1159,17 +1159,17 @@
         <mxCell id="F-KsC9g5gSflZVi3qTK7-1" value="&lt;div&gt;SelectionKey.OP_ACCEPT: 监听连接接受事件&lt;/div&gt;&lt;div&gt;SelectionKey.OP_READ: 监听读就绪事件&lt;/div&gt;&lt;div&gt;SelectionKey.OP_WRITE: 监听写就绪事件&lt;/div&gt;&lt;div&gt;SelectionKey.OP_CONNECT: 监听连接完成事件&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="woEXByO1yIPWKVT65qTF-350">
           <mxGeometry x="1700" y="166.75" width="260" height="143" as="geometry" />
         </mxCell>
-        <mxCell id="F-KsC9g5gSflZVi3qTK7-3" value="OP_ACCEPT" style="whiteSpace=wrap;html=1;" vertex="1" parent="woEXByO1yIPWKVT65qTF-350">
-          <mxGeometry x="550" y="440" width="120" height="60" as="geometry" />
+        <mxCell id="F-KsC9g5gSflZVi3qTK7-3" value="OP_ACCEPT:监听连接接受事件" style="whiteSpace=wrap;html=1;" vertex="1" parent="woEXByO1yIPWKVT65qTF-350">
+          <mxGeometry x="550" y="440" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="F-KsC9g5gSflZVi3qTK7-4" value="用于服务端接受链接" style="whiteSpace=wrap;html=1;" vertex="1" parent="woEXByO1yIPWKVT65qTF-350">
           <mxGeometry x="430" y="440" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="F-KsC9g5gSflZVi3qTK7-5" value="OP_CONNECT&lt;div&gt;OP_WRITE&lt;/div&gt;&lt;div&gt;OP_READ&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="woEXByO1yIPWKVT65qTF-350">
-          <mxGeometry x="550" y="379.75" width="120" height="60" as="geometry" />
+        <mxCell id="F-KsC9g5gSflZVi3qTK7-5" value="OP_CONNECT:监听连接完成事件&lt;div&gt;OP_WRITE:&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;监听写就绪事件&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;OP_READ:&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;监听读就绪事件&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="woEXByO1yIPWKVT65qTF-350">
+          <mxGeometry x="550" y="379.75" width="200" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="F-KsC9g5gSflZVi3qTK7-6" value="OP_READ&lt;div&gt;OP_WRITE&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="woEXByO1yIPWKVT65qTF-350">
-          <mxGeometry x="550" y="500" width="120" height="60" as="geometry" />
+        <mxCell id="F-KsC9g5gSflZVi3qTK7-6" value="OP_READ:监听读就绪事件&lt;div&gt;OP_WRITE:&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;监听写就绪事件&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="woEXByO1yIPWKVT65qTF-350">
+          <mxGeometry x="550" y="500" width="180" height="60" as="geometry" />
         </mxCell>
         <mxCell id="woEXByO1yIPWKVT65qTF-374" value="JVM" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;startSize=23;" parent="woEXByO1yIPWKVT65qTF-201" vertex="1">
           <mxGeometry x="40" y="2080" width="1250" height="970" as="geometry" />
