@@ -1174,7 +1174,7 @@
         <mxCell id="F-KsC9g5gSflZVi3qTK7-6" value="OP_READ:监听读就绪事件&lt;div&gt;OP_WRITE:&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;监听写就绪事件&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="woEXByO1yIPWKVT65qTF-350">
           <mxGeometry x="550" y="500" width="180" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="F-KsC9g5gSflZVi3qTK7-7" value="底层由一个epoll实现" style="whiteSpace=wrap;html=1;" vertex="1" parent="woEXByO1yIPWKVT65qTF-350">
+        <mxCell id="F-KsC9g5gSflZVi3qTK7-7" value="linux底层由epoll实现" style="whiteSpace=wrap;html=1;" vertex="1" parent="woEXByO1yIPWKVT65qTF-350">
           <mxGeometry x="1920" y="202" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="woEXByO1yIPWKVT65qTF-374" value="JVM" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;startSize=23;" parent="woEXByO1yIPWKVT65qTF-201" vertex="1">
