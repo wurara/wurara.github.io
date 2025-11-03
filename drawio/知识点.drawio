@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="28.2.8">
   <diagram name="第 1 页" id="Of1sGSvZfQuRrEPr6PyE">
-    <mxGraphModel dx="6959" dy="1050" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="6959" dy="1082" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1417,7 +1417,7 @@
           <mxGeometry x="15" y="162" width="135" height="60" as="geometry" />
         </mxCell>
         <mxCell id="De8YwUg0Y1lUbm7mTjdf-2" value="基础" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="woEXByO1yIPWKVT65qTF-201">
-          <mxGeometry x="50" y="4270" width="510" height="320" as="geometry" />
+          <mxGeometry x="50" y="4270" width="1640" height="320" as="geometry" />
         </mxCell>
         <mxCell id="De8YwUg0Y1lUbm7mTjdf-3" value="ArrayList" style="whiteSpace=wrap;html=1;" vertex="1" parent="De8YwUg0Y1lUbm7mTjdf-2">
           <mxGeometry x="50" y="30" width="120" height="60" as="geometry" />
@@ -1426,7 +1426,7 @@
           <mxGeometry x="50" y="90" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="De8YwUg0Y1lUbm7mTjdf-5" value="深拷贝和浅拷贝" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="De8YwUg0Y1lUbm7mTjdf-2">
-          <mxGeometry x="200" y="40" width="290" height="200" as="geometry" />
+          <mxGeometry x="790" y="70" width="290" height="200" as="geometry" />
         </mxCell>
         <mxCell id="De8YwUg0Y1lUbm7mTjdf-6" value="浅拷贝&lt;div&gt;只有基础数据类型使用新地址，引用类型共用一个地址&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="De8YwUg0Y1lUbm7mTjdf-5">
           <mxGeometry x="30" y="36" width="120" height="60" as="geometry" />
@@ -1436,6 +1436,18 @@
         </mxCell>
         <mxCell id="De8YwUg0Y1lUbm7mTjdf-8" value="实现方式&lt;div&gt;序列化&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="De8YwUg0Y1lUbm7mTjdf-5">
           <mxGeometry x="150" y="96" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="De8YwUg0Y1lUbm7mTjdf-32" value="HashMap" style="whiteSpace=wrap;html=1;" vertex="1" parent="De8YwUg0Y1lUbm7mTjdf-2">
+          <mxGeometry x="210" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="De8YwUg0Y1lUbm7mTjdf-33" value="HashSet" style="whiteSpace=wrap;html=1;" vertex="1" parent="De8YwUg0Y1lUbm7mTjdf-2">
+          <mxGeometry x="360" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="De8YwUg0Y1lUbm7mTjdf-34" value="包装类型" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="De8YwUg0Y1lUbm7mTjdf-2">
+          <mxGeometry x="1090" y="40" width="510" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="De8YwUg0Y1lUbm7mTjdf-35" value="`Byte`,`Short`,`Integer`,`Long` 这 4 种包装类默认创建了数值 **[-128，127]** 的相应类型的缓存数据，`Character` 创建了数值在 **[0,127]** 范围的缓存数据，`Boolean` 直接返回 `TRUE` or `FALSE`" style="whiteSpace=wrap;html=1;" vertex="1" parent="De8YwUg0Y1lUbm7mTjdf-34">
+          <mxGeometry x="20" y="50" width="490" height="110" as="geometry" />
         </mxCell>
         <mxCell id="De8YwUg0Y1lUbm7mTjdf-9" value="Netty" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="woEXByO1yIPWKVT65qTF-201">
           <mxGeometry x="45" y="4680" width="525" height="320" as="geometry" />
@@ -3063,6 +3075,9 @@
         </mxCell>
         <mxCell id="De8YwUg0Y1lUbm7mTjdf-26" value="拦截器" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-4620" y="3010" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="De8YwUg0Y1lUbm7mTjdf-36" value="拆装箱影响性能" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="5370" y="4820" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
