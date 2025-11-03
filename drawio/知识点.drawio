@@ -842,9 +842,6 @@
         <mxCell id="woEXByO1yIPWKVT65qTF-310" value="ConcurrentSkipListMap" style="whiteSpace=wrap;html=1;" parent="woEXByO1yIPWKVT65qTF-202" vertex="1">
           <mxGeometry x="3973" y="420.5" width="127" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="woEXByO1yIPWKVT65qTF-311" value="ConcurrentHashMap" style="whiteSpace=wrap;html=1;" parent="woEXByO1yIPWKVT65qTF-202" vertex="1">
-          <mxGeometry x="3973" y="480.5" width="127" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="woEXByO1yIPWKVT65qTF-312" value="ConcurrentHashMap.newKeySet()&amp;nbsp;" style="whiteSpace=wrap;html=1;" parent="woEXByO1yIPWKVT65qTF-202" vertex="1">
           <mxGeometry x="3977" y="560" width="203" height="60" as="geometry" />
         </mxCell>
