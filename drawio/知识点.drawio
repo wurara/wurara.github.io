@@ -2195,7 +2195,7 @@
         <mxCell id="De8YwUg0Y1lUbm7mTjdf-19" value="范围策略 (Range)：整除后按个数分配到对应的消费者 ，多的放在第一个" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="De8YwUg0Y1lUbm7mTjdf-17">
           <mxGeometry y="60" width="190" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="De8YwUg0Y1lUbm7mTjdf-20" value="粘性分区策略 (Sticky Partitioning)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="De8YwUg0Y1lUbm7mTjdf-17">
+        <mxCell id="De8YwUg0Y1lUbm7mTjdf-20" value="粘性分区策略 (Sticky)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="De8YwUg0Y1lUbm7mTjdf-17">
           <mxGeometry y="90" width="190" height="30" as="geometry" />
         </mxCell>
         <mxCell id="AMm9hKQXMgik81A_Uai_-84" value="ROCKET MQ" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" parent="woEXByO1yIPWKVT65qTF-536" vertex="1">
