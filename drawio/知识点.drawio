@@ -2168,7 +2168,7 @@
         <mxCell id="rwH_7niJ5ICliPW--RzR-4" value="lastStableOffset" style="whiteSpace=wrap;html=1;" parent="AMm9hKQXMgik81A_Uai_-43" vertex="1">
           <mxGeometry x="970" y="260" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="De8YwUg0Y1lUbm7mTjdf-10" value="生产端提供id并存入数据，消费端保存id。定时检查生产者和消费者提供的id是否一致" style="whiteSpace=wrap;html=1;" vertex="1" parent="AMm9hKQXMgik81A_Uai_-43">
+        <mxCell id="De8YwUg0Y1lUbm7mTjdf-10" value="生产端提供id并存入数据库，消费端消费时检查消费者保存的id。定时检查生产者和消费者提供的id是否一致" style="whiteSpace=wrap;html=1;" vertex="1" parent="AMm9hKQXMgik81A_Uai_-43">
           <mxGeometry x="600" y="340" width="290" height="70" as="geometry" />
         </mxCell>
         <mxCell id="AMm9hKQXMgik81A_Uai_-84" value="ROCKET MQ" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" parent="woEXByO1yIPWKVT65qTF-536" vertex="1">
