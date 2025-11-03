@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="28.2.8">
   <diagram name="第 1 页" id="Of1sGSvZfQuRrEPr6PyE">
-    <mxGraphModel dx="6357" dy="612" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="6472" dy="612" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2171,7 +2171,7 @@
         <mxCell id="De8YwUg0Y1lUbm7mTjdf-10" value="生产端提供id并存入数据库，消费端消费时检查消费者保存的id。定时检查生产者和消费者提供的id是否一致" style="whiteSpace=wrap;html=1;" vertex="1" parent="AMm9hKQXMgik81A_Uai_-43">
           <mxGeometry x="600" y="340" width="290" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="De8YwUg0Y1lUbm7mTjdf-12" value="Partition分区策略" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="AMm9hKQXMgik81A_Uai_-43">
+        <mxCell id="De8YwUg0Y1lUbm7mTjdf-12" value="消息发送策略" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="AMm9hKQXMgik81A_Uai_-43">
           <mxGeometry x="65" y="403" width="190" height="120" as="geometry" />
         </mxCell>
         <mxCell id="De8YwUg0Y1lUbm7mTjdf-13" value="轮询策略 (RoundRobin)&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="De8YwUg0Y1lUbm7mTjdf-12">
@@ -2184,7 +2184,19 @@
           <mxGeometry y="90" width="190" height="30" as="geometry" />
         </mxCell>
         <mxCell id="De8YwUg0Y1lUbm7mTjdf-16" value="消息压缩策略：&lt;div&gt;Producer端压缩&lt;/div&gt;&lt;div&gt;Broker端保持&lt;/div&gt;&lt;div&gt;Consumer端解压缩&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="AMm9hKQXMgik81A_Uai_-43">
-          <mxGeometry x="300" y="440" width="200" height="60" as="geometry" />
+          <mxGeometry x="500" y="440" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="De8YwUg0Y1lUbm7mTjdf-17" value="消息消费策略" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="AMm9hKQXMgik81A_Uai_-43">
+          <mxGeometry x="280" y="403" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="De8YwUg0Y1lUbm7mTjdf-18" value="轮询策略 (RoundRobin)&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="De8YwUg0Y1lUbm7mTjdf-17">
+          <mxGeometry y="30" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="De8YwUg0Y1lUbm7mTjdf-19" value="范围策略 (Range)：整除后按个数分配到对应的消费者&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="De8YwUg0Y1lUbm7mTjdf-17">
+          <mxGeometry y="60" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="De8YwUg0Y1lUbm7mTjdf-20" value="粘性分区策略 (Sticky Partitioning)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="De8YwUg0Y1lUbm7mTjdf-17">
+          <mxGeometry y="90" width="190" height="30" as="geometry" />
         </mxCell>
         <mxCell id="AMm9hKQXMgik81A_Uai_-84" value="ROCKET MQ" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" parent="woEXByO1yIPWKVT65qTF-536" vertex="1">
           <mxGeometry x="40" y="50" width="1180" height="620" as="geometry" />
