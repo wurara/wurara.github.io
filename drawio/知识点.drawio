@@ -2034,7 +2034,7 @@
           <mxGeometry x="510" y="191" width="150" height="42" as="geometry" />
         </mxCell>
         <mxCell id="AMm9hKQXMgik81A_Uai_-43" value="Kafka" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" parent="woEXByO1yIPWKVT65qTF-536" vertex="1">
-          <mxGeometry x="150" y="2270" width="1180" height="630" as="geometry" />
+          <mxGeometry x="150" y="2270" width="1180" height="710" as="geometry" />
         </mxCell>
         <mxCell id="AMm9hKQXMgik81A_Uai_-119" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="AMm9hKQXMgik81A_Uai_-43" source="AMm9hKQXMgik81A_Uai_-46" target="AMm9hKQXMgik81A_Uai_-47" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -3030,6 +3030,9 @@
         </mxCell>
         <mxCell id="E3gvBGfakuGhjQx_dGV2-64" value="JdbcTransaction" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2000" y="1470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="De8YwUg0Y1lUbm7mTjdf-21" value="__consumer_offsets：消息位移的保存队列&lt;div&gt;Log Cleaner定期清理过期消息&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-4880" y="2950" width="240" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
