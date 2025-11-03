@@ -2267,7 +2267,7 @@
         <mxCell id="AMm9hKQXMgik81A_Uai_-116" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="AMm9hKQXMgik81A_Uai_-84" source="AMm9hKQXMgik81A_Uai_-105" target="AMm9hKQXMgik81A_Uai_-106" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="AMm9hKQXMgik81A_Uai_-117" value="一个queue同时只能有一个消费者进行消费" style="whiteSpace=wrap;html=1;" parent="AMm9hKQXMgik81A_Uai_-84" vertex="1">
+        <mxCell id="AMm9hKQXMgik81A_Uai_-117" value="一个queue同时只能有一个消费者进行消费，多余的消费者会闲置" style="whiteSpace=wrap;html=1;" parent="AMm9hKQXMgik81A_Uai_-84" vertex="1">
           <mxGeometry x="195" y="40" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="AMm9hKQXMgik81A_Uai_-118" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="AMm9hKQXMgik81A_Uai_-84" source="AMm9hKQXMgik81A_Uai_-117" target="AMm9hKQXMgik81A_Uai_-105" edge="1">
