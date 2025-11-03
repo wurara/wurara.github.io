@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="28.2.8">
   <diagram name="第 1 页" id="Of1sGSvZfQuRrEPr6PyE">
-    <mxGraphModel dx="6472" dy="612" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="6959" dy="1050" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2034,7 +2034,7 @@
           <mxGeometry x="510" y="191" width="150" height="42" as="geometry" />
         </mxCell>
         <mxCell id="AMm9hKQXMgik81A_Uai_-43" value="Kafka" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" parent="woEXByO1yIPWKVT65qTF-536" vertex="1">
-          <mxGeometry x="150" y="2270" width="1180" height="710" as="geometry" />
+          <mxGeometry x="150" y="2270" width="1210" height="940" as="geometry" />
         </mxCell>
         <mxCell id="AMm9hKQXMgik81A_Uai_-119" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="AMm9hKQXMgik81A_Uai_-43" source="AMm9hKQXMgik81A_Uai_-46" target="AMm9hKQXMgik81A_Uai_-47" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -2150,23 +2150,26 @@
         <mxCell id="AMm9hKQXMgik81A_Uai_-138" value="Exactly-Once如何实现" style="whiteSpace=wrap;html=1;" parent="AMm9hKQXMgik81A_Uai_-43" vertex="1">
           <mxGeometry x="600" y="100" width="290" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="De8YwUg0Y1lUbm7mTjdf-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="AMm9hKQXMgik81A_Uai_-43" source="AMm9hKQXMgik81A_Uai_-139" target="De8YwUg0Y1lUbm7mTjdf-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="AMm9hKQXMgik81A_Uai_-139" value="producer批量写入时开启事务" style="whiteSpace=wrap;html=1;" parent="AMm9hKQXMgik81A_Uai_-43" vertex="1">
           <mxGeometry x="600" y="220" width="290" height="60" as="geometry" />
         </mxCell>
         <mxCell id="AMm9hKQXMgik81A_Uai_-140" value="Consumer消费时配置read_committed" style="whiteSpace=wrap;html=1;" parent="AMm9hKQXMgik81A_Uai_-43" vertex="1">
           <mxGeometry x="600" y="280" width="290" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="rwH_7niJ5ICliPW--RzR-1" value="LEO" style="whiteSpace=wrap;html=1;" parent="AMm9hKQXMgik81A_Uai_-43" vertex="1">
-          <mxGeometry x="970" y="80" width="120" height="60" as="geometry" />
+        <mxCell id="rwH_7niJ5ICliPW--RzR-1" value="LEO&lt;div&gt;日志写入位置&lt;/div&gt;" style="whiteSpace=wrap;html=1;" parent="AMm9hKQXMgik81A_Uai_-43" vertex="1">
+          <mxGeometry x="990" y="460" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="rwH_7niJ5ICliPW--RzR-2" value="HW" style="whiteSpace=wrap;html=1;" parent="AMm9hKQXMgik81A_Uai_-43" vertex="1">
-          <mxGeometry x="970" y="140" width="120" height="60" as="geometry" />
+        <mxCell id="rwH_7niJ5ICliPW--RzR-2" value="HW&lt;div&gt;&amp;lt;HW是可以消费的消息&lt;/div&gt;" style="whiteSpace=wrap;html=1;" parent="AMm9hKQXMgik81A_Uai_-43" vertex="1">
+          <mxGeometry x="990" y="520" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="rwH_7niJ5ICliPW--RzR-3" value="firstUnStableOffset" style="whiteSpace=wrap;html=1;" parent="AMm9hKQXMgik81A_Uai_-43" vertex="1">
-          <mxGeometry x="970" y="200" width="120" height="60" as="geometry" />
+          <mxGeometry x="990" y="580" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="rwH_7niJ5ICliPW--RzR-4" value="lastStableOffset" style="whiteSpace=wrap;html=1;" parent="AMm9hKQXMgik81A_Uai_-43" vertex="1">
-          <mxGeometry x="970" y="260" width="120" height="60" as="geometry" />
+          <mxGeometry x="990" y="640" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="De8YwUg0Y1lUbm7mTjdf-10" value="生产端提供id并存入数据库，消费端消费时检查消费者保存的id。定时检查生产者和消费者提供的id是否一致" style="whiteSpace=wrap;html=1;" vertex="1" parent="AMm9hKQXMgik81A_Uai_-43">
           <mxGeometry x="600" y="340" width="290" height="70" as="geometry" />
@@ -2197,6 +2200,21 @@
         </mxCell>
         <mxCell id="De8YwUg0Y1lUbm7mTjdf-20" value="粘性分区策略 (Sticky)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="De8YwUg0Y1lUbm7mTjdf-17">
           <mxGeometry y="90" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="De8YwUg0Y1lUbm7mTjdf-22" value="生产者设置幂等&lt;div&gt;props.put(“enable.idempotence”, ture)，&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="AMm9hKQXMgik81A_Uai_-43">
+          <mxGeometry x="35" y="620" width="250" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="De8YwUg0Y1lUbm7mTjdf-23" value="&lt;div&gt;producer.initTransactions();&lt;/div&gt;&lt;div&gt;try {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; producer.beginTransaction();&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; producer.send(record1);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; producer.send(record2);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; producer.commitTransaction();&lt;/div&gt;&lt;div&gt;} catch (KafkaException e) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; producer.abortTransaction();&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="AMm9hKQXMgik81A_Uai_-43">
+          <mxGeometry x="930" y="168.25" width="210" height="163.5" as="geometry" />
+        </mxCell>
+        <mxCell id="De8YwUg0Y1lUbm7mTjdf-25" value="注册拦截器&lt;div&gt;&lt;div&gt;Properties props = new Properties();&amp;nbsp;&lt;/div&gt;&lt;div&gt;List interceptors = new ArrayList&amp;lt;&amp;gt;();&amp;nbsp;&lt;/div&gt;&lt;div&gt;interceptors.add(&quot;com.yourcompany.kafkaproject.interceptors.AddTimestampInterceptor&quot;);&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;interceptors.add(&quot;com.yourcompany.kafkaproject.interceptors.UpdateCounterInterceptor&quot;); &lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;props.put(ProducerConfig.INTERCEPTOR_CLASSES_CONFIG, interceptors);&amp;nbsp;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="AMm9hKQXMgik81A_Uai_-43">
+          <mxGeometry x="355" y="800" width="490" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="De8YwUg0Y1lUbm7mTjdf-27" value="生产拦截器&lt;div&gt;类：ProducerInterceptor&lt;/div&gt;&lt;div&gt;方法：onSend&lt;/div&gt;&lt;div&gt;方法：onAcknowledgement&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="AMm9hKQXMgik81A_Uai_-43">
+          <mxGeometry x="365" y="720" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="De8YwUg0Y1lUbm7mTjdf-28" value="消费拦截器&lt;div&gt;类：ConsumerInterceptor&lt;/div&gt;&lt;div&gt;方法：onConsume&lt;/div&gt;&lt;div&gt;方法：onCommit&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="AMm9hKQXMgik81A_Uai_-43">
+          <mxGeometry x="670" y="720" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="AMm9hKQXMgik81A_Uai_-84" value="ROCKET MQ" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" parent="woEXByO1yIPWKVT65qTF-536" vertex="1">
           <mxGeometry x="40" y="50" width="1180" height="620" as="geometry" />
@@ -3033,6 +3051,18 @@
         </mxCell>
         <mxCell id="De8YwUg0Y1lUbm7mTjdf-21" value="__consumer_offsets：消息位移的保存队列&lt;div&gt;Log Cleaner定期清理过期消息&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-4880" y="2950" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="De8YwUg0Y1lUbm7mTjdf-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="De8YwUg0Y1lUbm7mTjdf-26" target="De8YwUg0Y1lUbm7mTjdf-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="De8YwUg0Y1lUbm7mTjdf-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="De8YwUg0Y1lUbm7mTjdf-26" target="De8YwUg0Y1lUbm7mTjdf-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="De8YwUg0Y1lUbm7mTjdf-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="De8YwUg0Y1lUbm7mTjdf-26" target="De8YwUg0Y1lUbm7mTjdf-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="De8YwUg0Y1lUbm7mTjdf-26" value="拦截器" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-4620" y="3010" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
