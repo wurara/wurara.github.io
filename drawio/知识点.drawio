@@ -1737,6 +1737,9 @@
         <mxCell id="_nW9phOJRrEgspZKzDJQ-299" value="&lt;div&gt;实现这两个接口会在启动完成前调用&lt;/div&gt;ApplicationRunner&lt;div&gt;CommandLineRunner&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="_nW9phOJRrEgspZKzDJQ-273">
           <mxGeometry x="306.5" y="200" width="210" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="_nW9phOJRrEgspZKzDJQ-334" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="_nW9phOJRrEgspZKzDJQ-273" source="_nW9phOJRrEgspZKzDJQ-307" target="_nW9phOJRrEgspZKzDJQ-321">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="_nW9phOJRrEgspZKzDJQ-300" value="配置优先级" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;" vertex="1" parent="_nW9phOJRrEgspZKzDJQ-273">
           <mxGeometry x="632.5" y="60" width="269.5" height="270" as="geometry" />
         </mxCell>
@@ -1767,7 +1770,7 @@
         <mxCell id="_nW9phOJRrEgspZKzDJQ-307" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_nW9phOJRrEgspZKzDJQ-300">
           <mxGeometry y="150" width="269.5" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="_nW9phOJRrEgspZKzDJQ-308" value="配置数据" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="_nW9phOJRrEgspZKzDJQ-307">
+        <mxCell id="_nW9phOJRrEgspZKzDJQ-308" value="配置文件" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="_nW9phOJRrEgspZKzDJQ-307">
           <mxGeometry width="270" height="40" as="geometry">
             <mxRectangle width="270" height="40" as="alternateBounds" />
           </mxGeometry>
@@ -1784,6 +1787,41 @@
           <mxGeometry y="230" width="269.5" height="40" as="geometry" />
         </mxCell>
         <mxCell id="_nW9phOJRrEgspZKzDJQ-312" value="默认属性" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="_nW9phOJRrEgspZKzDJQ-311">
+          <mxGeometry width="270" height="40" as="geometry">
+            <mxRectangle width="270" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_nW9phOJRrEgspZKzDJQ-321" value="配置文件优先级" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;" vertex="1" parent="_nW9phOJRrEgspZKzDJQ-273">
+          <mxGeometry x="982" y="135" width="269.5" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="_nW9phOJRrEgspZKzDJQ-322" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_nW9phOJRrEgspZKzDJQ-321">
+          <mxGeometry y="30" width="269.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_nW9phOJRrEgspZKzDJQ-323" value="&amp;nbsp;jar 中的配置文件" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="_nW9phOJRrEgspZKzDJQ-322">
+          <mxGeometry width="270" height="40" as="geometry">
+            <mxRectangle width="270" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_nW9phOJRrEgspZKzDJQ-324" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_nW9phOJRrEgspZKzDJQ-321">
+          <mxGeometry y="70" width="269.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_nW9phOJRrEgspZKzDJQ-325" value="Jar中的配置文件变体" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="_nW9phOJRrEgspZKzDJQ-324">
+          <mxGeometry width="270" height="40" as="geometry">
+            <mxRectangle width="270" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_nW9phOJRrEgspZKzDJQ-326" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_nW9phOJRrEgspZKzDJQ-321">
+          <mxGeometry y="110" width="269.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_nW9phOJRrEgspZKzDJQ-327" value="jar 外部配置文件" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="_nW9phOJRrEgspZKzDJQ-326">
+          <mxGeometry width="270" height="40" as="geometry">
+            <mxRectangle width="270" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_nW9phOJRrEgspZKzDJQ-328" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_nW9phOJRrEgspZKzDJQ-321">
+          <mxGeometry y="150" width="269.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_nW9phOJRrEgspZKzDJQ-329" value="Jar外的配置文件变体" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="_nW9phOJRrEgspZKzDJQ-328">
           <mxGeometry width="270" height="40" as="geometry">
             <mxRectangle width="270" height="40" as="alternateBounds" />
           </mxGeometry>
