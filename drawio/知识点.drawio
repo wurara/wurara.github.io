@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="28.2.9">
   <diagram name="第 1 页" id="Of1sGSvZfQuRrEPr6PyE">
-    <mxGraphModel dx="6763" dy="1050" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="6607" dy="882" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3574,11 +3574,14 @@
         <mxCell id="_nW9phOJRrEgspZKzDJQ-69" value="网络（施工中）" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="_nW9phOJRrEgspZKzDJQ-1">
           <mxGeometry x="70" y="830" width="200" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="_nW9phOJRrEgspZKzDJQ-70" value="MAVEN" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="16690" y="360" width="920" height="610" as="geometry" />
+        <mxCell id="_nW9phOJRrEgspZKzDJQ-70" value="构建工具" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="16690" y="360" width="920" height="1270" as="geometry" />
         </mxCell>
-        <mxCell id="_nW9phOJRrEgspZKzDJQ-132" value="命令行" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;" vertex="1" parent="_nW9phOJRrEgspZKzDJQ-70">
-          <mxGeometry x="40" y="54" width="540" height="470" as="geometry" />
+        <mxCell id="_nW9phOJRrEgspZKzDJQ-184" value="MAVEN" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="_nW9phOJRrEgspZKzDJQ-70">
+          <mxGeometry x="30" y="73" width="690" height="547" as="geometry" />
+        </mxCell>
+        <mxCell id="_nW9phOJRrEgspZKzDJQ-132" value="命令行" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;" vertex="1" parent="_nW9phOJRrEgspZKzDJQ-184">
+          <mxGeometry x="75" y="20" width="540" height="470" as="geometry" />
         </mxCell>
         <mxCell id="_nW9phOJRrEgspZKzDJQ-133" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_nW9phOJRrEgspZKzDJQ-132">
           <mxGeometry y="30" width="540" height="40" as="geometry" />
@@ -3627,7 +3630,7 @@
             <mxRectangle width="300" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_nW9phOJRrEgspZKzDJQ-144" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="_nW9phOJRrEgspZKzDJQ-142">
+        <mxCell id="_nW9phOJRrEgspZKzDJQ-144" value="执行单元测试" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="_nW9phOJRrEgspZKzDJQ-142">
           <mxGeometry x="300" width="240" height="40" as="geometry">
             <mxRectangle width="240" height="40" as="alternateBounds" />
           </mxGeometry>
@@ -3722,6 +3725,9 @@
           <mxGeometry x="300" width="240" height="40" as="geometry">
             <mxRectangle width="240" height="40" as="alternateBounds" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="_nW9phOJRrEgspZKzDJQ-185" value="GIT" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="_nW9phOJRrEgspZKzDJQ-70">
+          <mxGeometry x="30" y="657" width="690" height="513" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
