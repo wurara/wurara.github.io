@@ -113,7 +113,7 @@
         <mxCell id="lPIi9ZnA5GsBTCQyYRj0-111" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="lPIi9ZnA5GsBTCQyYRj0-73" source="lPIi9ZnA5GsBTCQyYRj0-108" target="lPIi9ZnA5GsBTCQyYRj0-110" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lPIi9ZnA5GsBTCQyYRj0-108" value="分片级查询（Shard-level Search）" style="whiteSpace=wrap;html=1;" parent="lPIi9ZnA5GsBTCQyYRj0-73" vertex="1">
+        <mxCell id="lPIi9ZnA5GsBTCQyYRj0-108" value="分片（可由副本分片响应）级查询（Shard-level Search）" style="whiteSpace=wrap;html=1;" parent="lPIi9ZnA5GsBTCQyYRj0-73" vertex="1">
           <mxGeometry x="460" y="70" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lPIi9ZnA5GsBTCQyYRj0-113" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="lPIi9ZnA5GsBTCQyYRj0-73" source="lPIi9ZnA5GsBTCQyYRj0-110" target="lPIi9ZnA5GsBTCQyYRj0-112" edge="1">
