@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="28.2.9">
   <diagram name="第 1 页" id="Of1sGSvZfQuRrEPr6PyE">
-    <mxGraphModel dx="7884" dy="1034" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="6642" dy="947" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3430,6 +3430,33 @@
           <mxGeometry x="115" width="115" height="40" as="geometry">
             <mxRectangle width="115" height="40" as="alternateBounds" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="_nW9phOJRrEgspZKzDJQ-1" value="linux" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="14490" y="350" width="2830" height="5370" as="geometry" />
+        </mxCell>
+        <mxCell id="_nW9phOJRrEgspZKzDJQ-2" value="磁盘" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="_nW9phOJRrEgspZKzDJQ-1">
+          <mxGeometry x="70" y="88" width="1630" height="502" as="geometry" />
+        </mxCell>
+        <mxCell id="_nW9phOJRrEgspZKzDJQ-21" value="物理磁盘" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="_nW9phOJRrEgspZKzDJQ-2">
+          <mxGeometry x="80" y="412" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_nW9phOJRrEgspZKzDJQ-22" value="块设备" style="whiteSpace=wrap;html=1;" vertex="1" parent="_nW9phOJRrEgspZKzDJQ-2">
+          <mxGeometry x="80" y="352" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_nW9phOJRrEgspZKzDJQ-23" value="分区" style="whiteSpace=wrap;html=1;" vertex="1" parent="_nW9phOJRrEgspZKzDJQ-2">
+          <mxGeometry x="80" y="292" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_nW9phOJRrEgspZKzDJQ-24" value="逻辑卷管理" style="whiteSpace=wrap;html=1;" vertex="1" parent="_nW9phOJRrEgspZKzDJQ-2">
+          <mxGeometry x="80" y="232" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_nW9phOJRrEgspZKzDJQ-25" value="逻辑卷" style="whiteSpace=wrap;html=1;" vertex="1" parent="_nW9phOJRrEgspZKzDJQ-2">
+          <mxGeometry x="80" y="172" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_nW9phOJRrEgspZKzDJQ-26" value="文件系统" style="whiteSpace=wrap;html=1;" vertex="1" parent="_nW9phOJRrEgspZKzDJQ-2">
+          <mxGeometry x="80" y="112" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_nW9phOJRrEgspZKzDJQ-27" value="挂载点" style="whiteSpace=wrap;html=1;" vertex="1" parent="_nW9phOJRrEgspZKzDJQ-2">
+          <mxGeometry x="80" y="52" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
