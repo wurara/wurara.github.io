@@ -3575,7 +3575,7 @@
           <mxGeometry x="70" y="830" width="200" height="200" as="geometry" />
         </mxCell>
         <mxCell id="_nW9phOJRrEgspZKzDJQ-70" value="MAVEN" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="16690" y="360" width="920" height="1090" as="geometry" />
+          <mxGeometry x="16690" y="360" width="920" height="610" as="geometry" />
         </mxCell>
         <mxCell id="_nW9phOJRrEgspZKzDJQ-132" value="命令行" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;" vertex="1" parent="_nW9phOJRrEgspZKzDJQ-70">
           <mxGeometry x="40" y="54" width="540" height="470" as="geometry" />
