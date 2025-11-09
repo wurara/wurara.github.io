@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="28.2.9">
   <diagram name="第 1 页" id="Of1sGSvZfQuRrEPr6PyE">
-    <mxGraphModel dx="9119" dy="2738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="7214" dy="761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -4116,8 +4116,17 @@
         <mxCell id="SS6j9H3nX_lLP3tuC7AH-18" value="ServletRegistrationBean&lt;div&gt;FilterRegistrationBean&lt;/div&gt;&lt;div&gt;ServletListenerRegistrationBean&lt;/div&gt;" style="whiteSpace=wrap;html=1;" parent="SS6j9H3nX_lLP3tuC7AH-15" vertex="1">
           <mxGeometry x="200" y="181" width="180" height="69" as="geometry" />
         </mxCell>
+        <mxCell id="g7Z2kZ521azLQOsUVFBg-1" value="分布式事务" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="SS6j9H3nX_lLP3tuC7AH-14">
+          <mxGeometry x="230" y="1560" width="1010" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="g7Z2kZ521azLQOsUVFBg-3" value="TCC（Try-Confirm-Cancel）" style="whiteSpace=wrap;html=1;" vertex="1" parent="g7Z2kZ521azLQOsUVFBg-1">
+          <mxGeometry x="250" y="19.5" width="170" height="60" as="geometry" />
+        </mxCell>
         <mxCell id="SS6j9H3nX_lLP3tuC7AH-16" value="加载静态网页&lt;div&gt;&lt;div&gt;spring:&lt;/div&gt;&lt;div&gt;&amp;nbsp; mvc:&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; static-path-pattern: &quot;/resources/**&quot;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="18100" y="1350" width="220" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="g7Z2kZ521azLQOsUVFBg-2" value="XA（两阶段提交）" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="18120" y="1950" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
