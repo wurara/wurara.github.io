@@ -4117,7 +4117,7 @@
           <mxGeometry x="200" y="181" width="180" height="69" as="geometry" />
         </mxCell>
         <mxCell id="g7Z2kZ521azLQOsUVFBg-1" value="分布式事务" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="SS6j9H3nX_lLP3tuC7AH-14">
-          <mxGeometry x="230" y="1560" width="1290" height="310" as="geometry" />
+          <mxGeometry x="230" y="1560" width="2390" height="360" as="geometry" />
         </mxCell>
         <mxCell id="g7Z2kZ521azLQOsUVFBg-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="g7Z2kZ521azLQOsUVFBg-1" source="g7Z2kZ521azLQOsUVFBg-3" target="g7Z2kZ521azLQOsUVFBg-8">
           <mxGeometry relative="1" as="geometry" />
