@@ -4162,8 +4162,8 @@
         <mxCell id="g7Z2kZ521azLQOsUVFBg-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="g7Z2kZ521azLQOsUVFBg-1" source="g7Z2kZ521azLQOsUVFBg-14" target="g7Z2kZ521azLQOsUVFBg-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="g7Z2kZ521azLQOsUVFBg-14" value="Saga 模式&lt;div&gt;按顺序执行或回滚&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="g7Z2kZ521azLQOsUVFBg-1">
-          <mxGeometry x="800" y="19.5" width="120" height="60" as="geometry" />
+        <mxCell id="g7Z2kZ521azLQOsUVFBg-14" value="Saga 模式&lt;div&gt;按顺序执行或回滚&lt;/div&gt;&lt;div&gt;可以采用责任链模式&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="g7Z2kZ521azLQOsUVFBg-1">
+          <mxGeometry x="790" y="19.5" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="g7Z2kZ521azLQOsUVFBg-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="g7Z2kZ521azLQOsUVFBg-1" source="g7Z2kZ521azLQOsUVFBg-15" target="g7Z2kZ521azLQOsUVFBg-17">
           <mxGeometry relative="1" as="geometry" />
