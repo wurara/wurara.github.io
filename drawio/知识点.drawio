@@ -4122,7 +4122,7 @@
         <mxCell id="g7Z2kZ521azLQOsUVFBg-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="g7Z2kZ521azLQOsUVFBg-1" source="g7Z2kZ521azLQOsUVFBg-3" target="g7Z2kZ521azLQOsUVFBg-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="g7Z2kZ521azLQOsUVFBg-3" value="TCC（Try-Confirm-Cancel）" style="whiteSpace=wrap;html=1;" vertex="1" parent="g7Z2kZ521azLQOsUVFBg-1">
+        <mxCell id="g7Z2kZ521azLQOsUVFBg-3" value="TCC（Try-Confirm-Cancel）&lt;div&gt;由业务逻辑做补偿&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="g7Z2kZ521azLQOsUVFBg-1">
           <mxGeometry x="365" y="19.5" width="170" height="60" as="geometry" />
         </mxCell>
         <mxCell id="g7Z2kZ521azLQOsUVFBg-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="g7Z2kZ521azLQOsUVFBg-1" source="g7Z2kZ521azLQOsUVFBg-4" target="g7Z2kZ521azLQOsUVFBg-6">
@@ -4131,8 +4131,8 @@
         <mxCell id="g7Z2kZ521azLQOsUVFBg-4" value="阶段一：Prepare（预提交）" style="whiteSpace=wrap;html=1;" vertex="1" parent="g7Z2kZ521azLQOsUVFBg-1">
           <mxGeometry x="60" y="114" width="150" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="g7Z2kZ521azLQOsUVFBg-2" value="XA（两阶段提交）" style="whiteSpace=wrap;html=1;" vertex="1" parent="g7Z2kZ521azLQOsUVFBg-1">
-          <mxGeometry x="75" y="19.5" width="120" height="60" as="geometry" />
+        <mxCell id="g7Z2kZ521azLQOsUVFBg-2" value="XA（两阶段提交）&lt;div&gt;由数据库事务提交或回滚&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="g7Z2kZ521azLQOsUVFBg-1">
+          <mxGeometry x="62.5" y="19.5" width="145" height="60" as="geometry" />
         </mxCell>
         <mxCell id="g7Z2kZ521azLQOsUVFBg-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="g7Z2kZ521azLQOsUVFBg-1" source="g7Z2kZ521azLQOsUVFBg-2" target="g7Z2kZ521azLQOsUVFBg-4">
           <mxGeometry relative="1" as="geometry" />
