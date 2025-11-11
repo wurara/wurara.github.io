@@ -4207,7 +4207,7 @@
           <mxGeometry x="1240" y="27" width="1450" height="323" as="geometry" />
         </mxCell>
         <mxCell id="VHvSZjrr3h7g2bydTUpY-28" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;" vertex="1" parent="VHvSZjrr3h7g2bydTUpY-1">
-          <mxGeometry x="30" y="33" width="1060.0000000000073" height="177" as="geometry" />
+          <mxGeometry x="30" y="33" width="1060.0000000000073" height="206" as="geometry" />
         </mxCell>
         <mxCell id="VHvSZjrr3h7g2bydTUpY-29" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="VHvSZjrr3h7g2bydTUpY-28">
           <mxGeometry width="1060.0000000000073" height="35" as="geometry" />
@@ -4243,40 +4243,40 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="VHvSZjrr3h7g2bydTUpY-35" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="VHvSZjrr3h7g2bydTUpY-28">
-          <mxGeometry y="35" width="1060.0000000000073" height="36" as="geometry" />
+          <mxGeometry y="35" width="1060.0000000000073" height="65" as="geometry" />
         </mxCell>
         <mxCell id="VHvSZjrr3h7g2bydTUpY-36" value="AT 模式" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="VHvSZjrr3h7g2bydTUpY-35">
-          <mxGeometry width="90" height="36" as="geometry">
-            <mxRectangle width="90" height="36" as="alternateBounds" />
+          <mxGeometry width="90" height="65" as="geometry">
+            <mxRectangle width="90" height="65" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="VHvSZjrr3h7g2bydTUpY-37" value="强一致" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="VHvSZjrr3h7g2bydTUpY-35">
-          <mxGeometry x="90" width="90" height="36" as="geometry">
-            <mxRectangle width="90" height="36" as="alternateBounds" />
+          <mxGeometry x="90" width="90" height="65" as="geometry">
+            <mxRectangle width="90" height="65" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="VHvSZjrr3h7g2bydTUpY-38" value="&lt;table data-start=&quot;1271&quot; data-end=&quot;1579&quot; class=&quot;w-fit min-w-(--thread-content-width)&quot;&gt;&lt;tbody data-start=&quot;1346&quot; data-end=&quot;1579&quot;&gt;&lt;tr data-start=&quot;1346&quot; data-end=&quot;1406&quot;&gt;&lt;td data-col-size=&quot;sm&quot; data-start=&quot;1364&quot; data-end=&quot;1369&quot;&gt;较高&lt;/td&gt;&lt;td data-col-size=&quot;sm&quot; data-start=&quot;1369&quot; data-end=&quot;1389&quot;&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="VHvSZjrr3h7g2bydTUpY-35">
-          <mxGeometry x="180" width="80" height="36" as="geometry">
-            <mxRectangle width="80" height="36" as="alternateBounds" />
+          <mxGeometry x="180" width="80" height="65" as="geometry">
+            <mxRectangle width="80" height="65" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="VHvSZjrr3h7g2bydTUpY-39" value="本地事务直接提交，全局事务异常时依赖回滚日志回滚。" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="VHvSZjrr3h7g2bydTUpY-35">
-          <mxGeometry x="260" width="250" height="36" as="geometry">
-            <mxRectangle width="250" height="36" as="alternateBounds" />
+        <mxCell id="VHvSZjrr3h7g2bydTUpY-39" value="相当于代理的TCC模式。&lt;div&gt;try阶段直接提交事务并记录日志&lt;/div&gt;&lt;div&gt;commit删除回滚日志&lt;/div&gt;&lt;div&gt;cance则执行回滚日志&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="VHvSZjrr3h7g2bydTUpY-35">
+          <mxGeometry x="260" width="250" height="65" as="geometry">
+            <mxRectangle width="250" height="65" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="VHvSZjrr3h7g2bydTUpY-40" value="&lt;div&gt;最常用，自动代理 JDBC&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="VHvSZjrr3h7g2bydTUpY-35">
-          <mxGeometry x="510" width="180" height="36" as="geometry">
-            <mxRectangle width="180" height="36" as="alternateBounds" />
+          <mxGeometry x="510" width="180" height="65" as="geometry">
+            <mxRectangle width="180" height="65" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="VHvSZjrr3h7g2bydTUpY-60" value="如果在事务过程中被修改了会导致数据无法回滚异常。" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="VHvSZjrr3h7g2bydTUpY-35">
-          <mxGeometry x="690" width="370" height="36" as="geometry">
-            <mxRectangle width="370" height="36" as="alternateBounds" />
+          <mxGeometry x="690" width="370" height="65" as="geometry">
+            <mxRectangle width="370" height="65" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="VHvSZjrr3h7g2bydTUpY-41" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="VHvSZjrr3h7g2bydTUpY-28">
-          <mxGeometry y="71" width="1060.0000000000073" height="35" as="geometry" />
+          <mxGeometry y="100" width="1060.0000000000073" height="35" as="geometry" />
         </mxCell>
         <mxCell id="VHvSZjrr3h7g2bydTUpY-42" value="TCC 模式" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="VHvSZjrr3h7g2bydTUpY-41">
           <mxGeometry width="90" height="35" as="geometry">
@@ -4309,7 +4309,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="VHvSZjrr3h7g2bydTUpY-47" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="VHvSZjrr3h7g2bydTUpY-28">
-          <mxGeometry y="106" width="1060.0000000000073" height="36" as="geometry" />
+          <mxGeometry y="135" width="1060.0000000000073" height="36" as="geometry" />
         </mxCell>
         <mxCell id="VHvSZjrr3h7g2bydTUpY-48" value="Saga 模式" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="VHvSZjrr3h7g2bydTUpY-47">
           <mxGeometry width="90" height="36" as="geometry">
@@ -4342,7 +4342,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="VHvSZjrr3h7g2bydTUpY-53" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="VHvSZjrr3h7g2bydTUpY-28">
-          <mxGeometry y="142" width="1060.0000000000073" height="35" as="geometry" />
+          <mxGeometry y="171" width="1060.0000000000073" height="35" as="geometry" />
         </mxCell>
         <mxCell id="VHvSZjrr3h7g2bydTUpY-54" value="XA 模式" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="VHvSZjrr3h7g2bydTUpY-53">
           <mxGeometry width="90" height="35" as="geometry">
