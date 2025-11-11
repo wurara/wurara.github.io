@@ -4359,7 +4359,7 @@
             <mxRectangle width="80" height="35" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="VHvSZjrr3h7g2bydTUpY-57" value="基于 XA 协议，两阶段提交&lt;span style=&quot;white-space:pre&quot;&gt;&#x9;&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="VHvSZjrr3h7g2bydTUpY-53">
+        <mxCell id="VHvSZjrr3h7g2bydTUpY-57" value="数据库实现 XA 协议，两阶段提交。" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="VHvSZjrr3h7g2bydTUpY-53">
           <mxGeometry x="260" width="250" height="35" as="geometry">
             <mxRectangle width="250" height="35" as="alternateBounds" />
           </mxGeometry>
