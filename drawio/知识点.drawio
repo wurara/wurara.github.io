@@ -4375,7 +4375,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="iR1HtJD-FbFYGJSDqAfa-15" value="多线程时会跳出seata线程，使用GlobalTransactionalExecutorService线程池可以将多线程加入seata全局事务" style="whiteSpace=wrap;html=1;" vertex="1" parent="VHvSZjrr3h7g2bydTUpY-1">
-          <mxGeometry x="40" y="251" width="300" height="60" as="geometry" />
+          <mxGeometry x="370" y="251" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iR1HtJD-FbFYGJSDqAfa-16" value="微服务间事务通过在header中加上xid，然后通过AOP绑定xid" style="whiteSpace=wrap;html=1;" vertex="1" parent="VHvSZjrr3h7g2bydTUpY-1">
+          <mxGeometry x="30" y="251" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iR1HtJD-FbFYGJSDqAfa-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="VHvSZjrr3h7g2bydTUpY-1" source="iR1HtJD-FbFYGJSDqAfa-16" target="iR1HtJD-FbFYGJSDqAfa-15">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="SS6j9H3nX_lLP3tuC7AH-16" value="加载静态网页&lt;div&gt;&lt;div&gt;spring:&lt;/div&gt;&lt;div&gt;&amp;nbsp; mvc:&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; static-path-pattern: &quot;/resources/**&quot;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="18100" y="1350" width="220" height="120" as="geometry" />
