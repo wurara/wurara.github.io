@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="28.2.9">
   <diagram name="第 1 页" id="Of1sGSvZfQuRrEPr6PyE">
-    <mxGraphModel dx="6427" dy="731" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="6741" dy="731" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -4260,7 +4260,7 @@
             <mxRectangle width="80" height="65" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="VHvSZjrr3h7g2bydTUpY-39" value="相当于代理的TCC模式。&lt;div&gt;try阶段直接提交事务并记录日志&lt;/div&gt;&lt;div&gt;commit删除回滚日志&lt;/div&gt;&lt;div&gt;cance则执行回滚日志&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="VHvSZjrr3h7g2bydTUpY-35" vertex="1">
+        <mxCell id="VHvSZjrr3h7g2bydTUpY-39" value="&lt;div&gt;无锁&lt;/div&gt;相当于代理的TCC模式。&lt;div&gt;try阶段直接提交事务并记录日志&lt;/div&gt;&lt;div&gt;commit删除回滚日志&lt;/div&gt;&lt;div&gt;cance则执行回滚日志&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="VHvSZjrr3h7g2bydTUpY-35" vertex="1">
           <mxGeometry x="260" width="250" height="65" as="geometry">
             <mxRectangle width="250" height="65" as="alternateBounds" />
           </mxGeometry>
@@ -4293,7 +4293,7 @@
             <mxRectangle width="80" height="35" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="VHvSZjrr3h7g2bydTUpY-45" value="每个RM手写 try-confirm-cancel 逻辑&lt;span style=&quot;white-space:pre&quot;&gt;&#x9;&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="VHvSZjrr3h7g2bydTUpY-41" vertex="1">
+        <mxCell id="VHvSZjrr3h7g2bydTUpY-45" value="&lt;div&gt;无锁&lt;/div&gt;每个RM手写 try-confirm-cancel 逻辑" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="VHvSZjrr3h7g2bydTUpY-41" vertex="1">
           <mxGeometry x="260" width="250" height="35" as="geometry">
             <mxRectangle width="250" height="35" as="alternateBounds" />
           </mxGeometry>
@@ -4326,7 +4326,7 @@
             <mxRectangle width="80" height="36" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="VHvSZjrr3h7g2bydTUpY-51" value="支持长事务、补偿机制&lt;span style=&quot;white-space:pre&quot;&gt;&#x9;&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="VHvSZjrr3h7g2bydTUpY-47" vertex="1">
+        <mxCell id="VHvSZjrr3h7g2bydTUpY-51" value="&lt;div&gt;无锁&lt;/div&gt;支持长事务、补偿机制" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="VHvSZjrr3h7g2bydTUpY-47" vertex="1">
           <mxGeometry x="260" width="250" height="36" as="geometry">
             <mxRectangle width="250" height="36" as="alternateBounds" />
           </mxGeometry>
@@ -4359,7 +4359,7 @@
             <mxRectangle width="80" height="35" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="VHvSZjrr3h7g2bydTUpY-57" value="数据库实现 XA 协议，两阶段提交。" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="VHvSZjrr3h7g2bydTUpY-53" vertex="1">
+        <mxCell id="VHvSZjrr3h7g2bydTUpY-57" value="&lt;div&gt;有锁&lt;/div&gt;数据库实现 XA 协议，两阶段提交。" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="VHvSZjrr3h7g2bydTUpY-53" vertex="1">
           <mxGeometry x="260" width="250" height="35" as="geometry">
             <mxRectangle width="250" height="35" as="alternateBounds" />
           </mxGeometry>
