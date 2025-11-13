@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="28.2.9">
   <diagram name="第 1 页" id="Of1sGSvZfQuRrEPr6PyE">
-    <mxGraphModel dx="6578" dy="858" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="6244" dy="598" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1472,6 +1472,100 @@
         <mxCell id="woEXByO1yIPWKVT65qTF-725" value="AspectJ基于编译器代理" style="whiteSpace=wrap;html=1;" parent="woEXByO1yIPWKVT65qTF-722" vertex="1">
           <mxGeometry x="15" y="162" width="135" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="UZpCkfq00thLrY-5nPHd-6" value="事务传播机制" style="shape=table;startSize=23;container=1;collapsible=0;childLayout=tableLayout;" vertex="1" parent="woEXByO1yIPWKVT65qTF-721">
+          <mxGeometry x="330" y="60" width="320" height="314" as="geometry" />
+        </mxCell>
+        <mxCell id="UZpCkfq00thLrY-5nPHd-7" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="UZpCkfq00thLrY-5nPHd-6">
+          <mxGeometry y="23" width="320" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="UZpCkfq00thLrY-5nPHd-8" value="REQUIRED" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="UZpCkfq00thLrY-5nPHd-7">
+          <mxGeometry width="120" height="41" as="geometry">
+            <mxRectangle width="120" height="41" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UZpCkfq00thLrY-5nPHd-9" value="如果当前存在事务，则加入该事务；如果没有事务，则新建一个事务。" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="UZpCkfq00thLrY-5nPHd-7">
+          <mxGeometry x="120" width="200" height="41" as="geometry">
+            <mxRectangle width="200" height="41" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UZpCkfq00thLrY-5nPHd-10" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="UZpCkfq00thLrY-5nPHd-6">
+          <mxGeometry y="64" width="320" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="UZpCkfq00thLrY-5nPHd-11" value="SUPPORTS" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="UZpCkfq00thLrY-5nPHd-10">
+          <mxGeometry width="120" height="44" as="geometry">
+            <mxRectangle width="120" height="44" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UZpCkfq00thLrY-5nPHd-12" value="如果当前存在事务，则加入事务；如果没有事务，则以非事务方式执行。" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="UZpCkfq00thLrY-5nPHd-10">
+          <mxGeometry x="120" width="200" height="44" as="geometry">
+            <mxRectangle width="200" height="44" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UZpCkfq00thLrY-5nPHd-13" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="UZpCkfq00thLrY-5nPHd-6">
+          <mxGeometry y="108" width="320" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="UZpCkfq00thLrY-5nPHd-14" value="MANDATORY" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="UZpCkfq00thLrY-5nPHd-13">
+          <mxGeometry width="120" height="42" as="geometry">
+            <mxRectangle width="120" height="42" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UZpCkfq00thLrY-5nPHd-15" value="必须在事务中执行，如果没有事务，则抛异常。" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="UZpCkfq00thLrY-5nPHd-13">
+          <mxGeometry x="120" width="200" height="42" as="geometry">
+            <mxRectangle width="200" height="42" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UZpCkfq00thLrY-5nPHd-16" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="UZpCkfq00thLrY-5nPHd-6">
+          <mxGeometry y="150" width="320" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="UZpCkfq00thLrY-5nPHd-17" value="REQUIRES_NEW" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="UZpCkfq00thLrY-5nPHd-16">
+          <mxGeometry width="120" height="41" as="geometry">
+            <mxRectangle width="120" height="41" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UZpCkfq00thLrY-5nPHd-18" value="总是开启新事务，如果当前存在事务，则挂起原事务。" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="UZpCkfq00thLrY-5nPHd-16">
+          <mxGeometry x="120" width="200" height="41" as="geometry">
+            <mxRectangle width="200" height="41" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UZpCkfq00thLrY-5nPHd-19" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="UZpCkfq00thLrY-5nPHd-6">
+          <mxGeometry y="191" width="320" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="UZpCkfq00thLrY-5nPHd-20" value="NOT_SUPPORTED" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="UZpCkfq00thLrY-5nPHd-19">
+          <mxGeometry width="120" height="41" as="geometry">
+            <mxRectangle width="120" height="41" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UZpCkfq00thLrY-5nPHd-21" value="总是以非事务方式执行，如果当前存在事务，则挂起原事务。" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="UZpCkfq00thLrY-5nPHd-19">
+          <mxGeometry x="120" width="200" height="41" as="geometry">
+            <mxRectangle width="200" height="41" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UZpCkfq00thLrY-5nPHd-25" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="UZpCkfq00thLrY-5nPHd-6">
+          <mxGeometry y="232" width="320" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="UZpCkfq00thLrY-5nPHd-26" value="NEVER" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="UZpCkfq00thLrY-5nPHd-25">
+          <mxGeometry width="120" height="41" as="geometry">
+            <mxRectangle width="120" height="41" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UZpCkfq00thLrY-5nPHd-27" value="必须以非事务方式执行，如果当前存在事务，则抛异常。" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="UZpCkfq00thLrY-5nPHd-25">
+          <mxGeometry x="120" width="200" height="41" as="geometry">
+            <mxRectangle width="200" height="41" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UZpCkfq00thLrY-5nPHd-28" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="UZpCkfq00thLrY-5nPHd-6">
+          <mxGeometry y="273" width="320" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="UZpCkfq00thLrY-5nPHd-29" value="NESTED" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="UZpCkfq00thLrY-5nPHd-28">
+          <mxGeometry width="120" height="41" as="geometry">
+            <mxRectangle width="120" height="41" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UZpCkfq00thLrY-5nPHd-30" value="如果当前存在事务，则在嵌套事务中执行，否则与 REQUIRED 类似。" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="UZpCkfq00thLrY-5nPHd-28">
+          <mxGeometry x="120" width="200" height="41" as="geometry">
+            <mxRectangle width="200" height="41" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="De8YwUg0Y1lUbm7mTjdf-2" value="基础" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" parent="woEXByO1yIPWKVT65qTF-201" vertex="1">
           <mxGeometry x="77.5" y="4748" width="2510" height="320" as="geometry" />
         </mxCell>
@@ -2880,6 +2974,9 @@
         </mxCell>
         <mxCell id="woEXByO1yIPWKVT65qTF-771" value="开启事务" style="whiteSpace=wrap;html=1;" parent="woEXByO1yIPWKVT65qTF-727" vertex="1">
           <mxGeometry x="531" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UZpCkfq00thLrY-5nPHd-1" value="多线程事务" style="whiteSpace=wrap;html=1;" vertex="1" parent="woEXByO1yIPWKVT65qTF-727">
+          <mxGeometry x="1225" y="710" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="woEXByO1yIPWKVT65qTF-775" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="lPIi9ZnA5GsBTCQyYRj0-53" target="woEXByO1yIPWKVT65qTF-774" edge="1">
           <mxGeometry relative="1" as="geometry" />
