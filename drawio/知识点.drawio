@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="28.2.9">
   <diagram name="第 1 页" id="Of1sGSvZfQuRrEPr6PyE">
-    <mxGraphModel dx="6741" dy="731" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="6578" dy="858" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -4303,7 +4303,7 @@
             <mxRectangle width="180" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="VHvSZjrr3h7g2bydTUpY-61" value="复杂" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="VHvSZjrr3h7g2bydTUpY-41" vertex="1">
+        <mxCell id="VHvSZjrr3h7g2bydTUpY-61" value="&lt;div&gt;cancel可能重复执行，需要幂等&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="VHvSZjrr3h7g2bydTUpY-41" vertex="1">
           <mxGeometry x="690" width="370" height="40" as="geometry">
             <mxRectangle width="370" height="40" as="alternateBounds" />
           </mxGeometry>
@@ -4374,56 +4374,56 @@
             <mxRectangle width="370" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="iR1HtJD-FbFYGJSDqAfa-15" value="多线程时会跳出seata线程，使用GlobalTransactionalExecutorService线程池可以将多线程加入seata全局事务" style="whiteSpace=wrap;html=1;" vertex="1" parent="VHvSZjrr3h7g2bydTUpY-1">
+        <mxCell id="iR1HtJD-FbFYGJSDqAfa-15" value="多线程时会跳出seata线程，使用GlobalTransactionalExecutorService线程池可以将多线程加入seata全局事务" style="whiteSpace=wrap;html=1;" parent="VHvSZjrr3h7g2bydTUpY-1" vertex="1">
           <mxGeometry x="370" y="321" width="300" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="iR1HtJD-FbFYGJSDqAfa-16" value="微服务间事务通过在header中加上xid，然后通过AOP绑定xid" style="whiteSpace=wrap;html=1;" vertex="1" parent="VHvSZjrr3h7g2bydTUpY-1">
+        <mxCell id="iR1HtJD-FbFYGJSDqAfa-16" value="微服务间事务通过在header中加上xid，然后通过AOP绑定xid" style="whiteSpace=wrap;html=1;" parent="VHvSZjrr3h7g2bydTUpY-1" vertex="1">
           <mxGeometry x="30" y="321" width="240" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="iR1HtJD-FbFYGJSDqAfa-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="VHvSZjrr3h7g2bydTUpY-1" source="iR1HtJD-FbFYGJSDqAfa-16" target="iR1HtJD-FbFYGJSDqAfa-15">
+        <mxCell id="iR1HtJD-FbFYGJSDqAfa-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="VHvSZjrr3h7g2bydTUpY-1" source="iR1HtJD-FbFYGJSDqAfa-16" target="iR1HtJD-FbFYGJSDqAfa-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="SS6j9H3nX_lLP3tuC7AH-16" value="加载静态网页&lt;div&gt;&lt;div&gt;spring:&lt;/div&gt;&lt;div&gt;&amp;nbsp; mvc:&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; static-path-pattern: &quot;/resources/**&quot;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="18100" y="1350" width="220" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="iR1HtJD-FbFYGJSDqAfa-5" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;" vertex="1" parent="1">
+        <mxCell id="iR1HtJD-FbFYGJSDqAfa-5" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;" parent="1" vertex="1">
           <mxGeometry x="20430" y="2050" width="300" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="iR1HtJD-FbFYGJSDqAfa-6" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="iR1HtJD-FbFYGJSDqAfa-5">
+        <mxCell id="iR1HtJD-FbFYGJSDqAfa-6" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="iR1HtJD-FbFYGJSDqAfa-5" vertex="1">
           <mxGeometry width="300" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="iR1HtJD-FbFYGJSDqAfa-7" value="事务管理者(TM)" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="iR1HtJD-FbFYGJSDqAfa-6">
+        <mxCell id="iR1HtJD-FbFYGJSDqAfa-7" value="事务管理者(TM)" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="iR1HtJD-FbFYGJSDqAfa-6" vertex="1">
           <mxGeometry width="150" height="40" as="geometry">
             <mxRectangle width="150" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="iR1HtJD-FbFYGJSDqAfa-8" value="发起全局事务的服务" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="iR1HtJD-FbFYGJSDqAfa-6">
+        <mxCell id="iR1HtJD-FbFYGJSDqAfa-8" value="发起全局事务的服务" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="iR1HtJD-FbFYGJSDqAfa-6" vertex="1">
           <mxGeometry x="150" width="150" height="40" as="geometry">
             <mxRectangle width="150" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="iR1HtJD-FbFYGJSDqAfa-9" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="iR1HtJD-FbFYGJSDqAfa-5">
+        <mxCell id="iR1HtJD-FbFYGJSDqAfa-9" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="iR1HtJD-FbFYGJSDqAfa-5" vertex="1">
           <mxGeometry y="40" width="300" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="iR1HtJD-FbFYGJSDqAfa-10" value="资源管理者(RM)" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="iR1HtJD-FbFYGJSDqAfa-9">
+        <mxCell id="iR1HtJD-FbFYGJSDqAfa-10" value="资源管理者(RM)" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="iR1HtJD-FbFYGJSDqAfa-9" vertex="1">
           <mxGeometry width="150" height="40" as="geometry">
             <mxRectangle width="150" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="iR1HtJD-FbFYGJSDqAfa-11" value="所有参与本地事务的服务" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="iR1HtJD-FbFYGJSDqAfa-9">
+        <mxCell id="iR1HtJD-FbFYGJSDqAfa-11" value="所有参与本地事务的服务" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="iR1HtJD-FbFYGJSDqAfa-9" vertex="1">
           <mxGeometry x="150" width="150" height="40" as="geometry">
             <mxRectangle width="150" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="iR1HtJD-FbFYGJSDqAfa-12" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="iR1HtJD-FbFYGJSDqAfa-5">
+        <mxCell id="iR1HtJD-FbFYGJSDqAfa-12" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="iR1HtJD-FbFYGJSDqAfa-5" vertex="1">
           <mxGeometry y="80" width="300" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="iR1HtJD-FbFYGJSDqAfa-13" value="事务协调者(TC)" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="iR1HtJD-FbFYGJSDqAfa-12">
+        <mxCell id="iR1HtJD-FbFYGJSDqAfa-13" value="事务协调者(TC)" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="iR1HtJD-FbFYGJSDqAfa-12" vertex="1">
           <mxGeometry width="150" height="40" as="geometry">
             <mxRectangle width="150" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="iR1HtJD-FbFYGJSDqAfa-14" value="Seata Server" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="iR1HtJD-FbFYGJSDqAfa-12">
+        <mxCell id="iR1HtJD-FbFYGJSDqAfa-14" value="Seata Server" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="iR1HtJD-FbFYGJSDqAfa-12" vertex="1">
           <mxGeometry x="150" width="150" height="40" as="geometry">
             <mxRectangle width="150" height="40" as="alternateBounds" />
           </mxGeometry>
