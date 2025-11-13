@@ -4336,7 +4336,7 @@
             <mxRectangle width="180" height="42" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="VHvSZjrr3h7g2bydTUpY-62" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="VHvSZjrr3h7g2bydTUpY-47" vertex="1">
+        <mxCell id="VHvSZjrr3h7g2bydTUpY-62" value="正反都可能执行，需要幂等" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="VHvSZjrr3h7g2bydTUpY-47" vertex="1">
           <mxGeometry x="690" width="370" height="42" as="geometry">
             <mxRectangle width="370" height="42" as="alternateBounds" />
           </mxGeometry>
