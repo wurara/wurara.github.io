@@ -1483,7 +1483,7 @@
             <mxRectangle width="120" height="41" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="UZpCkfq00thLrY-5nPHd-9" value="如果当前存在事务，则加入该事务；如果没有事务，则新建一个事务。" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="UZpCkfq00thLrY-5nPHd-7">
+        <mxCell id="UZpCkfq00thLrY-5nPHd-9" value="存在则加入；没有则创建" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="UZpCkfq00thLrY-5nPHd-7">
           <mxGeometry x="120" width="200" height="41" as="geometry">
             <mxRectangle width="200" height="41" as="alternateBounds" />
           </mxGeometry>
@@ -1496,7 +1496,7 @@
             <mxRectangle width="120" height="44" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="UZpCkfq00thLrY-5nPHd-12" value="如果当前存在事务，则加入事务；如果没有事务，则以非事务方式执行。" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="UZpCkfq00thLrY-5nPHd-10">
+        <mxCell id="UZpCkfq00thLrY-5nPHd-12" value="创建一个新事务，并暂停当前事务" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="UZpCkfq00thLrY-5nPHd-10">
           <mxGeometry x="120" width="200" height="44" as="geometry">
             <mxRectangle width="200" height="44" as="alternateBounds" />
           </mxGeometry>
@@ -1509,7 +1509,7 @@
             <mxRectangle width="120" height="42" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="UZpCkfq00thLrY-5nPHd-15" value="必须在事务中执行，如果没有事务，则抛异常。" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="UZpCkfq00thLrY-5nPHd-13">
+        <mxCell id="UZpCkfq00thLrY-5nPHd-15" value="有则加入，没有则非事务运行" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="UZpCkfq00thLrY-5nPHd-13">
           <mxGeometry x="120" width="200" height="42" as="geometry">
             <mxRectangle width="200" height="42" as="alternateBounds" />
           </mxGeometry>
@@ -1522,7 +1522,7 @@
             <mxRectangle width="120" height="41" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="UZpCkfq00thLrY-5nPHd-18" value="总是开启新事务，如果当前存在事务，则挂起原事务。" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="UZpCkfq00thLrY-5nPHd-16">
+        <mxCell id="UZpCkfq00thLrY-5nPHd-18" value="非事务执行，并暂停当前事务" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="UZpCkfq00thLrY-5nPHd-16">
           <mxGeometry x="120" width="200" height="41" as="geometry">
             <mxRectangle width="200" height="41" as="alternateBounds" />
           </mxGeometry>
@@ -1535,7 +1535,7 @@
             <mxRectangle width="120" height="41" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="UZpCkfq00thLrY-5nPHd-21" value="总是以非事务方式执行，如果当前存在事务，则挂起原事务。" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="UZpCkfq00thLrY-5nPHd-19">
+        <mxCell id="UZpCkfq00thLrY-5nPHd-21" value="要求不存在事务。否则就抛出异常" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="UZpCkfq00thLrY-5nPHd-19">
           <mxGeometry x="120" width="200" height="41" as="geometry">
             <mxRectangle width="200" height="41" as="alternateBounds" />
           </mxGeometry>
@@ -1548,7 +1548,7 @@
             <mxRectangle width="120" height="41" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="UZpCkfq00thLrY-5nPHd-27" value="必须以非事务方式执行，如果当前存在事务，则抛异常。" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="UZpCkfq00thLrY-5nPHd-25">
+        <mxCell id="UZpCkfq00thLrY-5nPHd-27" value="与 REQUIRED 一样。但是独立执行" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="UZpCkfq00thLrY-5nPHd-25">
           <mxGeometry x="120" width="200" height="41" as="geometry">
             <mxRectangle width="200" height="41" as="alternateBounds" />
           </mxGeometry>
@@ -1561,7 +1561,7 @@
             <mxRectangle width="120" height="41" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="UZpCkfq00thLrY-5nPHd-30" value="如果当前存在事务，则在嵌套事务中执行，否则与 REQUIRED 类似。" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="UZpCkfq00thLrY-5nPHd-28">
+        <mxCell id="UZpCkfq00thLrY-5nPHd-30" value="存在则加入；否则就抛出异常" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="UZpCkfq00thLrY-5nPHd-28">
           <mxGeometry x="120" width="200" height="41" as="geometry">
             <mxRectangle width="200" height="41" as="alternateBounds" />
           </mxGeometry>
