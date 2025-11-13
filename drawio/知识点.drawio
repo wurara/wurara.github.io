@@ -4303,7 +4303,7 @@
             <mxRectangle width="180" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="VHvSZjrr3h7g2bydTUpY-61" value="&lt;div&gt;cancel可能重复执行，需要幂等&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="VHvSZjrr3h7g2bydTUpY-41" vertex="1">
+        <mxCell id="VHvSZjrr3h7g2bydTUpY-61" value="&lt;div&gt;Confirm、Cancel可能重复执行，需要幂等&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="VHvSZjrr3h7g2bydTUpY-41" vertex="1">
           <mxGeometry x="690" width="370" height="40" as="geometry">
             <mxRectangle width="370" height="40" as="alternateBounds" />
           </mxGeometry>
