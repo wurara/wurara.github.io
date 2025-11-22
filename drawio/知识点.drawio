@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="29.0.2">
   <diagram name="第 1 页" id="Of1sGSvZfQuRrEPr6PyE">
-    <mxGraphModel dx="6374" dy="637" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="6923" dy="1234" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3557,11 +3557,14 @@
         <mxCell id="A0-jzPn9HvHbSC4E_66x-82" value="工作负载" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" parent="A0-jzPn9HvHbSC4E_66x-81" vertex="1">
           <mxGeometry x="40" y="69" width="1280" height="391" as="geometry" />
         </mxCell>
-        <mxCell id="A0-jzPn9HvHbSC4E_66x-96" value="" style="whiteSpace=wrap;html=1;" parent="A0-jzPn9HvHbSC4E_66x-82" vertex="1">
-          <mxGeometry x="640" y="43" width="120" height="60" as="geometry" />
+        <mxCell id="MD0Z8GOlO3_hqMcNnJVC-48" value="configMap" style="whiteSpace=wrap;html=1;" vertex="1" parent="A0-jzPn9HvHbSC4E_66x-82">
+          <mxGeometry x="390" y="13" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="A0-jzPn9HvHbSC4E_66x-95" value="DaemonSet" style="whiteSpace=wrap;html=1;" parent="A0-jzPn9HvHbSC4E_66x-82" vertex="1">
-          <mxGeometry x="490" y="43" width="120" height="60" as="geometry" />
+        <mxCell id="MD0Z8GOlO3_hqMcNnJVC-49" value="LimitRange&lt;div&gt;资源限额&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="A0-jzPn9HvHbSC4E_66x-82">
+          <mxGeometry x="390" y="73" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MD0Z8GOlO3_hqMcNnJVC-50" value="namespace&lt;div&gt;&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;部署&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="A0-jzPn9HvHbSC4E_66x-82">
+          <mxGeometry x="510" y="72" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="A0-jzPn9HvHbSC4E_66x-102" value="部署类型" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;" parent="1" vertex="1">
           <mxGeometry x="12890" y="420" width="230" height="270" as="geometry" />
