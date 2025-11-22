@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="29.0.2">
   <diagram name="第 1 页" id="Of1sGSvZfQuRrEPr6PyE">
-    <mxGraphModel dx="6923" dy="1234" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="6923" dy="1271" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3658,6 +3658,9 @@
         </mxCell>
         <mxCell id="MD0Z8GOlO3_hqMcNnJVC-53" value="priorityClassName" style="whiteSpace=wrap;html=1;startSize=30;" vertex="1" parent="A0-jzPn9HvHbSC4E_66x-82">
           <mxGeometry x="310" y="193" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MD0Z8GOlO3_hqMcNnJVC-59" value="&lt;div&gt;非抢占式&lt;/div&gt;preemptionPolicy: Never" style="whiteSpace=wrap;html=1;" vertex="1" parent="A0-jzPn9HvHbSC4E_66x-82">
+          <mxGeometry x="590" y="193" width="170" height="60" as="geometry" />
         </mxCell>
         <mxCell id="_nW9phOJRrEgspZKzDJQ-1" value="linux" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="14490" y="350" width="1980" height="1060" as="geometry" />
