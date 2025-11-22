@@ -1508,6 +1508,9 @@
         <mxCell id="MD0Z8GOlO3_hqMcNnJVC-46" value="1. 初始标记STW&lt;div&gt;2. 并发标记&lt;/div&gt;&lt;div&gt;3. 重新标记STW&lt;/div&gt;&lt;div&gt;4. 回收 Region&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="woEXByO1yIPWKVT65qTF-704">
           <mxGeometry x="1255" y="170" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="MD0Z8GOlO3_hqMcNnJVC-47" value="Mixed GC清理优先级高的region&lt;div&gt;full GC清理全部region&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="woEXByO1yIPWKVT65qTF-704">
+          <mxGeometry x="1255" y="230" width="165" height="60" as="geometry" />
+        </mxCell>
         <mxCell id="woEXByO1yIPWKVT65qTF-721" value="SPRING" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" parent="woEXByO1yIPWKVT65qTF-201" vertex="1">
           <mxGeometry x="50" y="3840" width="770" height="535" as="geometry" />
         </mxCell>
