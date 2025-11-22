@@ -1479,7 +1479,7 @@
           <mxGeometry x="1255" y="49" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MD0Z8GOlO3_hqMcNnJVC-37" value="会产生内存碎片" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="woEXByO1yIPWKVT65qTF-704">
-          <mxGeometry x="1085" y="186.5" width="120" height="60" as="geometry" />
+          <mxGeometry x="1085" y="327.5" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MD0Z8GOlO3_hqMcNnJVC-30" value="Serial GC" style="whiteSpace=wrap;html=1;" vertex="1" parent="woEXByO1yIPWKVT65qTF-704">
           <mxGeometry x="745" y="49" width="120" height="60" as="geometry" />
@@ -1491,10 +1491,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="MD0Z8GOlO3_hqMcNnJVC-38" value="标记清理算法" style="whiteSpace=wrap;html=1;" vertex="1" parent="woEXByO1yIPWKVT65qTF-704">
-          <mxGeometry x="1085" y="109" width="120" height="60" as="geometry" />
+          <mxGeometry x="1085" y="250" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MD0Z8GOlO3_hqMcNnJVC-39" value="标记整理算法" style="whiteSpace=wrap;html=1;" vertex="1" parent="woEXByO1yIPWKVT65qTF-704">
-          <mxGeometry x="915" y="109" width="120" height="60" as="geometry" />
+          <mxGeometry x="915" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MD0Z8GOlO3_hqMcNnJVC-41" value="STW 停顿短&lt;div&gt;会降低吞吐&lt;br&gt;&lt;div&gt;和工作线程并发标记&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="woEXByO1yIPWKVT65qTF-704">
+          <mxGeometry x="1085" y="109" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MD0Z8GOlO3_hqMcNnJVC-42" value="STW较低" style="whiteSpace=wrap;html=1;" vertex="1" parent="woEXByO1yIPWKVT65qTF-704">
+          <mxGeometry x="915" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MD0Z8GOlO3_hqMcNnJVC-43" value="1. 初始标记STW&lt;div&gt;2. 并发标记&lt;/div&gt;&lt;div&gt;3. 重新标记STW&lt;/div&gt;&lt;div&gt;4. 并发清理&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="woEXByO1yIPWKVT65qTF-704">
+          <mxGeometry x="1085" y="170" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="woEXByO1yIPWKVT65qTF-721" value="SPRING" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" parent="woEXByO1yIPWKVT65qTF-201" vertex="1">
           <mxGeometry x="50" y="3840" width="770" height="535" as="geometry" />
