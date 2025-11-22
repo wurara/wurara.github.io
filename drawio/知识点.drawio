@@ -2079,11 +2079,20 @@
         <mxCell id="MD0Z8GOlO3_hqMcNnJVC-12" value="关闭不需要搜索的字段的index和doc_values" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="MD0Z8GOlO3_hqMcNnJVC-10">
           <mxGeometry y="60" width="270" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="MD0Z8GOlO3_hqMcNnJVC-13" value="Item 3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="MD0Z8GOlO3_hqMcNnJVC-10">
+        <mxCell id="MD0Z8GOlO3_hqMcNnJVC-13" value="nested性能损耗" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="MD0Z8GOlO3_hqMcNnJVC-10">
           <mxGeometry y="90" width="270" height="30" as="geometry" />
         </mxCell>
         <mxCell id="MD0Z8GOlO3_hqMcNnJVC-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="YHgq6Inqc1hdYxIkoSAz-106" source="MD0Z8GOlO3_hqMcNnJVC-11" target="MD0Z8GOlO3_hqMcNnJVC-8">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MD0Z8GOlO3_hqMcNnJVC-15" value="先查询子文档再查询父文档" style="whiteSpace=wrap;html=1;" vertex="1" parent="YHgq6Inqc1hdYxIkoSAz-106">
+          <mxGeometry x="480" y="442" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MD0Z8GOlO3_hqMcNnJVC-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="YHgq6Inqc1hdYxIkoSAz-106" source="MD0Z8GOlO3_hqMcNnJVC-13" target="MD0Z8GOlO3_hqMcNnJVC-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MD0Z8GOlO3_hqMcNnJVC-19" value="flattened、object替代" style="whiteSpace=wrap;html=1;" vertex="1" parent="YHgq6Inqc1hdYxIkoSAz-106">
+          <mxGeometry x="600" y="442" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="AMm9hKQXMgik81A_Uai_-21" value="Kafka" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" parent="woEXByO1yIPWKVT65qTF-498" vertex="1">
           <mxGeometry x="50" y="2250" width="960" height="450" as="geometry" />
