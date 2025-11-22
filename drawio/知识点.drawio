@@ -2437,8 +2437,8 @@
         <mxCell id="MD0Z8GOlO3_hqMcNnJVC-4" value="has_child and has_parent" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="MD0Z8GOlO3_hqMcNnJVC-2">
           <mxGeometry y="60" width="190" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="MD0Z8GOlO3_hqMcNnJVC-21" value="script查询&lt;div&gt;极其消耗性能&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="YHgq6Inqc1hdYxIkoSAz-50">
-          <mxGeometry x="460" y="340" width="120" height="60" as="geometry" />
+        <mxCell id="MD0Z8GOlO3_hqMcNnJVC-21" value="script查询&lt;div&gt;极其消耗性能&lt;/div&gt;&lt;div&gt;（可以将脚本数据存入新字段）&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="YHgq6Inqc1hdYxIkoSAz-50">
+          <mxGeometry x="460" y="340" width="170" height="60" as="geometry" />
         </mxCell>
         <mxCell id="AMm9hKQXMgik81A_Uai_-43" value="Kafka" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" parent="woEXByO1yIPWKVT65qTF-536" vertex="1">
           <mxGeometry x="150" y="2270" width="1210" height="940" as="geometry" />
