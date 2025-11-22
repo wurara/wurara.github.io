@@ -1491,13 +1491,10 @@
           <mxGeometry x="1085" y="250" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MD0Z8GOlO3_hqMcNnJVC-39" value="标记整理算法" style="whiteSpace=wrap;html=1;" vertex="1" parent="woEXByO1yIPWKVT65qTF-704">
-          <mxGeometry x="915" y="170" width="120" height="60" as="geometry" />
+          <mxGeometry x="915" y="110" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MD0Z8GOlO3_hqMcNnJVC-41" value="STW 停顿短" style="whiteSpace=wrap;html=1;" vertex="1" parent="woEXByO1yIPWKVT65qTF-704">
           <mxGeometry x="1085" y="109" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="MD0Z8GOlO3_hqMcNnJVC-42" value="STW较低" style="whiteSpace=wrap;html=1;" vertex="1" parent="woEXByO1yIPWKVT65qTF-704">
-          <mxGeometry x="915" y="110" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MD0Z8GOlO3_hqMcNnJVC-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="woEXByO1yIPWKVT65qTF-704" source="MD0Z8GOlO3_hqMcNnJVC-43" target="MD0Z8GOlO3_hqMcNnJVC-38">
           <mxGeometry relative="1" as="geometry" />
