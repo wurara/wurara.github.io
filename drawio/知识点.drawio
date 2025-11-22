@@ -2094,6 +2094,17 @@
         <mxCell id="MD0Z8GOlO3_hqMcNnJVC-19" value="flattened、object替代" style="whiteSpace=wrap;html=1;" vertex="1" parent="YHgq6Inqc1hdYxIkoSAz-106">
           <mxGeometry x="600" y="442" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="MD0Z8GOlO3_hqMcNnJVC-22" value="排序聚合&lt;div&gt;test不要做&lt;/div&gt;&lt;div&gt;keyworld做&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="YHgq6Inqc1hdYxIkoSAz-106">
+          <mxGeometry x="480" y="321" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MD0Z8GOlO3_hqMcNnJVC-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="YHgq6Inqc1hdYxIkoSAz-106" source="MD0Z8GOlO3_hqMcNnJVC-11" target="MD0Z8GOlO3_hqMcNnJVC-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="450" y="412" />
+              <mxPoint x="450" y="350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="AMm9hKQXMgik81A_Uai_-21" value="Kafka" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" parent="woEXByO1yIPWKVT65qTF-498" vertex="1">
           <mxGeometry x="50" y="2250" width="960" height="450" as="geometry" />
         </mxCell>
