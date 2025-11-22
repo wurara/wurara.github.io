@@ -3558,16 +3558,22 @@
           <mxGeometry x="40" y="69" width="1280" height="391" as="geometry" />
         </mxCell>
         <mxCell id="MD0Z8GOlO3_hqMcNnJVC-48" value="configMap" style="whiteSpace=wrap;html=1;" vertex="1" parent="A0-jzPn9HvHbSC4E_66x-82">
-          <mxGeometry x="390" y="13" width="120" height="60" as="geometry" />
+          <mxGeometry x="470" y="73" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MD0Z8GOlO3_hqMcNnJVC-49" value="LimitRange&lt;div&gt;资源限额&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="A0-jzPn9HvHbSC4E_66x-82">
-          <mxGeometry x="390" y="73" width="120" height="60" as="geometry" />
+          <mxGeometry x="470" y="133" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MD0Z8GOlO3_hqMcNnJVC-50" value="namespace&lt;div&gt;&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;部署&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="A0-jzPn9HvHbSC4E_66x-82">
-          <mxGeometry x="510" y="72" width="120" height="60" as="geometry" />
+          <mxGeometry x="590" y="132" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="A0-jzPn9HvHbSC4E_66x-102" value="部署类型" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;" parent="1" vertex="1">
-          <mxGeometry x="12890" y="420" width="230" height="270" as="geometry" />
+        <mxCell id="MD0Z8GOlO3_hqMcNnJVC-52" value="PriorityClass&lt;div&gt;优先级&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="A0-jzPn9HvHbSC4E_66x-82">
+          <mxGeometry x="470" y="193" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MD0Z8GOlO3_hqMcNnJVC-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="A0-jzPn9HvHbSC4E_66x-82" source="A0-jzPn9HvHbSC4E_66x-102" target="MD0Z8GOlO3_hqMcNnJVC-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A0-jzPn9HvHbSC4E_66x-102" value="部署类型" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;" parent="A0-jzPn9HvHbSC4E_66x-82" vertex="1">
+          <mxGeometry x="40" y="13" width="230" height="270" as="geometry" />
         </mxCell>
         <mxCell id="A0-jzPn9HvHbSC4E_66x-103" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="A0-jzPn9HvHbSC4E_66x-102" vertex="1">
           <mxGeometry y="30" width="230" height="40" as="geometry" />
@@ -3646,6 +3652,12 @@
           <mxGeometry x="115" width="115" height="40" as="geometry">
             <mxRectangle width="115" height="40" as="alternateBounds" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="MD0Z8GOlO3_hqMcNnJVC-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="A0-jzPn9HvHbSC4E_66x-82" source="MD0Z8GOlO3_hqMcNnJVC-53" target="MD0Z8GOlO3_hqMcNnJVC-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MD0Z8GOlO3_hqMcNnJVC-53" value="priorityClassName" style="whiteSpace=wrap;html=1;startSize=30;" vertex="1" parent="A0-jzPn9HvHbSC4E_66x-82">
+          <mxGeometry x="310" y="193" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="_nW9phOJRrEgspZKzDJQ-1" value="linux" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="14490" y="350" width="1980" height="1060" as="geometry" />
