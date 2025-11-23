@@ -3865,7 +3865,7 @@
           <mxGeometry height="60" width="120" x="470" y="643" as="geometry" />
         </mxCell>
         <mxCell id="EwFkY2Fgyuo19Mo7PRsu-75" parent="A0-jzPn9HvHbSC4E_66x-81" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" value="网络" vertex="1">
-          <mxGeometry height="251" width="570" x="500" y="1162" as="geometry" />
+          <mxGeometry height="251" width="880" x="500" y="1162" as="geometry" />
         </mxCell>
         <mxCell id="EwFkY2Fgyuo19Mo7PRsu-76" parent="EwFkY2Fgyuo19Mo7PRsu-75" style="rounded=0;whiteSpace=wrap;html=1;" value="CNI负责主机网络和容器网络对接，以及主机之间的网络对接" vertex="1">
           <mxGeometry height="60" width="120" x="50" y="25" as="geometry" />
@@ -3930,6 +3930,24 @@
           <mxGeometry height="40" width="220" x="60" as="geometry">
             <mxRectangle height="40" width="220" as="alternateBounds" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="EwFkY2Fgyuo19Mo7PRsu-97" parent="EwFkY2Fgyuo19Mo7PRsu-75" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Service类型" vertex="1">
+          <mxGeometry height="180" width="180" x="620" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="EwFkY2Fgyuo19Mo7PRsu-98" parent="EwFkY2Fgyuo19Mo7PRsu-97" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="ClusterIP" vertex="1">
+          <mxGeometry height="30" width="180" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EwFkY2Fgyuo19Mo7PRsu-99" parent="EwFkY2Fgyuo19Mo7PRsu-97" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="NodePort" vertex="1">
+          <mxGeometry height="30" width="180" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EwFkY2Fgyuo19Mo7PRsu-100" parent="EwFkY2Fgyuo19Mo7PRsu-97" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="LoadBalancer" vertex="1">
+          <mxGeometry height="30" width="180" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="EwFkY2Fgyuo19Mo7PRsu-101" parent="EwFkY2Fgyuo19Mo7PRsu-97" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="ExternalName" vertex="1">
+          <mxGeometry height="30" width="180" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="EwFkY2Fgyuo19Mo7PRsu-102" parent="EwFkY2Fgyuo19Mo7PRsu-97" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="headless（不分配clusterip,直接访问podip）" vertex="1">
+          <mxGeometry height="30" width="180" y="150" as="geometry" />
         </mxCell>
         <mxCell id="_nW9phOJRrEgspZKzDJQ-1" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="linux" vertex="1">
           <mxGeometry height="1060" width="1980" x="14490" y="350" as="geometry" />
