@@ -3844,16 +3844,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="EwFkY2Fgyuo19Mo7PRsu-62" parent="A0-jzPn9HvHbSC4E_66x-82" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="资源限额" vertex="1">
-          <mxGeometry height="120" width="140" x="590" y="723" as="geometry" />
+          <mxGeometry height="90" width="140" x="660" y="723" as="geometry" />
         </mxCell>
         <mxCell id="EwFkY2Fgyuo19Mo7PRsu-63" parent="EwFkY2Fgyuo19Mo7PRsu-62" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="ResourceQuota" vertex="1">
           <mxGeometry height="30" width="140" y="30" as="geometry" />
         </mxCell>
         <mxCell id="EwFkY2Fgyuo19Mo7PRsu-64" parent="EwFkY2Fgyuo19Mo7PRsu-62" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;text-align: center;&quot;&gt;LimitRange&lt;/span&gt;" vertex="1">
           <mxGeometry height="30" width="140" y="60" as="geometry" />
-        </mxCell>
-        <mxCell id="EwFkY2Fgyuo19Mo7PRsu-65" parent="EwFkY2Fgyuo19Mo7PRsu-62" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Item 3" vertex="1">
-          <mxGeometry height="30" width="140" y="90" as="geometry" />
         </mxCell>
         <mxCell id="EwFkY2Fgyuo19Mo7PRsu-66" parent="A0-jzPn9HvHbSC4E_66x-82" style="whiteSpace=wrap;html=1;" value="Taint" vertex="1">
           <mxGeometry height="60" width="120" x="590" y="423" as="geometry" />
