@@ -3808,45 +3808,45 @@
           <mxGeometry height="30" width="140" y="90" as="geometry" />
         </mxCell>
         <mxCell id="EwFkY2Fgyuo19Mo7PRsu-52" parent="A0-jzPn9HvHbSC4E_66x-82" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;" value="容器存活探针" vertex="1">
-          <mxGeometry height="217" width="210" x="50" y="793" as="geometry" />
+          <mxGeometry height="217" width="310" x="50" y="793" as="geometry" />
         </mxCell>
         <mxCell id="EwFkY2Fgyuo19Mo7PRsu-53" parent="EwFkY2Fgyuo19Mo7PRsu-52" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="" vertex="1">
-          <mxGeometry height="62" width="210" y="30" as="geometry" />
+          <mxGeometry height="62" width="310" y="30" as="geometry" />
         </mxCell>
         <mxCell id="EwFkY2Fgyuo19Mo7PRsu-54" parent="EwFkY2Fgyuo19Mo7PRsu-53" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="livenessProbe" vertex="1">
           <mxGeometry height="62" width="105" as="geometry">
             <mxRectangle height="62" width="105" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="EwFkY2Fgyuo19Mo7PRsu-55" parent="EwFkY2Fgyuo19Mo7PRsu-53" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="" vertex="1">
-          <mxGeometry height="62" width="105" x="105" as="geometry">
-            <mxRectangle height="62" width="105" as="alternateBounds" />
+        <mxCell id="EwFkY2Fgyuo19Mo7PRsu-55" parent="EwFkY2Fgyuo19Mo7PRsu-53" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="探测失败，kubelet 将终止容器，并根据其重启策略重启容器" vertex="1">
+          <mxGeometry height="62" width="205" x="105" as="geometry">
+            <mxRectangle height="62" width="205" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="EwFkY2Fgyuo19Mo7PRsu-56" parent="EwFkY2Fgyuo19Mo7PRsu-52" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="" vertex="1">
-          <mxGeometry height="63" width="210" y="92" as="geometry" />
+          <mxGeometry height="63" width="310" y="92" as="geometry" />
         </mxCell>
         <mxCell id="EwFkY2Fgyuo19Mo7PRsu-57" parent="EwFkY2Fgyuo19Mo7PRsu-56" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="readinessProbe" vertex="1">
           <mxGeometry height="63" width="105" as="geometry">
             <mxRectangle height="63" width="105" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="EwFkY2Fgyuo19Mo7PRsu-58" parent="EwFkY2Fgyuo19Mo7PRsu-56" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="" vertex="1">
-          <mxGeometry height="63" width="105" x="105" as="geometry">
-            <mxRectangle height="63" width="105" as="alternateBounds" />
+        <mxCell id="EwFkY2Fgyuo19Mo7PRsu-58" parent="EwFkY2Fgyuo19Mo7PRsu-56" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="就绪探测失败，该 Pod 的 IP 地址从所有与该 Pod 匹配的服务的 EndpointSlice 中移除" vertex="1">
+          <mxGeometry height="63" width="205" x="105" as="geometry">
+            <mxRectangle height="63" width="205" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="EwFkY2Fgyuo19Mo7PRsu-59" parent="EwFkY2Fgyuo19Mo7PRsu-52" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="" vertex="1">
-          <mxGeometry height="62" width="210" y="155" as="geometry" />
+          <mxGeometry height="62" width="310" y="155" as="geometry" />
         </mxCell>
         <mxCell id="EwFkY2Fgyuo19Mo7PRsu-60" parent="EwFkY2Fgyuo19Mo7PRsu-59" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="startupProbe" vertex="1">
           <mxGeometry height="62" width="105" as="geometry">
             <mxRectangle height="62" width="105" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="EwFkY2Fgyuo19Mo7PRsu-61" parent="EwFkY2Fgyuo19Mo7PRsu-59" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="" vertex="1">
-          <mxGeometry height="62" width="105" x="105" as="geometry">
-            <mxRectangle height="62" width="105" as="alternateBounds" />
+        <mxCell id="EwFkY2Fgyuo19Mo7PRsu-61" parent="EwFkY2Fgyuo19Mo7PRsu-59" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="其他探测都会被禁用，直到探测成功" vertex="1">
+          <mxGeometry height="62" width="205" x="105" as="geometry">
+            <mxRectangle height="62" width="205" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="_nW9phOJRrEgspZKzDJQ-1" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="linux" vertex="1">
