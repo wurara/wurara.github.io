@@ -3733,7 +3733,7 @@
           <mxGeometry height="60" width="120" x="960" y="203" as="geometry" />
         </mxCell>
         <mxCell id="EwFkY2Fgyuo19Mo7PRsu-23" parent="A0-jzPn9HvHbSC4E_66x-82" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="control plane" vertex="1">
-          <mxGeometry height="150" width="140" x="650" y="828" as="geometry" />
+          <mxGeometry height="150" width="140" x="390" y="826.5" as="geometry" />
         </mxCell>
         <mxCell id="EwFkY2Fgyuo19Mo7PRsu-24" parent="EwFkY2Fgyuo19Mo7PRsu-23" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="etcd" vertex="1">
           <mxGeometry height="30" width="140" y="30" as="geometry" />
@@ -3748,7 +3748,7 @@
           <mxGeometry height="30" width="140" y="120" as="geometry" />
         </mxCell>
         <mxCell id="EwFkY2Fgyuo19Mo7PRsu-30" parent="A0-jzPn9HvHbSC4E_66x-82" style="whiteSpace=wrap;html=1;" value="Node controller&lt;div&gt;Job controller&lt;/div&gt;&lt;div&gt;EndpointSlice controller&lt;/div&gt;&lt;div&gt;ServiceAccount controller&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="180" x="860" y="933" as="geometry" />
+          <mxGeometry height="60" width="180" x="575" y="953" as="geometry" />
         </mxCell>
         <mxCell id="EwFkY2Fgyuo19Mo7PRsu-31" edge="1" parent="A0-jzPn9HvHbSC4E_66x-82" source="EwFkY2Fgyuo19Mo7PRsu-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="EwFkY2Fgyuo19Mo7PRsu-30">
           <mxGeometry relative="1" as="geometry" />
@@ -3890,6 +3890,12 @@
         </mxCell>
         <mxCell id="EwFkY2Fgyuo19Mo7PRsu-111" parent="A0-jzPn9HvHbSC4E_66x-82" style="whiteSpace=wrap;html=1;" value="&lt;div style=&quot;text-align: left;&quot;&gt;Sidecar&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="590" y="653" as="geometry" />
+        </mxCell>
+        <mxCell id="EwFkY2Fgyuo19Mo7PRsu-112" parent="A0-jzPn9HvHbSC4E_66x-82" style="whiteSpace=wrap;html=1;" value="亲和性\反亲和性&lt;div&gt;容忍\污点&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="660" y="871" as="geometry" />
+        </mxCell>
+        <mxCell id="EwFkY2Fgyuo19Mo7PRsu-113" edge="1" parent="A0-jzPn9HvHbSC4E_66x-82" source="EwFkY2Fgyuo19Mo7PRsu-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="EwFkY2Fgyuo19Mo7PRsu-112" value="">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="EwFkY2Fgyuo19Mo7PRsu-75" parent="A0-jzPn9HvHbSC4E_66x-81" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" value="网络" vertex="1">
           <mxGeometry height="251" width="1340" x="40" y="1142" as="geometry" />
