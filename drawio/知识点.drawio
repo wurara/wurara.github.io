@@ -3858,6 +3858,12 @@
         <mxCell id="EwFkY2Fgyuo19Mo7PRsu-66" parent="A0-jzPn9HvHbSC4E_66x-82" style="whiteSpace=wrap;html=1;" value="Taint" vertex="1">
           <mxGeometry height="60" width="120" x="590" y="423" as="geometry" />
         </mxCell>
+        <mxCell id="EwFkY2Fgyuo19Mo7PRsu-68" parent="A0-jzPn9HvHbSC4E_66x-82" style="whiteSpace=wrap;html=1;" value="挂载卷" vertex="1">
+          <mxGeometry height="60" width="120" x="590" y="873" as="geometry" />
+        </mxCell>
+        <mxCell id="EwFkY2Fgyuo19Mo7PRsu-70" parent="A0-jzPn9HvHbSC4E_66x-82" style="whiteSpace=wrap;html=1;" value="挂载环境变量" vertex="1">
+          <mxGeometry height="60" width="120" x="590" y="933" as="geometry" />
+        </mxCell>
         <mxCell id="_nW9phOJRrEgspZKzDJQ-1" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="linux" vertex="1">
           <mxGeometry height="1060" width="1980" x="14490" y="350" as="geometry" />
         </mxCell>
@@ -4857,6 +4863,12 @@
         </mxCell>
         <mxCell id="EwFkY2Fgyuo19Mo7PRsu-40" parent="1" style="whiteSpace=wrap;html=1;" value="Namespace" vertex="1">
           <mxGeometry height="60" width="120" x="12960" y="1110" as="geometry" />
+        </mxCell>
+        <mxCell id="EwFkY2Fgyuo19Mo7PRsu-69" edge="1" parent="1" source="EwFkY2Fgyuo19Mo7PRsu-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="EwFkY2Fgyuo19Mo7PRsu-68" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EwFkY2Fgyuo19Mo7PRsu-71" edge="1" parent="1" source="EwFkY2Fgyuo19Mo7PRsu-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="EwFkY2Fgyuo19Mo7PRsu-70" value="">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="EwFkY2Fgyuo19Mo7PRsu-67" parent="1" style="whiteSpace=wrap;html=1;" value="downwardAPI" vertex="1">
           <mxGeometry height="60" width="120" x="13220" y="1320" as="geometry" />
