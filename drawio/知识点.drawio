@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="29.1.1">
   <diagram name="第 1 页" id="Of1sGSvZfQuRrEPr6PyE">
-    <mxGraphModel dx="6487" dy="808" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="6578" dy="914" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3865,7 +3865,7 @@
           <mxGeometry height="60" width="120" x="470" y="643" as="geometry" />
         </mxCell>
         <mxCell id="EwFkY2Fgyuo19Mo7PRsu-75" parent="A0-jzPn9HvHbSC4E_66x-81" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" value="网络" vertex="1">
-          <mxGeometry height="251" width="880" x="500" y="1162" as="geometry" />
+          <mxGeometry height="251" width="1340" x="40" y="1142" as="geometry" />
         </mxCell>
         <mxCell id="EwFkY2Fgyuo19Mo7PRsu-76" parent="EwFkY2Fgyuo19Mo7PRsu-75" style="rounded=0;whiteSpace=wrap;html=1;" value="CNI负责主机网络和容器网络对接，以及主机之间的网络对接" vertex="1">
           <mxGeometry height="60" width="120" x="50" y="25" as="geometry" />
@@ -3948,6 +3948,18 @@
         </mxCell>
         <mxCell id="EwFkY2Fgyuo19Mo7PRsu-102" parent="EwFkY2Fgyuo19Mo7PRsu-97" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="headless（不分配clusterip,直接访问podip）" vertex="1">
           <mxGeometry height="30" width="180" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="EwFkY2Fgyuo19Mo7PRsu-103" parent="EwFkY2Fgyuo19Mo7PRsu-75" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="访问集群外" vertex="1">
+          <mxGeometry height="120" width="140" x="870" y="29" as="geometry" />
+        </mxCell>
+        <mxCell id="EwFkY2Fgyuo19Mo7PRsu-104" parent="EwFkY2Fgyuo19Mo7PRsu-103" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="修改coreDNS配置" vertex="1">
+          <mxGeometry height="30" width="140" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EwFkY2Fgyuo19Mo7PRsu-105" parent="EwFkY2Fgyuo19Mo7PRsu-103" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="externalName匹配域名" vertex="1">
+          <mxGeometry height="30" width="140" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EwFkY2Fgyuo19Mo7PRsu-106" parent="EwFkY2Fgyuo19Mo7PRsu-103" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Endpoint指定ip" vertex="1">
+          <mxGeometry height="30" width="140" y="90" as="geometry" />
         </mxCell>
         <mxCell id="_nW9phOJRrEgspZKzDJQ-1" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="linux" vertex="1">
           <mxGeometry height="1060" width="1980" x="14490" y="350" as="geometry" />
