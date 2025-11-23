@@ -4158,7 +4158,7 @@
         <mxCell id="EwFkY2Fgyuo19Mo7PRsu-120" parent="EwFkY2Fgyuo19Mo7PRsu-114" style="whiteSpace=wrap;html=1;" value="|&lt;div&gt;一个命令输出给另一个做输入&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="200" x="440" y="20" as="geometry" />
         </mxCell>
-        <mxCell id="EwFkY2Fgyuo19Mo7PRsu-121" parent="EwFkY2Fgyuo19Mo7PRsu-114" style="whiteSpace=wrap;html=1;" value="||&lt;div&gt;前面命令失败时执行后面的&lt;/div&gt;&lt;div&gt;&amp;amp;&amp;amp;&lt;/div&gt;&lt;div&gt;前面命令成功时执行后面的&lt;/div&gt;" vertex="1">
+        <mxCell id="EwFkY2Fgyuo19Mo7PRsu-121" parent="EwFkY2Fgyuo19Mo7PRsu-114" style="whiteSpace=wrap;html=1;" value="&lt;div&gt;||&lt;/div&gt;&lt;div&gt;前面命令失败时执行后面的&lt;/div&gt;&lt;div&gt;&amp;amp;&amp;amp;&lt;/div&gt;&lt;div&gt;前面命令成功时执行后面的&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="180" x="440" y="100" as="geometry" />
         </mxCell>
         <mxCell id="_nW9phOJRrEgspZKzDJQ-70" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="构建工具" vertex="1">
