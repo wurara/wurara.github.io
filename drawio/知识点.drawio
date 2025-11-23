@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="29.1.1">
   <diagram name="第 1 页" id="Of1sGSvZfQuRrEPr6PyE">
-    <mxGraphModel dx="6923" dy="1276" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="6797" dy="1134" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3995,7 +3995,7 @@
           <mxGeometry height="30" width="140" y="90" as="geometry" />
         </mxCell>
         <mxCell id="_nW9phOJRrEgspZKzDJQ-1" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="linux" vertex="1">
-          <mxGeometry height="1060" width="1980" x="14490" y="350" as="geometry" />
+          <mxGeometry height="1310" width="1980" x="14490" y="350" as="geometry" />
         </mxCell>
         <mxCell id="_nW9phOJRrEgspZKzDJQ-2" parent="_nW9phOJRrEgspZKzDJQ-1" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" value="磁盘" vertex="1">
           <mxGeometry height="642" width="1630" x="70" y="88" as="geometry" />
@@ -4136,6 +4136,30 @@
         </mxCell>
         <mxCell id="_nW9phOJRrEgspZKzDJQ-69" parent="_nW9phOJRrEgspZKzDJQ-1" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" value="网络（施工中）" vertex="1">
           <mxGeometry height="200" width="200" x="70" y="830" as="geometry" />
+        </mxCell>
+        <mxCell id="EwFkY2Fgyuo19Mo7PRsu-114" parent="_nW9phOJRrEgspZKzDJQ-1" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" value="Shell" vertex="1">
+          <mxGeometry height="200" width="990" x="70" y="1070" as="geometry" />
+        </mxCell>
+        <mxCell id="EwFkY2Fgyuo19Mo7PRsu-115" parent="EwFkY2Fgyuo19Mo7PRsu-114" style="whiteSpace=wrap;html=1;" value="&amp;gt;&lt;div&gt;标准输出覆盖文件输出&lt;/div&gt;&lt;div&gt;&amp;gt;&amp;gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;标准输出&lt;/span&gt;追加文件输出&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="170" x="40" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EwFkY2Fgyuo19Mo7PRsu-116" parent="EwFkY2Fgyuo19Mo7PRsu-114" style="whiteSpace=wrap;html=1;" value="&lt;div&gt;&amp;lt;&lt;/div&gt;文件做为输入&lt;div&gt;&amp;lt;&amp;lt;&lt;/div&gt;&lt;div&gt;多行文本输入到命令&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="690" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EwFkY2Fgyuo19Mo7PRsu-117" parent="EwFkY2Fgyuo19Mo7PRsu-114" style="whiteSpace=wrap;html=1;" value="2&amp;gt;&lt;div&gt;标准错误覆盖输出&lt;/div&gt;&lt;div&gt;2&amp;gt;&amp;gt;&lt;/div&gt;&lt;div&gt;标准错误追加输出&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="40" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="EwFkY2Fgyuo19Mo7PRsu-118" parent="EwFkY2Fgyuo19Mo7PRsu-114" style="whiteSpace=wrap;html=1;" value="&amp;gt;&amp;gt;&amp;amp;或&amp;amp;&amp;gt;&amp;gt;&lt;div&gt;标准输出和标准错误都追加输出&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="170" x="260" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="EwFkY2Fgyuo19Mo7PRsu-119" parent="EwFkY2Fgyuo19Mo7PRsu-114" style="whiteSpace=wrap;html=1;" value="&amp;gt;&amp;amp;或&amp;amp;&amp;gt;&lt;div&gt;标准输出和标准错误都覆盖输出&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="170" x="260" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EwFkY2Fgyuo19Mo7PRsu-120" parent="EwFkY2Fgyuo19Mo7PRsu-114" style="whiteSpace=wrap;html=1;" value="|&lt;div&gt;一个命令输出给另一个做输入&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="200" x="440" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EwFkY2Fgyuo19Mo7PRsu-121" parent="EwFkY2Fgyuo19Mo7PRsu-114" style="whiteSpace=wrap;html=1;" value="||&lt;div&gt;前面命令失败时执行后面的&lt;/div&gt;&lt;div&gt;&amp;amp;&amp;amp;&lt;/div&gt;&lt;div&gt;前面命令成功时执行后面的&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="180" x="440" y="100" as="geometry" />
         </mxCell>
         <mxCell id="_nW9phOJRrEgspZKzDJQ-70" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="构建工具" vertex="1">
           <mxGeometry height="1440" width="920" x="16690" y="360" as="geometry" />
