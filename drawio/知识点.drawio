@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="29.1.1">
   <diagram name="第 1 页" id="Of1sGSvZfQuRrEPr6PyE">
-    <mxGraphModel dx="6856" dy="1201" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="6696" dy="1014" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1857,7 +1857,22 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="_nW9phOJRrEgspZKzDJQ-298" parent="woEXByO1yIPWKVT65qTF-201" style="whiteSpace=wrap;html=1;" value="注入&lt;div&gt;ApplicationArguments&amp;nbsp;&lt;/div&gt;&lt;div&gt;可获取到启动参数&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="120" x="440" y="4440" as="geometry" />
+          <mxGeometry height="60" width="120" x="920" y="4280" as="geometry" />
+        </mxCell>
+        <mxCell id="inOhBlZqyutnjb3U2ew1-1" parent="woEXByO1yIPWKVT65qTF-201" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" value="SPRINGCloudFeign" vertex="1">
+          <mxGeometry height="200" width="610" x="50" y="4440" as="geometry" />
+        </mxCell>
+        <mxCell id="inOhBlZqyutnjb3U2ew1-4" parent="inOhBlZqyutnjb3U2ew1-1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="http client" vertex="1">
+          <mxGeometry height="120" width="260" x="270" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="inOhBlZqyutnjb3U2ew1-5" parent="inOhBlZqyutnjb3U2ew1-4" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="JDK HttpURLConnection" vertex="1">
+          <mxGeometry height="30" width="260" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="inOhBlZqyutnjb3U2ew1-6" parent="inOhBlZqyutnjb3U2ew1-4" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Apache HttpClient" vertex="1">
+          <mxGeometry height="30" width="260" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="inOhBlZqyutnjb3U2ew1-7" parent="inOhBlZqyutnjb3U2ew1-4" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="OkHttp" vertex="1">
+          <mxGeometry height="30" width="260" y="90" as="geometry" />
         </mxCell>
         <mxCell id="woEXByO1yIPWKVT65qTF-457" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="数据类型" vertex="1">
           <mxGeometry height="2260" width="1400" x="-2340" y="130" as="geometry" />
@@ -5014,6 +5029,9 @@
         </mxCell>
         <mxCell id="EwFkY2Fgyuo19Mo7PRsu-107" parent="1" style="whiteSpace=wrap;html=1;" value="sessionAffinity控制亲和性" vertex="1">
           <mxGeometry height="60" width="160" x="13860" y="1560" as="geometry" />
+        </mxCell>
+        <mxCell id="inOhBlZqyutnjb3U2ew1-2" parent="1" style="whiteSpace=wrap;html=1;" value="@Cacheable" vertex="1">
+          <mxGeometry height="60" width="120" x="4200" y="4790" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
