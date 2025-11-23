@@ -3739,7 +3739,7 @@
           <mxGeometry height="60" width="120" x="810" y="103" as="geometry" />
         </mxCell>
         <mxCell id="EwFkY2Fgyuo19Mo7PRsu-23" parent="A0-jzPn9HvHbSC4E_66x-82" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="k8s组件" vertex="1">
-          <mxGeometry height="150" width="140" x="870" y="233" as="geometry" />
+          <mxGeometry height="210" width="140" x="810" y="225.5" as="geometry" />
         </mxCell>
         <mxCell id="EwFkY2Fgyuo19Mo7PRsu-24" parent="EwFkY2Fgyuo19Mo7PRsu-23" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="etcd" vertex="1">
           <mxGeometry height="30" width="140" y="30" as="geometry" />
@@ -3752,6 +3752,12 @@
         </mxCell>
         <mxCell id="EwFkY2Fgyuo19Mo7PRsu-27" parent="EwFkY2Fgyuo19Mo7PRsu-23" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Controller Manager" vertex="1">
           <mxGeometry height="30" width="140" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="EwFkY2Fgyuo19Mo7PRsu-28" parent="EwFkY2Fgyuo19Mo7PRsu-23" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="kubelet" vertex="1">
+          <mxGeometry height="30" width="140" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="EwFkY2Fgyuo19Mo7PRsu-29" parent="EwFkY2Fgyuo19Mo7PRsu-23" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="kubelet-proxy" vertex="1">
+          <mxGeometry height="30" width="140" y="180" as="geometry" />
         </mxCell>
         <mxCell id="_nW9phOJRrEgspZKzDJQ-1" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="linux" vertex="1">
           <mxGeometry height="1060" width="1980" x="14490" y="350" as="geometry" />
