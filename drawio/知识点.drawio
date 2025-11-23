@@ -3870,6 +3870,9 @@
         <mxCell id="EwFkY2Fgyuo19Mo7PRsu-76" parent="EwFkY2Fgyuo19Mo7PRsu-75" style="rounded=0;whiteSpace=wrap;html=1;" value="负责主机网络和容器网络对接，以及主机之间的网络对接" vertex="1">
           <mxGeometry height="60" width="120" x="50" y="25" as="geometry" />
         </mxCell>
+        <mxCell id="EwFkY2Fgyuo19Mo7PRsu-96" parent="EwFkY2Fgyuo19Mo7PRsu-75" style="whiteSpace=wrap;html=1;" value="kubeproxy负责通过告知cni需要将数据发送到哪个节点。cni对发送数据进行包装和拆包" vertex="1">
+          <mxGeometry height="60" width="160" x="30" y="95.5" as="geometry" />
+        </mxCell>
         <mxCell id="_nW9phOJRrEgspZKzDJQ-1" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="linux" vertex="1">
           <mxGeometry height="1060" width="1980" x="14490" y="350" as="geometry" />
         </mxCell>
