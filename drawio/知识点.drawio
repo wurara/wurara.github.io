@@ -3864,6 +3864,9 @@
         <mxCell id="EwFkY2Fgyuo19Mo7PRsu-70" parent="A0-jzPn9HvHbSC4E_66x-82" style="whiteSpace=wrap;html=1;" value="挂载环境变量" vertex="1">
           <mxGeometry height="60" width="120" x="590" y="933" as="geometry" />
         </mxCell>
+        <mxCell id="EwFkY2Fgyuo19Mo7PRsu-74" parent="A0-jzPn9HvHbSC4E_66x-82" style="whiteSpace=wrap;html=1;" value="Cordon" vertex="1">
+          <mxGeometry height="60" width="120" x="470" y="643" as="geometry" />
+        </mxCell>
         <mxCell id="_nW9phOJRrEgspZKzDJQ-1" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="linux" vertex="1">
           <mxGeometry height="1060" width="1980" x="14490" y="350" as="geometry" />
         </mxCell>
@@ -4872,6 +4875,12 @@
         </mxCell>
         <mxCell id="EwFkY2Fgyuo19Mo7PRsu-67" parent="1" style="whiteSpace=wrap;html=1;" value="downwardAPI" vertex="1">
           <mxGeometry height="60" width="120" x="13220" y="1320" as="geometry" />
+        </mxCell>
+        <mxCell id="EwFkY2Fgyuo19Mo7PRsu-72" parent="1" style="whiteSpace=wrap;html=1;" value="Ingress" vertex="1">
+          <mxGeometry height="60" width="120" x="13540" y="1320" as="geometry" />
+        </mxCell>
+        <mxCell id="EwFkY2Fgyuo19Mo7PRsu-73" parent="1" style="whiteSpace=wrap;html=1;" value="Operator" vertex="1">
+          <mxGeometry height="60" width="120" x="13520" y="970" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
