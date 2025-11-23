@@ -4882,8 +4882,8 @@
         <mxCell id="EwFkY2Fgyuo19Mo7PRsu-67" parent="1" style="whiteSpace=wrap;html=1;" value="downwardAPI" vertex="1">
           <mxGeometry height="60" width="120" x="13220" y="1320" as="geometry" />
         </mxCell>
-        <mxCell id="EwFkY2Fgyuo19Mo7PRsu-72" parent="1" style="whiteSpace=wrap;html=1;" value="Ingress" vertex="1">
-          <mxGeometry height="60" width="120" x="13540" y="1320" as="geometry" />
+        <mxCell id="EwFkY2Fgyuo19Mo7PRsu-72" parent="1" style="whiteSpace=wrap;html=1;" value="Ingress&lt;div&gt;由Ingress Controller Nginx 处理转发流量&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="220" x="13540" y="1320" as="geometry" />
         </mxCell>
         <mxCell id="EwFkY2Fgyuo19Mo7PRsu-73" parent="1" style="whiteSpace=wrap;html=1;" value="Operator" vertex="1">
           <mxGeometry height="60" width="120" x="13520" y="970" as="geometry" />
