@@ -1767,7 +1767,7 @@
           <mxGeometry height="140" width="240" x="2960" y="152.5" as="geometry" />
         </mxCell>
         <mxCell id="9NBIEqLIbl6M7SleULj9-21" parent="woEXByO1yIPWKVT65qTF-721" style="whiteSpace=wrap;html=1;" value="任务调度默认&lt;div&gt;ThreadPoolTaskScheduler&lt;/div&gt;&lt;div&gt;8 core,no limit max and queue&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="240" x="2970" y="62.5" as="geometry" />
+          <mxGeometry height="60" width="240" x="2960" y="62.5" as="geometry" />
         </mxCell>
         <mxCell id="9NBIEqLIbl6M7SleULj9-23" edge="1" parent="woEXByO1yIPWKVT65qTF-721" source="9NBIEqLIbl6M7SleULj9-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="9NBIEqLIbl6M7SleULj9-22" value="">
           <mxGeometry relative="1" as="geometry" />
