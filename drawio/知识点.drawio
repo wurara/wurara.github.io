@@ -1763,6 +1763,15 @@
         <mxCell id="9NBIEqLIbl6M7SleULj9-20" parent="woEXByO1yIPWKVT65qTF-721" style="whiteSpace=wrap;html=1;" value="@EnableAsync" vertex="1">
           <mxGeometry height="60" width="120" x="720" y="310" as="geometry" />
         </mxCell>
+        <mxCell id="9NBIEqLIbl6M7SleULj9-22" parent="woEXByO1yIPWKVT65qTF-721" style="whiteSpace=wrap;html=1;align=left;" value="&lt;div&gt;#配置&lt;/div&gt;&lt;div&gt;spring:&lt;/div&gt;&lt;div&gt;&amp;nbsp; task:&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; scheduling:&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; thread-name-prefix: &quot;scheduling-&quot;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; pool:&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; size: 2&lt;/div&gt;" vertex="1">
+          <mxGeometry height="140" width="240" x="3280" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="9NBIEqLIbl6M7SleULj9-21" parent="woEXByO1yIPWKVT65qTF-721" style="whiteSpace=wrap;html=1;" value="任务调度默认&lt;div&gt;ThreadPoolTaskScheduler&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="170" x="3315" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9NBIEqLIbl6M7SleULj9-23" edge="1" parent="woEXByO1yIPWKVT65qTF-721" source="9NBIEqLIbl6M7SleULj9-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="9NBIEqLIbl6M7SleULj9-22" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="De8YwUg0Y1lUbm7mTjdf-2" parent="woEXByO1yIPWKVT65qTF-201" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" value="基础" vertex="1">
           <mxGeometry height="320" width="2510" x="77.5" y="4748" as="geometry" />
         </mxCell>
