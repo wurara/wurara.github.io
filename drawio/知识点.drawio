@@ -1754,6 +1754,9 @@
         <mxCell id="9NBIEqLIbl6M7SleULj9-17" parent="woEXByO1yIPWKVT65qTF-721" style="whiteSpace=wrap;html=1;" value="applicationTaskExecutor" vertex="1">
           <mxGeometry height="300" width="190" x="2930" y="110" as="geometry" />
         </mxCell>
+        <mxCell id="9NBIEqLIbl6M7SleULj9-18" parent="woEXByO1yIPWKVT65qTF-721" style="whiteSpace=wrap;html=1;" value="&lt;div&gt;不去带默认配置&lt;/div&gt;@Bean(defaultCandidate = false)" vertex="1">
+          <mxGeometry height="60" width="220" x="720" y="190" as="geometry" />
+        </mxCell>
         <mxCell id="De8YwUg0Y1lUbm7mTjdf-2" parent="woEXByO1yIPWKVT65qTF-201" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" value="基础" vertex="1">
           <mxGeometry height="320" width="2510" x="77.5" y="4748" as="geometry" />
         </mxCell>
