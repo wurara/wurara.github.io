@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="29.2.1">
   <diagram name="第 1 页" id="Of1sGSvZfQuRrEPr6PyE">
-    <mxGraphModel dx="6680" dy="572" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="6526" dy="473" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1512,7 +1512,7 @@
           <mxGeometry height="60" width="165" x="1255" y="230" as="geometry" />
         </mxCell>
         <mxCell id="woEXByO1yIPWKVT65qTF-721" parent="woEXByO1yIPWKVT65qTF-201" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" value="SPRING" vertex="1">
-          <mxGeometry height="535" width="1160" x="50" y="3840" as="geometry" />
+          <mxGeometry height="535" width="2040" x="50" y="3840" as="geometry" />
         </mxCell>
         <mxCell id="woEXByO1yIPWKVT65qTF-722" parent="woEXByO1yIPWKVT65qTF-721" style="swimlane;whiteSpace=wrap;html=1;" value="动态代理" vertex="1">
           <mxGeometry height="260" width="210" x="60" y="70" as="geometry" />
@@ -1625,6 +1625,42 @@
         </mxCell>
         <mxCell id="b3WSKTuomFumo_KqFi6L-2" parent="woEXByO1yIPWKVT65qTF-721" style="whiteSpace=wrap;html=1;" value="启动失败时 FailureAnalyzer 提供错误信息" vertex="1">
           <mxGeometry height="60" width="228" x="702" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="b3WSKTuomFumo_KqFi6L-5" parent="woEXByO1yIPWKVT65qTF-721" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="SPRING 启动事件（不用背）" vertex="1">
+          <mxGeometry height="360" width="410" x="968" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="b3WSKTuomFumo_KqFi6L-6" parent="b3WSKTuomFumo_KqFi6L-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="ApplicationStartingEvent：程序运行开始" vertex="1">
+          <mxGeometry height="30" width="410" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="b3WSKTuomFumo_KqFi6L-7" parent="b3WSKTuomFumo_KqFi6L-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="ApplicationEnvironmentPreparedEvent：创建上下文之前" vertex="1">
+          <mxGeometry height="30" width="410" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b3WSKTuomFumo_KqFi6L-8" parent="b3WSKTuomFumo_KqFi6L-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="ApplicationContextInitializedEvent：ApplicationContextInitializers 已被调用" vertex="1">
+          <mxGeometry height="30" width="410" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="b3WSKTuomFumo_KqFi6L-9" parent="b3WSKTuomFumo_KqFi6L-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="ApplicationPreparedEvent：bean 定义加载完毕之后" vertex="1">
+          <mxGeometry height="30" width="410" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="b3WSKTuomFumo_KqFi6L-10" parent="b3WSKTuomFumo_KqFi6L-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="ApplicationStartedEvent：任何应用程序和命令行运行器被调用之前" vertex="1">
+          <mxGeometry height="30" width="410" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="b3WSKTuomFumo_KqFi6L-11" parent="b3WSKTuomFumo_KqFi6L-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="AvailabilityChangeEvent：程序已被视为上线" vertex="1">
+          <mxGeometry height="30" width="410" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="b3WSKTuomFumo_KqFi6L-12" parent="b3WSKTuomFumo_KqFi6L-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="ApplicationReadyEvent：任何应用程序和命令行运行器被调用后" vertex="1">
+          <mxGeometry height="30" width="410" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="b3WSKTuomFumo_KqFi6L-13" parent="b3WSKTuomFumo_KqFi6L-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="AvailabilityChangeEvent：程序已准备好处理请求" vertex="1">
+          <mxGeometry height="30" width="410" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="b3WSKTuomFumo_KqFi6L-14" parent="b3WSKTuomFumo_KqFi6L-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="ApplicationFailedEvent：启动时如果出现异常" vertex="1">
+          <mxGeometry height="30" width="410" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="b3WSKTuomFumo_KqFi6L-15" parent="b3WSKTuomFumo_KqFi6L-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="WebServerInitializedEvent：WebServer 准备就绪后" vertex="1">
+          <mxGeometry height="30" width="410" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="b3WSKTuomFumo_KqFi6L-16" parent="b3WSKTuomFumo_KqFi6L-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="ContextRefreshedEvent：当 ApplicationContext 刷新时" vertex="1">
+          <mxGeometry height="30" width="410" y="330" as="geometry" />
         </mxCell>
         <mxCell id="De8YwUg0Y1lUbm7mTjdf-2" parent="woEXByO1yIPWKVT65qTF-201" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" value="基础" vertex="1">
           <mxGeometry height="320" width="2510" x="77.5" y="4748" as="geometry" />
