@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="29.2.1">
   <diagram name="第 1 页" id="Of1sGSvZfQuRrEPr6PyE">
-    <mxGraphModel dx="6642" dy="546" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="6609" dy="525" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -4611,7 +4611,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="SS6j9H3nX_lLP3tuC7AH-14" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="SPRING BOOT" vertex="1">
-          <mxGeometry height="2640" width="3060" x="17830" y="370" as="geometry" />
+          <mxGeometry height="4280" width="3060" x="17830" y="370" as="geometry" />
         </mxCell>
         <mxCell id="_nW9phOJRrEgspZKzDJQ-273" parent="SS6j9H3nX_lLP3tuC7AH-14" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" value="CoreFeature" vertex="1">
           <mxGeometry height="1070" width="2542.5" x="230" y="130" as="geometry" />
@@ -4815,11 +4815,23 @@
         <mxCell id="SS6j9H3nX_lLP3tuC7AH-18" parent="SS6j9H3nX_lLP3tuC7AH-15" style="whiteSpace=wrap;html=1;" value="ServletRegistrationBean&lt;div&gt;FilterRegistrationBean&lt;/div&gt;&lt;div&gt;ServletListenerRegistrationBean&lt;/div&gt;" vertex="1">
           <mxGeometry height="69" width="180" x="200" y="181" as="geometry" />
         </mxCell>
+        <mxCell id="9NBIEqLIbl6M7SleULj9-88" parent="SS6j9H3nX_lLP3tuC7AH-15" style="whiteSpace=wrap;html=1;" value="@ControllerAdvice" vertex="1">
+          <mxGeometry height="60" width="120" x="70" y="278" as="geometry" />
+        </mxCell>
         <mxCell id="9NBIEqLIbl6M7SleULj9-85" parent="SS6j9H3nX_lLP3tuC7AH-15" style="whiteSpace=wrap;html=1;" value="@RestController" vertex="1">
-          <mxGeometry height="60" width="120" x="30" y="350" as="geometry" />
+          <mxGeometry height="60" width="120" x="70" y="398" as="geometry" />
         </mxCell>
         <mxCell id="9NBIEqLIbl6M7SleULj9-86" parent="SS6j9H3nX_lLP3tuC7AH-15" style="whiteSpace=wrap;html=1;" value="@RequestMapping" vertex="1">
-          <mxGeometry height="60" width="120" x="150" y="290" as="geometry" />
+          <mxGeometry height="60" width="120" x="190" y="338" as="geometry" />
+        </mxCell>
+        <mxCell id="9NBIEqLIbl6M7SleULj9-87" parent="SS6j9H3nX_lLP3tuC7AH-15" style="whiteSpace=wrap;html=1;" value="@ExceptionHandler" vertex="1">
+          <mxGeometry height="60" width="120" x="70" y="458" as="geometry" />
+        </mxCell>
+        <mxCell id="9NBIEqLIbl6M7SleULj9-84" parent="SS6j9H3nX_lLP3tuC7AH-15" style="whiteSpace=wrap;html=1;" value="@Controller&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="120" x="70" y="338" as="geometry" />
+        </mxCell>
+        <mxCell id="9NBIEqLIbl6M7SleULj9-89" parent="SS6j9H3nX_lLP3tuC7AH-15" style="whiteSpace=wrap;html=1;" value="@CrossOrigin&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="120" x="190" y="398" as="geometry" />
         </mxCell>
         <mxCell id="g7Z2kZ521azLQOsUVFBg-1" parent="SS6j9H3nX_lLP3tuC7AH-14" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" value="分布式事务" vertex="1">
           <mxGeometry height="440" width="2710" x="230" y="2057" as="geometry" />
@@ -5133,6 +5145,12 @@
             <mxRectangle height="40" width="150" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="9NBIEqLIbl6M7SleULj9-90" parent="SS6j9H3nX_lLP3tuC7AH-14" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" value="data" vertex="1">
+          <mxGeometry height="480" width="1130" x="230" y="2600" as="geometry" />
+        </mxCell>
+        <mxCell id="9NBIEqLIbl6M7SleULj9-91" parent="9NBIEqLIbl6M7SleULj9-90" style="whiteSpace=wrap;html=1;" value="&lt;div&gt;默认连接池&lt;/div&gt;HikariCP&lt;div&gt;Tomcat 池 DataSource&lt;/div&gt;&lt;div&gt;Commons DBCP2&lt;/div&gt;&lt;div&gt;Oracle UCP&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="180" x="80" y="110" as="geometry" />
+        </mxCell>
         <mxCell id="EwFkY2Fgyuo19Mo7PRsu-107" parent="1" style="whiteSpace=wrap;html=1;" value="sessionAffinity控制亲和性" vertex="1">
           <mxGeometry height="60" width="160" x="13860" y="1560" as="geometry" />
         </mxCell>
@@ -5141,9 +5159,6 @@
         </mxCell>
         <mxCell id="b3WSKTuomFumo_KqFi6L-3" parent="1" style="whiteSpace=wrap;html=1;" value="&lt;div&gt;启用懒加载&lt;/div&gt;&lt;div&gt;spring:&lt;/div&gt;&lt;div&gt;&amp;nbsp; main:&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; lazy-initialization: true&lt;/div&gt;" vertex="1">
           <mxGeometry height="70" width="220" x="4860" y="4280" as="geometry" />
-        </mxCell>
-        <mxCell id="9NBIEqLIbl6M7SleULj9-84" parent="1" style="whiteSpace=wrap;html=1;" value="@Controller&amp;nbsp;" vertex="1">
-          <mxGeometry height="60" width="120" x="18090" y="2110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
