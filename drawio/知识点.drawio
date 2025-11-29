@@ -1772,6 +1772,12 @@
         <mxCell id="9NBIEqLIbl6M7SleULj9-23" edge="1" parent="woEXByO1yIPWKVT65qTF-721" source="9NBIEqLIbl6M7SleULj9-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="9NBIEqLIbl6M7SleULj9-22" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="9NBIEqLIbl6M7SleULj9-24" parent="woEXByO1yIPWKVT65qTF-721" style="whiteSpace=wrap;html=1;" value="&lt;div&gt;调度器builder&lt;/div&gt;ThreadPoolTaskExecutorBuilder bean、 SimpleAsyncTaskExecutorBuilder bean、 ThreadPoolTaskSchedulerBuilder bean、 SimpleAsyncTaskSchedulerBuilder" vertex="1">
+          <mxGeometry height="110" width="270" x="3270" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="9NBIEqLIbl6M7SleULj9-25" edge="1" parent="woEXByO1yIPWKVT65qTF-721" source="9NBIEqLIbl6M7SleULj9-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.478;entryY=0.014;entryDx=0;entryDy=0;entryPerimeter=0;" target="9NBIEqLIbl6M7SleULj9-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="De8YwUg0Y1lUbm7mTjdf-2" parent="woEXByO1yIPWKVT65qTF-201" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" value="基础" vertex="1">
           <mxGeometry height="320" width="2510" x="77.5" y="4748" as="geometry" />
         </mxCell>
