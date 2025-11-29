@@ -1778,7 +1778,7 @@
         <mxCell id="9NBIEqLIbl6M7SleULj9-25" edge="1" parent="woEXByO1yIPWKVT65qTF-721" source="9NBIEqLIbl6M7SleULj9-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.478;entryY=0.014;entryDx=0;entryDy=0;entryPerimeter=0;" target="9NBIEqLIbl6M7SleULj9-24">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9NBIEqLIbl6M7SleULj9-26" parent="woEXByO1yIPWKVT65qTF-721" style="whiteSpace=wrap;html=1;" value="&lt;div&gt;当 bean 不存在时加载&lt;/div&gt;@ConditionalOnMissingBean" vertex="1">
+        <mxCell id="9NBIEqLIbl6M7SleULj9-26" parent="woEXByO1yIPWKVT65qTF-721" style="whiteSpace=wrap;html=1;" value="&lt;div&gt;当 bean 不存在时加载&lt;/div&gt;@ConditionalOnMissingBean&lt;div&gt;当bean存在时加载&lt;/div&gt;&lt;div&gt;@ConditionalOnClass&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="160" x="720" y="370" as="geometry" />
         </mxCell>
         <mxCell id="9NBIEqLIbl6M7SleULj9-27" parent="woEXByO1yIPWKVT65qTF-721" style="whiteSpace=wrap;html=1;" value="&lt;div&gt;@AutoConfiguration&lt;/div&gt;@AutoConfigureOrder" vertex="1">
