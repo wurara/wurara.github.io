@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="29.2.1">
   <diagram name="第 1 页" id="Of1sGSvZfQuRrEPr6PyE">
-    <mxGraphModel dx="7644" dy="1187" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="6407" dy="396" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1780,6 +1780,9 @@
         </mxCell>
         <mxCell id="9NBIEqLIbl6M7SleULj9-26" parent="woEXByO1yIPWKVT65qTF-721" style="whiteSpace=wrap;html=1;" value="&lt;div&gt;当 bean 不存在时加载&lt;/div&gt;@ConditionalOnMissingBean" vertex="1">
           <mxGeometry height="60" width="160" x="720" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="9NBIEqLIbl6M7SleULj9-27" parent="woEXByO1yIPWKVT65qTF-721" style="whiteSpace=wrap;html=1;" value="&lt;div&gt;@AutoConfiguration&lt;/div&gt;@AutoConfigureOrder" vertex="1">
+          <mxGeometry height="50" width="140" x="720" y="430" as="geometry" />
         </mxCell>
         <mxCell id="De8YwUg0Y1lUbm7mTjdf-2" parent="woEXByO1yIPWKVT65qTF-201" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" value="基础" vertex="1">
           <mxGeometry height="320" width="2510" x="77.5" y="4748" as="geometry" />
