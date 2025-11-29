@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="29.1.1">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="29.2.1">
   <diagram name="第 1 页" id="Of1sGSvZfQuRrEPr6PyE">
-    <mxGraphModel dx="6545" dy="845" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="6680" dy="572" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1512,7 +1512,7 @@
           <mxGeometry height="60" width="165" x="1255" y="230" as="geometry" />
         </mxCell>
         <mxCell id="woEXByO1yIPWKVT65qTF-721" parent="woEXByO1yIPWKVT65qTF-201" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" value="SPRING" vertex="1">
-          <mxGeometry height="535" width="770" x="50" y="3840" as="geometry" />
+          <mxGeometry height="535" width="1160" x="50" y="3840" as="geometry" />
         </mxCell>
         <mxCell id="woEXByO1yIPWKVT65qTF-722" parent="woEXByO1yIPWKVT65qTF-721" style="swimlane;whiteSpace=wrap;html=1;" value="动态代理" vertex="1">
           <mxGeometry height="260" width="210" x="60" y="70" as="geometry" />
@@ -1619,6 +1619,12 @@
           <mxGeometry height="41" width="200" x="120" as="geometry">
             <mxRectangle height="41" width="200" as="alternateBounds" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="_nW9phOJRrEgspZKzDJQ-298" parent="woEXByO1yIPWKVT65qTF-721" style="whiteSpace=wrap;html=1;" value="注入&lt;div&gt;ApplicationArguments&amp;nbsp;&lt;/div&gt;&lt;div&gt;可获取到启动参数&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="130" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="b3WSKTuomFumo_KqFi6L-2" parent="woEXByO1yIPWKVT65qTF-721" style="whiteSpace=wrap;html=1;" value="启动失败时 FailureAnalyzer 提供错误信息" vertex="1">
+          <mxGeometry height="60" width="228" x="702" y="30" as="geometry" />
         </mxCell>
         <mxCell id="De8YwUg0Y1lUbm7mTjdf-2" parent="woEXByO1yIPWKVT65qTF-201" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" value="基础" vertex="1">
           <mxGeometry height="320" width="2510" x="77.5" y="4748" as="geometry" />
@@ -1867,9 +1873,6 @@
         </mxCell>
         <mxCell id="inOhBlZqyutnjb3U2ew1-21" parent="inOhBlZqyutnjb3U2ew1-18" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Item 3" vertex="1">
           <mxGeometry height="30" width="384.5" y="90" as="geometry" />
-        </mxCell>
-        <mxCell id="_nW9phOJRrEgspZKzDJQ-298" parent="woEXByO1yIPWKVT65qTF-201" style="whiteSpace=wrap;html=1;" value="注入&lt;div&gt;ApplicationArguments&amp;nbsp;&lt;/div&gt;&lt;div&gt;可获取到启动参数&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="120" x="920" y="4280" as="geometry" />
         </mxCell>
         <mxCell id="inOhBlZqyutnjb3U2ew1-1" parent="woEXByO1yIPWKVT65qTF-201" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" value="SPRINGCloudFeign" vertex="1">
           <mxGeometry height="200" width="780" x="50" y="4440" as="geometry" />
@@ -5059,6 +5062,9 @@
         </mxCell>
         <mxCell id="inOhBlZqyutnjb3U2ew1-2" parent="1" style="whiteSpace=wrap;html=1;" value="@Cacheable" vertex="1">
           <mxGeometry height="60" width="120" x="4200" y="4790" as="geometry" />
+        </mxCell>
+        <mxCell id="b3WSKTuomFumo_KqFi6L-3" parent="1" style="whiteSpace=wrap;html=1;" value="&lt;div&gt;启用懒加载&lt;/div&gt;&lt;div&gt;spring:&lt;/div&gt;&lt;div&gt;&amp;nbsp; main:&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; lazy-initialization: true&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="220" x="4860" y="4280" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
