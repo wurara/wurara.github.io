@@ -1766,8 +1766,8 @@
         <mxCell id="9NBIEqLIbl6M7SleULj9-22" parent="woEXByO1yIPWKVT65qTF-721" style="whiteSpace=wrap;html=1;align=left;" value="&lt;div&gt;#配置&lt;/div&gt;&lt;div&gt;spring:&lt;/div&gt;&lt;div&gt;&amp;nbsp; task:&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; scheduling:&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; thread-name-prefix: &quot;scheduling-&quot;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; pool:&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; size: 2&lt;/div&gt;" vertex="1">
           <mxGeometry height="140" width="240" x="2960" y="152.5" as="geometry" />
         </mxCell>
-        <mxCell id="9NBIEqLIbl6M7SleULj9-21" parent="woEXByO1yIPWKVT65qTF-721" style="whiteSpace=wrap;html=1;" value="任务调度默认&lt;div&gt;ThreadPoolTaskScheduler&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="170" x="2995" y="62.5" as="geometry" />
+        <mxCell id="9NBIEqLIbl6M7SleULj9-21" parent="woEXByO1yIPWKVT65qTF-721" style="whiteSpace=wrap;html=1;" value="任务调度默认&lt;div&gt;ThreadPoolTaskScheduler&lt;/div&gt;&lt;div&gt;8 core,no limit max and queue&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="240" x="2970" y="62.5" as="geometry" />
         </mxCell>
         <mxCell id="9NBIEqLIbl6M7SleULj9-23" edge="1" parent="woEXByO1yIPWKVT65qTF-721" source="9NBIEqLIbl6M7SleULj9-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="9NBIEqLIbl6M7SleULj9-22" value="">
           <mxGeometry relative="1" as="geometry" />
@@ -1778,17 +1778,35 @@
         <mxCell id="9NBIEqLIbl6M7SleULj9-25" edge="1" parent="woEXByO1yIPWKVT65qTF-721" source="9NBIEqLIbl6M7SleULj9-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.478;entryY=0.014;entryDx=0;entryDy=0;entryPerimeter=0;" target="9NBIEqLIbl6M7SleULj9-24">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9NBIEqLIbl6M7SleULj9-26" parent="woEXByO1yIPWKVT65qTF-721" style="whiteSpace=wrap;html=1;" value="&lt;div&gt;当 bean 不存在时加载&lt;/div&gt;@ConditionalOnMissingBean&lt;div&gt;当bean存在时加载&lt;/div&gt;&lt;div&gt;@ConditionalOnClass&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="160" x="720" y="370" as="geometry" />
-        </mxCell>
         <mxCell id="9NBIEqLIbl6M7SleULj9-27" parent="woEXByO1yIPWKVT65qTF-721" style="whiteSpace=wrap;html=1;" value="&lt;div&gt;@AutoConfiguration&lt;/div&gt;@AutoConfigureOrder" vertex="1">
-          <mxGeometry height="50" width="140" x="720" y="430" as="geometry" />
+          <mxGeometry height="50" width="140" x="720" y="370" as="geometry" />
         </mxCell>
         <mxCell id="9NBIEqLIbl6M7SleULj9-28" parent="woEXByO1yIPWKVT65qTF-721" style="whiteSpace=wrap;html=1;" value="META-NF/spring/org.springframework.boot.autoconfigure.AutoConfiguration.imports" vertex="1">
           <mxGeometry height="40" width="490" x="3250" y="82.5" as="geometry" />
         </mxCell>
         <mxCell id="9NBIEqLIbl6M7SleULj9-29" parent="woEXByO1yIPWKVT65qTF-721" style="whiteSpace=wrap;html=1;" value="META-INF/spring/org.springframework.boot.autoconfigure.AutoConfiguration.replacements&lt;div&gt;内容&lt;/div&gt;&lt;div&gt;com.wurara.xxx=com.wurara.yyy&lt;/div&gt;" vertex="1">
           <mxGeometry height="77.5" width="500" x="3250" y="122.5" as="geometry" />
+        </mxCell>
+        <mxCell id="9NBIEqLIbl6M7SleULj9-32" parent="woEXByO1yIPWKVT65qTF-721" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="bean加载条件注解" vertex="1">
+          <mxGeometry height="270" width="215" x="3250" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="9NBIEqLIbl6M7SleULj9-33" parent="9NBIEqLIbl6M7SleULj9-32" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;@ConditionalOnMissingBean&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;@ConditionalOnBean&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="215" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9NBIEqLIbl6M7SleULj9-34" parent="9NBIEqLIbl6M7SleULj9-32" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;text-align: center;&quot;&gt;@ConditionalOnClass&lt;/span&gt;&lt;div style=&quot;text-align: center;&quot;&gt;@ConditionalOnMissingClass&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="215" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="9NBIEqLIbl6M7SleULj9-35" parent="9NBIEqLIbl6M7SleULj9-32" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;text-align: center;&quot;&gt;@ConditionalOnProperty&lt;/span&gt;&lt;div style=&quot;text-align: center;&quot;&gt;@ConditionalOnBooleanProperty&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="215" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="9NBIEqLIbl6M7SleULj9-36" parent="9NBIEqLIbl6M7SleULj9-32" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="@ConditionalOnResource" vertex="1">
+          <mxGeometry height="40" width="215" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="9NBIEqLIbl6M7SleULj9-37" parent="9NBIEqLIbl6M7SleULj9-32" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="@ConditionalOnWebApplication&lt;div&gt;@ConditionalOnNotWebApplication&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="215" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="9NBIEqLIbl6M7SleULj9-38" parent="9NBIEqLIbl6M7SleULj9-32" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="@ConditionalOnExpression" vertex="1">
+          <mxGeometry height="40" width="215" y="230" as="geometry" />
         </mxCell>
         <mxCell id="De8YwUg0Y1lUbm7mTjdf-2" parent="woEXByO1yIPWKVT65qTF-201" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" value="基础" vertex="1">
           <mxGeometry height="320" width="2510" x="77.5" y="4748" as="geometry" />
