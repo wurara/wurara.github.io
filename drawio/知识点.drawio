@@ -1719,7 +1719,7 @@
           <mxGeometry height="70" width="250" x="1905" y="430" as="geometry" />
         </mxCell>
         <mxCell id="b3WSKTuomFumo_KqFi6L-44" parent="woEXByO1yIPWKVT65qTF-721" style="whiteSpace=wrap;html=1;" value="默认执行器&lt;div&gt;AsyncTaskExecutor&lt;/div&gt;" vertex="1">
-          <mxGeometry height="360" width="120" x="2930" y="110" as="geometry" />
+          <mxGeometry height="360" width="120" x="3120" y="110" as="geometry" />
         </mxCell>
         <mxCell id="b3WSKTuomFumo_KqFi6L-45" parent="woEXByO1yIPWKVT65qTF-721" style="whiteSpace=wrap;html=1;" value="@EnableAsync" vertex="1">
           <mxGeometry height="60" width="120" x="2570" y="350" as="geometry" />
@@ -1739,23 +1739,20 @@
         <mxCell id="b3WSKTuomFumo_KqFi6L-53" parent="woEXByO1yIPWKVT65qTF-721" style="whiteSpace=wrap;html=1;" value="Bean 后台初始化" vertex="1">
           <mxGeometry height="60" width="120" x="2570" y="290" as="geometry" />
         </mxCell>
-        <mxCell id="b3WSKTuomFumo_KqFi6L-56" parent="woEXByO1yIPWKVT65qTF-721" style="whiteSpace=wrap;html=1;" value="executor 的名称为&lt;div&gt;applicationTaskExecutor&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="160" x="2300" y="138.25" as="geometry" />
-        </mxCell>
-        <mxCell id="b3WSKTuomFumo_KqFi6L-61" parent="woEXByO1yIPWKVT65qTF-721" style="whiteSpace=wrap;html=1;" value="&lt;div&gt;类必须实现&lt;/div&gt;AsyncTaskExecutor" vertex="1">
-          <mxGeometry height="60" width="120" x="2320" y="235.75" as="geometry" />
-        </mxCell>
         <mxCell id="9NBIEqLIbl6M7SleULj9-5" parent="woEXByO1yIPWKVT65qTF-721" style="whiteSpace=wrap;html=1;" value="&lt;div style=&quot;text-align: start;&quot;&gt;&lt;span style=&quot;text-align: center;&quot;&gt;executor 的名称为&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;taskExecutor&lt;span style=&quot;text-align: center;&quot;&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="2810" y="350" as="geometry" />
         </mxCell>
-        <mxCell id="9NBIEqLIbl6M7SleULj9-8" parent="woEXByO1yIPWKVT65qTF-721" style="whiteSpace=wrap;html=1;" value="AsyncConfigurer taskExecutor&lt;div&gt;默认执行器&lt;/div&gt;" vertex="1">
+        <mxCell id="9NBIEqLIbl6M7SleULj9-8" parent="woEXByO1yIPWKVT65qTF-721" style="whiteSpace=wrap;html=1;" value="AsyncConfigurer&amp;nbsp;" vertex="1">
           <mxGeometry height="60" width="120" x="2690" y="350" as="geometry" />
         </mxCell>
-        <mxCell id="9NBIEqLIbl6M7SleULj9-9" parent="woEXByO1yIPWKVT65qTF-721" style="whiteSpace=wrap;html=1;" value="名为applicationTaskExecutor&lt;div&gt;默认执行器&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="190" x="2690" y="230" as="geometry" />
-        </mxCell>
         <mxCell id="9NBIEqLIbl6M7SleULj9-10" parent="woEXByO1yIPWKVT65qTF-721" style="whiteSpace=wrap;html=1;" value="applicationTaskExecutor&lt;br&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;且实现&lt;/span&gt;AsyncTaskExecutor&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="240" x="2690" y="410" as="geometry" />
+          <mxGeometry height="60" width="430" x="2690" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="9NBIEqLIbl6M7SleULj9-13" parent="woEXByO1yIPWKVT65qTF-721" style="whiteSpace=wrap;html=1;" value="bootstrapExecutor" vertex="1">
+          <mxGeometry height="60" width="120" x="2690" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="9NBIEqLIbl6M7SleULj9-17" parent="woEXByO1yIPWKVT65qTF-721" style="whiteSpace=wrap;html=1;" value="applicationTaskExecutor" vertex="1">
+          <mxGeometry height="300" width="190" x="2930" y="110" as="geometry" />
         </mxCell>
         <mxCell id="De8YwUg0Y1lUbm7mTjdf-2" parent="woEXByO1yIPWKVT65qTF-201" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" value="基础" vertex="1">
           <mxGeometry height="320" width="2510" x="77.5" y="4748" as="geometry" />
