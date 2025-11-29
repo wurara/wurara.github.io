@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="29.2.1">
   <diagram name="第 1 页" id="Of1sGSvZfQuRrEPr6PyE">
-    <mxGraphModel dx="6680" dy="572" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="6853" dy="683" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1512,7 +1512,7 @@
           <mxGeometry height="60" width="165" x="1255" y="230" as="geometry" />
         </mxCell>
         <mxCell id="woEXByO1yIPWKVT65qTF-721" parent="woEXByO1yIPWKVT65qTF-201" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" value="SPRING" vertex="1">
-          <mxGeometry height="535" width="2190" x="50" y="3840" as="geometry" />
+          <mxGeometry height="535" width="4010" x="50" y="3840" as="geometry" />
         </mxCell>
         <mxCell id="woEXByO1yIPWKVT65qTF-722" parent="woEXByO1yIPWKVT65qTF-721" style="swimlane;whiteSpace=wrap;html=1;" value="动态代理" vertex="1">
           <mxGeometry height="260" width="210" x="60" y="70" as="geometry" />
@@ -1703,6 +1703,64 @@
         </mxCell>
         <mxCell id="b3WSKTuomFumo_KqFi6L-31" parent="b3WSKTuomFumo_KqFi6L-27" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="jar 包外部的 /config 子目录或其直接子目录。" vertex="1">
           <mxGeometry height="30" width="260" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="b3WSKTuomFumo_KqFi6L-33" parent="woEXByO1yIPWKVT65qTF-721" style="whiteSpace=wrap;html=1;" value="&lt;div&gt;配置启动项&lt;/div&gt;@Profile(&quot;profile-name&quot;)" vertex="1">
+          <mxGeometry height="60" width="180" x="1920" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="b3WSKTuomFumo_KqFi6L-34" parent="woEXByO1yIPWKVT65qTF-721" style="whiteSpace=wrap;html=1;" value="通过设置 &lt;code&gt;logging.file.name&lt;/code&gt; 或 &lt;code&gt;logging.file.path&lt;/code&gt; 属性来启用文件输出" vertex="1">
+          <mxGeometry height="60" width="250" x="1900" y="160" as="geometry" />
+        </mxCell>
+        <UserObject label="&lt;div&gt;自定义配置：&lt;/div&gt;&lt;div&gt;可以通过在类路径下放置相应的配置文件来自定义日志系统：&lt;/div&gt;&lt;div&gt;Logback： logback-spring.xml 或 logback.xml&lt;/div&gt;&lt;div&gt;Log4j2： log4j2-spring.xml 或 log4j2.xml&lt;/div&gt;&lt;div&gt;Java Util Logging (JDK)： logging.properties&lt;/div&gt;" id="b3WSKTuomFumo_KqFi6L-37">
+          <mxCell parent="woEXByO1yIPWKVT65qTF-721" style="whiteSpace=wrap;html=1;" vertex="1">
+            <mxGeometry height="140" width="220" x="1920" y="250" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="b3WSKTuomFumo_KqFi6L-38" parent="woEXByO1yIPWKVT65qTF-721" style="whiteSpace=wrap;html=1;" value="默认JSON序列化器Jackson 3&lt;div&gt;使用这个指定忽略某个字段&lt;br&gt;&lt;div&gt;&lt;code&gt;@JacksonMixin(value = User.class)&lt;/code&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="250" x="1905" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="b3WSKTuomFumo_KqFi6L-57" edge="1" parent="woEXByO1yIPWKVT65qTF-721" source="b3WSKTuomFumo_KqFi6L-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="b3WSKTuomFumo_KqFi6L-56" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2360" y="170" />
+              <mxPoint x="2470" y="170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b3WSKTuomFumo_KqFi6L-44" parent="woEXByO1yIPWKVT65qTF-721" style="whiteSpace=wrap;html=1;" value="默认执行器&lt;div&gt;AsyncTaskExecutor&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="2300" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="b3WSKTuomFumo_KqFi6L-45" parent="woEXByO1yIPWKVT65qTF-721" style="whiteSpace=wrap;html=1;" value="@EnableAsync" vertex="1">
+          <mxGeometry height="60" width="120" x="2230" y="237.5" as="geometry" />
+        </mxCell>
+        <mxCell id="b3WSKTuomFumo_KqFi6L-47" parent="woEXByO1yIPWKVT65qTF-721" style="whiteSpace=wrap;html=1;" value="Spring MVC/WebFlux" vertex="1">
+          <mxGeometry height="60" width="120" x="2420" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="b3WSKTuomFumo_KqFi6L-49" parent="woEXByO1yIPWKVT65qTF-721" style="whiteSpace=wrap;html=1;" value="Spring for GraphQL" vertex="1">
+          <mxGeometry height="60" width="120" x="2610" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="b3WSKTuomFumo_KqFi6L-50" parent="woEXByO1yIPWKVT65qTF-721" style="whiteSpace=wrap;html=1;" value="Spring WebSocket" vertex="1">
+          <mxGeometry height="60" width="120" x="2200" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="b3WSKTuomFumo_KqFi6L-52" parent="woEXByO1yIPWKVT65qTF-721" style="whiteSpace=wrap;html=1;" value="JPA 启动" vertex="1">
+          <mxGeometry height="60" width="120" x="2540" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="b3WSKTuomFumo_KqFi6L-53" parent="woEXByO1yIPWKVT65qTF-721" style="whiteSpace=wrap;html=1;" value="Bean 后台初始化" vertex="1">
+          <mxGeometry height="60" width="120" x="2540" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="b3WSKTuomFumo_KqFi6L-62" edge="1" parent="woEXByO1yIPWKVT65qTF-721" source="b3WSKTuomFumo_KqFi6L-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="b3WSKTuomFumo_KqFi6L-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b3WSKTuomFumo_KqFi6L-64" edge="1" parent="woEXByO1yIPWKVT65qTF-721" source="b3WSKTuomFumo_KqFi6L-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="b3WSKTuomFumo_KqFi6L-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b3WSKTuomFumo_KqFi6L-56" parent="woEXByO1yIPWKVT65qTF-721" style="whiteSpace=wrap;html=1;" value="bean名称&lt;div&gt;applicationTaskExecutor&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="160" x="2400" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="b3WSKTuomFumo_KqFi6L-63" edge="1" parent="woEXByO1yIPWKVT65qTF-721" source="b3WSKTuomFumo_KqFi6L-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="b3WSKTuomFumo_KqFi6L-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b3WSKTuomFumo_KqFi6L-61" parent="woEXByO1yIPWKVT65qTF-721" style="whiteSpace=wrap;html=1;" value="&lt;div&gt;类必须实现&lt;/div&gt;AsyncTaskExecutor" vertex="1">
+          <mxGeometry height="60" width="120" x="2420" y="237.5" as="geometry" />
         </mxCell>
         <mxCell id="De8YwUg0Y1lUbm7mTjdf-2" parent="woEXByO1yIPWKVT65qTF-201" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" value="基础" vertex="1">
           <mxGeometry height="320" width="2510" x="77.5" y="4748" as="geometry" />
